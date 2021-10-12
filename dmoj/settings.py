@@ -144,6 +144,11 @@ USE_SELENIUM = False
 SELENIUM_CUSTOM_CHROME_PATH = None
 SELENIUM_CHROMEDRIVER_PATH = 'chromedriver'
 
+# Use https://github.com/wkhtmltopdf/wkhtmltopdf for PDF generation.
+# Python package should be installed according to instruction:
+# https://github.com/JazzCore/python-pdfkit
+USE_PDFKIT = False
+
 PYGMENT_THEME = 'pygment-github.css'
 INLINE_JQUERY = True
 INLINE_FONTAWESOME = True

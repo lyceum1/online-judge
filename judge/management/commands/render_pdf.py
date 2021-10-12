@@ -9,7 +9,7 @@ from django.utils import translation
 
 from judge.models import Problem, ProblemTranslation
 from judge.pdf_problems import DefaultPdfMaker, PhantomJSPdfMaker, PuppeteerPDFRender, SeleniumPDFRender, \
-    SlimerJSPdfMaker
+    SlimerJSPdfMaker, PDFKitPDFRender
 
 
 class Command(BaseCommand):
@@ -26,6 +26,7 @@ class Command(BaseCommand):
         parser.add_argument('-c', '--chrome', '--puppeteer', action='store_const',
                             const=PuppeteerPDFRender, dest='engine')
         parser.add_argument('-S', '--selenium', action='store_const', const=SeleniumPDFRender, dest='engine')
+        parser.add_argument('-P', '--pdfkit', action='store_const', const=PDFKitPDFRender, dest='engine')
 
     def handle(self, *args, **options):
         try:

@@ -32,8 +32,16 @@ NODE_PATH = settings.NODEJS
 PUPPETEER_MODULE = settings.PUPPETEER_MODULE
 HAS_PUPPETEER = os.access(NODE_PATH, os.X_OK) and os.path.isdir(PUPPETEER_MODULE)
 
+HAS_PDFKIT = False
+if settings.USE_PDFKIT:
+    try:
+        import pdfkit
+        HAS_PDFKIT = True
+    except ImportError:
+        logger.warning('Failed to import PDFKit', exc_info=True)
+
 HAS_PDF = (os.path.isdir(settings.DMOJ_PDF_PROBLEM_CACHE) and
-           (HAS_PHANTOMJS or HAS_SLIMERJS or HAS_PUPPETEER or HAS_SELENIUM))
+           (HAS_PHANTOMJS or HAS_SLIMERJS or HAS_PUPPETEER or HAS_SELENIUM or HAS_PDFKIT))
 
 EXIFTOOL = settings.EXIFTOOL
 HAS_EXIFTOOL = os.access(EXIFTOOL, os.X_OK)
@@ -313,6 +321,22 @@ class SeleniumPDFRender(BasePdfMaker):
 
         self.success = True
 
+class PDFKitPDFRender(BasePdfMaker):
+    success = False
+
+    def _make(self, debug):
+        pdfkit.from_file(self.htmlfile, self.pdffile, options={
+            'page-size': 'Letter',
+            'margin-top': '1cm',
+            'margin-right': '1cm',
+            'margin-bottom': '1cm',
+            'margin-left': '1cm',
+            'encoding': 'UTF-8',
+            'disable-smart-shrinking': '',
+            'enable-local-file-access': '',
+        })
+
+        self.success = True
 
 if HAS_PUPPETEER:
     DefaultPdfMaker = PuppeteerPDFRender
@@ -322,5 +346,7 @@ elif HAS_SLIMERJS:
     DefaultPdfMaker = SlimerJSPdfMaker
 elif HAS_PHANTOMJS:
     DefaultPdfMaker = PhantomJSPdfMaker
+elif HAS_PDFKIT:
+    DefaultPdfMaker = PDFKitPDFRender
 else:
     DefaultPdfMaker = None
