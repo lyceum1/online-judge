@@ -334,6 +334,9 @@ class PDFKitPDFRender(BasePdfMaker):
             'encoding': 'UTF-8',
             'disable-smart-shrinking': '',
             'enable-local-file-access': '',
+            'footer-center': gettext('Page [page] of [topage]'),
+            'footer-font-name': 'Segoe UI',
+            'footer-font-size': '10'
         })
 
         self.success = True
