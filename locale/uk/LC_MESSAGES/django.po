@@ -1,0 +1,5248 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 3.0\n"
+
+#: dmoj/settings.py:368
+msgid "Catalan"
+msgstr "Каталонська"
+
+#: dmoj/settings.py:369
+msgid "German"
+msgstr "Німецька"
+
+#: dmoj/settings.py:370
+msgid "English"
+msgstr "Англійська"
+
+#: dmoj/settings.py:371
+msgid "Spanish"
+msgstr "Іспанська"
+
+#: dmoj/settings.py:372
+msgid "French"
+msgstr "Французька"
+
+#: dmoj/settings.py:373
+msgid "Croatian"
+msgstr "Хорватська"
+
+#: dmoj/settings.py:374
+msgid "Hungarian"
+msgstr "Угорська"
+
+#: dmoj/settings.py:375
+msgid "Japanese"
+msgstr "Японська"
+
+#: dmoj/settings.py:376
+msgid "Korean"
+msgstr "Корейська"
+
+#: dmoj/settings.py:377
+msgid "Brazilian Portuguese"
+msgstr "Бразильська португальська"
+
+#: dmoj/settings.py:378
+msgid "Romanian"
+msgstr "Румунська"
+
+#: dmoj/settings.py:379
+msgid "Russian"
+msgstr "Російська"
+
+#: dmoj/settings.py:380
+msgid "Serbian (Latin)"
+msgstr "Сербська (латиниця)"
+
+#: dmoj/settings.py:381
+msgid "Turkish"
+msgstr "Турецька"
+
+#: dmoj/settings.py:382
+msgid "Vietnamese"
+msgstr "В’єтнамська"
+
+#: dmoj/settings.py:383
+msgid "Simplified Chinese"
+msgstr "Спрощена Китайська"
+
+#: dmoj/settings.py:384
+msgid "Traditional Chinese"
+msgstr "Традиційна Китайська"
+
+#: dmoj/urls.py:104 templates/base.html:190
+msgid "Home"
+msgstr "Головна"
+
+#: judge/admin/comments.py:40
+msgid "%d comment successfully hidden."
+msgid_plural "%d comments successfully hidden."
+msgstr[0] "%d коментар успішно приховано."
+msgstr[1] "%d коментарі успішно приховано."
+msgstr[2] "%d коментарів успішно приховано."
+
+#: judge/admin/comments.py:43
+msgid "Hide comments"
+msgstr "Приховати коментарі"
+
+#: judge/admin/comments.py:47
+msgid "%d comment successfully unhidden."
+msgid_plural "%d comments successfully unhidden."
+msgstr[0] "%d коментар успішно відображено."
+msgstr[1] "%d коментарі успішно відображено."
+msgstr[2] "%d коментарів успішно відображено."
+
+#: judge/admin/comments.py:50
+msgid "Unhide comments"
+msgstr "Показати коментарі"
+
+#: judge/admin/comments.py:58
+msgid "Associated page"
+msgstr "Пов’язана сторінка"
+
+#: judge/admin/contest.py:32
+msgid "Included contests"
+msgstr "Включені змагання"
+
+#: judge/admin/contest.py:66 templates/contest/contest.html:192
+#: templates/contest/moss.html:43 templates/problem/list.html:204
+#: templates/problem/list.html:219 templates/user/user-problems.html:58
+#: templates/user/user-problems.html:100
+msgid "Problem"
+msgstr "Задача"
+
+#: judge/admin/contest.py:117
+msgid "Settings"
+msgstr "Налаштування"
+
+#: judge/admin/contest.py:120
+msgid "Scheduling"
+msgstr "Планування"
+
+#: judge/admin/contest.py:121
+msgid "Details"
+msgstr "Деталі"
+
+#: judge/admin/contest.py:122
+msgid "Format"
+msgstr "Формат"
+
+#: judge/admin/contest.py:123 templates/contest/ranking-table.html:5
+msgid "Rating"
+msgstr "Рейтинг"
+
+#: judge/admin/contest.py:124
+msgid "Access"
+msgstr "Доступ"
+
+#: judge/admin/contest.py:126 judge/admin/problem.py:135
+msgid "Justice"
+msgstr "Справедливість"
+
+#: judge/admin/contest.py:215
+msgid "%d contest successfully marked as visible."
+msgid_plural "%d contests successfully marked as visible."
+msgstr[0] "%d конкурс успішно позначено як видимий."
+msgstr[1] "%d конкурси успішно позначено як видимий."
+msgstr[2] "%d конкурсів успішно позначено як видимий."
+
+#: judge/admin/contest.py:218
+msgid "Mark contests as visible"
+msgstr "Позначити змагання як видимі"
+
+#: judge/admin/contest.py:224
+msgid "%d contest successfully marked as hidden."
+msgid_plural "%d contests successfully marked as hidden."
+msgstr[0] "%d конкурс успішно позначено як прихований."
+msgstr[1] "%d конкурси успішно позначено як прихований."
+msgstr[2] "%d конкурсів успішно позначено як прихований."
+
+#: judge/admin/contest.py:227
+msgid "Mark contests as hidden"
+msgstr "Позначити змагання як приховані"
+
+#: judge/admin/contest.py:233
+msgid "%d contest successfully locked."
+msgid_plural "%d contests successfully locked."
+msgstr[0] "%d конкурс успішно заблоковано."
+msgstr[1] "%d конкурси успішно заблоковано."
+msgstr[2] "%d конкурсів успішно заблоковано."
+
+#: judge/admin/contest.py:236
+msgid "Lock contest submissions"
+msgstr "Заблокувати можливість надсилання"
+
+#: judge/admin/contest.py:242
+msgid "%d contest successfully unlocked."
+msgid_plural "%d contests successfully unlocked."
+msgstr[0] "%d конкурс успішно розблоковано."
+msgstr[1] "%d конкурси успішно розблоковано."
+msgstr[2] "%d конкурсів успішно розблоковано."
+
+#: judge/admin/contest.py:245
+msgid "Unlock contest submissions"
+msgstr "Розблокувати можливість надсилати"
+
+#: judge/admin/contest.py:266 judge/admin/submission.py:170
+msgid "%d submission was successfully scheduled for rejudging."
+msgid_plural "%d submissions were successfully scheduled for rejudging."
+msgstr[0] "%d розв'язок успішно надіслано для повторного оцінювання."
+msgstr[1] "%d розв'язки успішно надіслано для повторного оцінювання."
+msgstr[2] "%d розв'язків успішно надіслано для повторного оцінювання."
+
+#: judge/admin/contest.py:341
+msgid "%d participation recalculated."
+msgid_plural "%d participations recalculated."
+msgstr[0] "%d участь перераховано."
+msgstr[1] "%d участі перераховано."
+msgstr[2] "%d участей перераховано."
+
+#: judge/admin/contest.py:344
+msgid "Recalculate results"
+msgstr "Перерахувати результати"
+
+#: judge/admin/contest.py:348 judge/admin/organization.py:63
+msgid "username"
+msgstr "ім’я користувача"
+
+#: judge/admin/contest.py:353 templates/base.html:258
+msgid "virtual"
+msgstr "віртуальний"
+
+#: judge/admin/interface.py:29 judge/models/interface.py:46
+msgid "link path"
+msgstr "шлях до посилання"
+
+#: judge/admin/interface.py:72
+msgid "Content"
+msgstr "Зміст"
+
+#: judge/admin/interface.py:73
+msgid "Summary"
+msgstr "Резюме"
+
+#: judge/admin/interface.py:113 judge/models/contest.py:423
+#: judge/models/contest.py:552 judge/models/profile.py:267
+#: judge/models/profile.py:298
+msgid "user"
+msgstr "користувач"
+
+#: judge/admin/interface.py:154
+msgid "object"
+msgstr "об’єкт"
+
+#: judge/admin/organization.py:32 judge/admin/problem.py:182
+#: judge/admin/profile.py:92
+msgid "View on site"
+msgstr "Переглянути на сайті"
+
+#: judge/admin/problem.py:29
+msgid "Describe the changes you made (optional)"
+msgstr "Опишіть зміни, які Ви внесли (необов’язково)"
+
+#: judge/admin/problem.py:130
+msgid "Social Media"
+msgstr "Соціальні мережі"
+
+#: judge/admin/problem.py:131
+msgid "Taxonomy"
+msgstr "Таксономія"
+
+#: judge/admin/problem.py:132 templates/contest/contest.html:193
+#: templates/problem/data.html:385 templates/problem/list.html:209
+#: templates/problem/list.html:230 templates/user/base-users-table.html:10
+#: templates/user/user-problems.html:60
+msgid "Points"
+msgstr "Очки"
+
+#: judge/admin/problem.py:133
+msgid "Limits"
+msgstr "Обмеження"
+
+#: judge/admin/problem.py:134 judge/admin/submission.py:238
+#: templates/stats/base.html:14 templates/submission/list.html:319
+#: templates/user/edit-profile.html:296
+msgid "Language"
+msgstr "Мова"
+
+#: judge/admin/problem.py:136
+msgid "History"
+msgstr "Історія"
+
+#: judge/admin/problem.py:179
+msgid "Authors"
+msgstr "Автори"
+
+#: judge/admin/problem.py:192
+msgid "%d problem's publish date successfully updated."
+msgid_plural "%d problems' publish date successfully updated."
+msgstr[0] "Дата публікації %d задачі успішно оновлена."
+msgstr[1] "Дата публікації %d задач успішно оновлена."
+msgstr[2] "Дата публікації %d задач успішно оновлена."
+
+#: judge/admin/problem.py:196
+msgid "Set publish date to now"
+msgstr "Встановити дату публікації на цю мить"
+
+#: judge/admin/problem.py:202
+msgid "%d problem successfully marked as public."
+msgid_plural "%d problems successfully marked as public."
+msgstr[0] "%d задачу успішно позначено як загальнодоступну."
+msgstr[1] "%d задачі успішно позначено як загальнодоступні."
+msgstr[2] "%d задачу успішно позначено як загальнодоступні."
+
+#: judge/admin/problem.py:206
+msgid "Mark problems as public"
+msgstr "Позначити задачі як загальнодоступні"
+
+#: judge/admin/problem.py:212
+msgid "%d problem successfully marked as private."
+msgid_plural "%d problems successfully marked as private."
+msgstr[0] "%d задачу успішно позначено як приватну."
+msgstr[1] "%d задачі успішно позначено як приватні."
+msgstr[2] "%d задач успішно позначено як приватні."
+
+#: judge/admin/problem.py:216
+msgid "Mark problems as private"
+msgstr "Позначити задачі як приватні"
+
+#: judge/admin/profile.py:35
+msgid "timezone"
+msgstr "часовий пояс"
+
+#: judge/admin/profile.py:98 judge/admin/submission.py:217
+#: templates/organization/requests/log.html:9
+#: templates/organization/requests/pending.html:12
+#: templates/ticket/list.html:261
+msgid "User"
+msgstr "Користувач"
+
+#: judge/admin/profile.py:103 templates/registration/registration_form.html:143
+msgid "Email"
+msgstr "Електронна пошта"
+
+#: judge/admin/profile.py:108 judge/views/register.py:28
+#: templates/registration/registration_form.html:171
+#: templates/user/edit-profile.html:292
+msgid "Timezone"
+msgstr "Часовий пояс"
+
+#: judge/admin/profile.py:113
+msgid "date joined"
+msgstr "дата приєднання"
+
+#: judge/admin/profile.py:120
+msgid "%d user have scores recalculated."
+msgid_plural "%d users have scores recalculated."
+msgstr[0] "%d користувачу перерахували оцінки."
+msgstr[1] "%d користувачам перерахували оцінки."
+msgstr[2] "%d користувачам перерахували оцінки."
+
+#: judge/admin/profile.py:123
+msgid "Recalculate scores"
+msgstr "Перерахувати оцінки"
+
+#: judge/admin/runtime.py:19
+msgid "Disallowed problems"
+msgstr "Заборонені проблеми"
+
+#: judge/admin/runtime.py:22
+msgid "These problems are NOT allowed to be submitted in this language"
+msgstr "Ці задачі НЕ можуть бути розв’язаними цією мовою"
+
+#: judge/admin/runtime.py:77
+msgid "Description"
+msgstr "Опис"
+
+#: judge/admin/runtime.py:78
+msgid "Information"
+msgstr "Інформація"
+
+#: judge/admin/runtime.py:79
+msgid "Capabilities"
+msgstr "Можливості"
+
+#: judge/admin/submission.py:23 judge/admin/submission.py:42
+#: judge/admin/submission.py:227
+msgid "None"
+msgstr "Жодного"
+
+#: judge/admin/submission.py:23
+msgid "Not done"
+msgstr "Не зроблено"
+
+#: judge/admin/submission.py:23
+msgid "Exceptional"
+msgstr "Винятковий"
+
+#: judge/admin/submission.py:42
+msgid "Unaccepted"
+msgstr "Неприйнято"
+
+#: judge/admin/submission.py:89
+msgctxt "contest problem"
+msgid "%(problem)s in %(contest)s"
+msgstr "%(problem)s в %(contest)s"
+
+#: judge/admin/submission.py:155 judge/admin/submission.py:177
+msgid "You do not have the permission to rejudge submissions."
+msgstr "У вас немає права повторно оцінювати надіслані розв’язки."
+
+#: judge/admin/submission.py:161
+msgid "You do not have the permission to rejudge THAT many submissions."
+msgstr "Ви не маєте права заново оцінити ТАКУ кількість розв’язків."
+
+#: judge/admin/submission.py:173
+msgid "Rejudge the selected submissions"
+msgstr "Повторно оцінити обрані розв’язки"
+
+#: judge/admin/submission.py:199 judge/views/problem_manage.py:128
+msgid "%d submission were successfully rescored."
+msgid_plural "%d submissions were successfully rescored."
+msgstr[0] "%d розв'язок успішно перерахований."
+msgstr[1] "%d розв'язоки успішно перераховані."
+msgstr[2] "%d розв'язків успішно перераховані."
+
+#: judge/admin/submission.py:202
+msgid "Rescore the selected submissions"
+msgstr "Перерахувати обрані розв’язки"
+
+#: judge/admin/submission.py:206
+msgid "Problem code"
+msgstr "Код задачі"
+
+#: judge/admin/submission.py:211
+msgid "Problem name"
+msgstr "Назва задачі"
+
+#: judge/admin/submission.py:221 templates/organization/requests/log.html:10
+#: templates/organization/requests/pending.html:13
+msgid "Time"
+msgstr "Час"
+
+#: judge/admin/submission.py:229
+msgid "%d KB"
+msgstr "%d КБ"
+
+#: judge/admin/submission.py:231
+msgid "%.2f MB"
+msgstr "%.2f МБ"
+
+#: judge/admin/submission.py:233
+msgid "Memory"
+msgstr "Пам’ять"
+
+#: judge/admin/taxon.py:11 judge/admin/taxon.py:34
+msgid "Included problems"
+msgstr "Включені задачі"
+
+#: judge/admin/taxon.py:14
+msgid "These problems are included in this group of problems"
+msgstr "Ці задачі входять до цієї групи завдань"
+
+#: judge/admin/taxon.py:37
+msgid "These problems are included in this type of problems"
+msgstr "Ці задачі включені до цього типу завдань"
+
+#: judge/apps.py:8
+msgid "Online Judge"
+msgstr "Онлайн-суддя"
+
+#: judge/comments.py:41
+msgid "Comment body"
+msgstr "Зміст коментаря"
+
+#: judge/comments.py:47 judge/views/comment.py:40 judge/views/ticket.py:46
+msgid "Your part is silent, little toad."
+msgstr "Твоя частина мовчить, маленька жаба."
+
+#: judge/comments.py:49 templates/comments/list.html:142
+msgid "You need to have solved at least one problem before your voice can be heard."
+msgstr "Вам потрібно вирішити хоча б одну задачу, перш ніж Ваш голос може бути почутим."
+
+#: judge/comments.py:93
+msgid "Posted comment"
+msgstr "Розміщений коментар"
+
+#: judge/contest_format/atcoder.py:19
+msgid "AtCoder"
+msgstr "AtCoder"
+
+#: judge/contest_format/atcoder.py:117 judge/contest_format/default.py:79
+#: judge/contest_format/icpc.py:127 judge/contest_format/legacy_ioi.py:97
+msgid "The maximum score submission for each problem will be used."
+msgstr "Буде використано максимальну кількість балів за кожну задачу."
+
+#: judge/contest_format/atcoder.py:122 judge/contest_format/icpc.py:132
+msgid "Each submission before the first maximum score submission will incur a **penalty of %d minute**."
+msgid_plural "Each submission before the first maximum score submission will incur a **penalty of %d minutes**."
+msgstr[0] "За кожен розв'язок до першого розв'язку з максимальним балом буде накладено **штраф у розмірі %d хвилини**."
+msgstr[1] "За кожен розв'язок до першого розв'язку з максимальним балом буде накладено **штраф у розмірі %d хвилин**."
+msgstr[2] "За кожен розв'язок до першого розв'язку з максимальним балом буде накладено **штраф у розмірі %d хвилин**."
+
+#: judge/contest_format/atcoder.py:127
+msgid "Ties will be broken by the last score altering submission time."
+msgstr ""
+
+#: judge/contest_format/default.py:18
+msgid "Default"
+msgstr "За замовчуванням"
+
+#: judge/contest_format/default.py:80
+msgid "Ties will be broken by the sum of the last submission time on problems with a non-zero score."
+msgstr ""
+
+#: judge/contest_format/ecoo.py:18
+msgid "ECOO"
+msgstr "ECOO"
+
+#: judge/contest_format/ecoo.py:130
+msgid "The score on your **last** non-CE submission for each problem will be used."
+msgstr ""
+
+#: judge/contest_format/ecoo.py:135
+msgid "There is a **%d bonus** for fully solving on your first non-CE submission."
+msgstr ""
+
+#: judge/contest_format/ecoo.py:141
+msgid "For every **%d minute** you submit before the end of your window, there will be a **1** point bonus."
+msgid_plural "For every **%d minutes** you submit before the end of your window, there will be a **1** point bonus."
+msgstr[0] "За кожну **%d хвилину** до кінця вікна буде нараховуватися **одне** бонусне очко, коли Ви надсилаєте розв'язок."
+msgstr[1] "За кожні **%d хвилини** до кінця вікна буде нараховуватися **одне** бонусне очко, коли Ви надсилаєте розв'язок."
+msgstr[2] "За кожні **%d хвилин** до кінця вікна буде нараховуватися **одне** бонусне очко, коли Ви надсилаєте розв'язок."
+
+#: judge/contest_format/ecoo.py:147
+msgid "Ties will be broken by the sum of the last submission time on **all** problems."
+msgstr ""
+
+#: judge/contest_format/ecoo.py:149 judge/contest_format/ioi.py:102
+#: judge/contest_format/legacy_ioi.py:103
+msgid "Ties by score will **not** be broken."
+msgstr ""
+
+#: judge/contest_format/icpc.py:19
+msgid "ICPC"
+msgstr "ICPC"
+
+#: judge/contest_format/icpc.py:137
+msgid "Ties will be broken by the sum of the last score altering submission time on problems with a non-zero score, followed by the time of the last score altering submission."
+msgstr ""
+
+#: judge/contest_format/ioi.py:11
+msgid "IOI"
+msgstr "IOI"
+
+#: judge/contest_format/ioi.py:96
+msgid "The maximum score for each problem batch will be used."
+msgstr "Буде використано максимальний бал для кожної групи завдань."
+
+#: judge/contest_format/ioi.py:99 judge/contest_format/legacy_ioi.py:100
+msgid "Ties will be broken by the sum of the last score altering submission time on problems with a non-zero score."
+msgstr ""
+
+#: judge/contest_format/legacy_ioi.py:18
+msgid "IOI (pre-2016)"
+msgstr "IOI (до 2016 року)"
+
+#: judge/forms.py:27
+msgid "Two-factor authentication tokens must be {TOTP_CODE_LENGTH} decimal digits."
+msgstr "Токени двофакторної автентифікації мають бути довжини {TOTP_CODE_LENGTH} та містити десяткові цифри."
+
+#: judge/forms.py:30
+msgid "Invalid two-factor authentication token."
+msgstr "Недійсний токен двофакторної автентифікації."
+
+#: judge/forms.py:33
+msgid "Scratch codes must be 16 base32 characters."
+msgstr "Скретч-коди повинні містити 16 символів base32."
+
+#: judge/forms.py:35 judge/forms.py:264
+msgid "Invalid scratch code."
+msgstr "Недійсний скретч-код."
+
+#: judge/forms.py:46
+msgid "Subscribe to contest updates"
+msgstr "Підпишіться на оновлення змагання"
+
+#: judge/forms.py:47
+msgid "Enable experimental features"
+msgstr "Увімкнути експериментальні функції"
+
+#: judge/forms.py:72
+msgid "You must solve at least one problem before you can update your profile."
+msgstr "Щоб оновити свій профіль, потрібно розв’язати хоча б одну задачу."
+
+#: judge/forms.py:81 judge/views/organization.py:126
+msgid "You may not be part of more than {count} public organizations."
+msgstr "Ви не можете бути учасником більше ніж {count} публічних організацій."
+
+#: judge/forms.py:97
+msgid "Download comments?"
+msgstr "Завантажити коментарі?"
+
+#: judge/forms.py:98
+msgid "Download submissions?"
+msgstr "Завантажити розв’язки?"
+
+#: judge/forms.py:99
+msgid "Filter by problem code glob:"
+msgstr "Фільтрувати (glob) за кодом задачі:"
+
+#: judge/forms.py:103
+msgid "Leave empty to include all submissions"
+msgstr "Залиште поле порожнім, щоб включити всі надіслані розв’язки"
+
+#: judge/forms.py:106 templates/problem/manage_submission.html:142
+msgid "Filter by result:"
+msgstr "Фільтрувати за результатами:"
+
+#: judge/forms.py:112
+msgid "Please select at least one thing to download."
+msgstr "Виберіть принаймні одну річ для завантаження."
+
+#: judge/forms.py:138
+msgid "Any judge"
+msgstr "Будь-який суддя"
+
+#: judge/forms.py:159 judge/views/register.py:25
+#: templates/registration/registration_form.html:137
+#: templates/user/base-users-table.html:5
+msgid "Username"
+msgstr "Ім’я користувача"
+
+#: judge/forms.py:160 templates/registration/registration_form.html:149
+#: templates/registration/registration_form.html:163
+msgid "Password"
+msgstr "Пароль"
+
+#: judge/forms.py:192
+msgid "Invalid code length."
+msgstr "Недійсна довжина коду."
+
+#: judge/forms.py:223
+msgid "Invalid WebAuthn response."
+msgstr "Недійсна відповідь WebAuthn."
+
+#: judge/forms.py:226
+msgid "No WebAuthn challenge issued."
+msgstr "Виклик WebAuthn не видано."
+
+#: judge/forms.py:232
+msgid "Invalid WebAuthn credential ID."
+msgstr "Недійсний ідентифікатор облікових даних WebAuthn."
+
+#: judge/forms.py:262
+msgid "Invalid two-factor authentication token or scratch code."
+msgstr "Недійсний токен двофакторний автентифікації або скретч-код."
+
+#: judge/forms.py:266
+msgid "Must specify either totp_token or webauthn_response."
+msgstr "Потрібно вказати або totp_token, або webauthn_response."
+
+#: judge/forms.py:270 judge/models/problem.py:119
+msgid "Problem code must be ^[a-z0-9]+$"
+msgstr "Код задачі має бути ^[a-z0-9]+$"
+
+#: judge/forms.py:275
+msgid "Problem with code already exists."
+msgstr "Задача з таким кодом уже існує."
+
+#: judge/forms.py:280 judge/models/contest.py:66
+msgid "Contest id must be ^[a-z0-9]+$"
+msgstr "Ідентифікатор змагання має бути ^[a-z0-9]+$"
+
+#: judge/forms.py:285
+msgid "Contest with key already exists."
+msgstr "Змагання з таким ключем уже існує."
+
+#: judge/jinja2/datetime.py:26 templates/blog/content.html:27
+#: templates/blog/dashboard.html:21
+msgid "N j, Y, g:i a"
+msgstr "j N Y, G:i"
+
+#: judge/jinja2/datetime.py:26
+msgid "{time}"
+msgstr "{time}"
+
+#: judge/jinja2/datetime.py:26
+msgid "on {time}"
+msgstr "о {time}"
+
+#: judge/models/choices.py:59
+msgid "Leave as LaTeX"
+msgstr "Залиште як LaTeX"
+
+#: judge/models/choices.py:60
+msgid "SVG with PNG fallback"
+msgstr "SVG із запасним PNG"
+
+#: judge/models/choices.py:61
+msgid "MathML only"
+msgstr "Лише MathML"
+
+#: judge/models/choices.py:62
+msgid "MathJax with SVG/PNG fallback"
+msgstr "MathJax із запасним SVG/PNG"
+
+#: judge/models/choices.py:63
+msgid "Detect best quality"
+msgstr "Виявити найкращу якість"
+
+#: judge/models/comment.py:25
+msgid "Page code must be ^[pcs]:[a-z0-9]+$|^b:\\d+$"
+msgstr "Код сторінки має бути ^[pcs]:[a-z0-9]+$|^b:\\d+$"
+
+#: judge/models/comment.py:41
+msgid "commenter"
+msgstr "коментатор"
+
+#: judge/models/comment.py:42
+msgid "posted time"
+msgstr "час розміщення"
+
+#: judge/models/comment.py:43 judge/models/comment.py:196
+msgid "associated page"
+msgstr "пов’язана сторінка"
+
+#: judge/models/comment.py:45
+msgid "votes"
+msgstr "голосів"
+
+#: judge/models/comment.py:46
+msgid "body of comment"
+msgstr "зміст коментаря"
+
+#: judge/models/comment.py:47
+msgid "hide the comment"
+msgstr "приховати коментар"
+
+#: judge/models/comment.py:48
+msgid "parent"
+msgstr "батько"
+
+#: judge/models/comment.py:53
+msgid "comment"
+msgstr "коментар"
+
+#: judge/models/comment.py:54
+msgid "comments"
+msgstr "коментарі"
+
+#: judge/models/comment.py:89 judge/models/comment.py:141
+#: judge/models/problem.py:511
+msgid "Editorial for %s"
+msgstr "Розв’язок до %s"
+
+#: judge/models/comment.py:191
+msgid "comment vote"
+msgstr "голос за коментар"
+
+#: judge/models/comment.py:192
+msgid "comment votes"
+msgstr "голоси за коментар"
+
+#: judge/models/comment.py:201
+msgid "Override comment lock"
+msgstr "Перевизначити блокування коментаря"
+
+#: judge/models/contest.py:28
+msgid "Invalid colour."
+msgstr "Недійсний колір."
+
+#: judge/models/contest.py:30
+msgid "tag name"
+msgstr "назва тегу"
+
+#: judge/models/contest.py:31
+msgid "Lowercase letters and hyphens only."
+msgstr "Тільки малі літери та дефіси."
+
+#: judge/models/contest.py:32
+msgid "tag colour"
+msgstr "колір тегу"
+
+#: judge/models/contest.py:33
+msgid "tag description"
+msgstr "опис тегу"
+
+#: judge/models/contest.py:52
+msgid "contest tag"
+msgstr "тег змагання"
+
+#: judge/models/contest.py:53 judge/models/contest.py:130
+msgid "contest tags"
+msgstr "теги змагання"
+
+#: judge/models/contest.py:61
+msgid "Visible"
+msgstr "Видиме"
+
+#: judge/models/contest.py:62
+msgid "Hidden for duration of contest"
+msgstr "Приховано на час змагання"
+
+#: judge/models/contest.py:63
+msgid "Hidden for duration of participation"
+msgstr "Приховано на час участі"
+
+#: judge/models/contest.py:65
+msgid "contest id"
+msgstr "ідентифікатор змагання"
+
+#: judge/models/contest.py:67
+msgid "contest name"
+msgstr "назва змагання"
+
+#: judge/models/contest.py:68
+msgid "These users will be able to edit the contest."
+msgstr "Ці користувачі зможуть редагувати змагання."
+
+#: judge/models/contest.py:70
+msgid "These users will be able to edit the contest, but will not be listed as authors."
+msgstr "Ці користувачі зможуть редагувати змагання, але не будуть вказані як автори."
+
+#: judge/models/contest.py:73
+msgid "These users will be able to view the contest, but not edit it."
+msgstr "Ці користувачі зможуть переглядати змагання, але не редагувати його."
+
+#: judge/models/contest.py:76 judge/models/runtime.py:136
+msgid "description"
+msgstr "опис"
+
+#: judge/models/contest.py:77 judge/models/problem.py:458
+#: judge/models/runtime.py:138
+msgid "problems"
+msgstr "задачі"
+
+#: judge/models/contest.py:78 judge/models/contest.py:424
+msgid "start time"
+msgstr "час початку"
+
+#: judge/models/contest.py:79
+msgid "end time"
+msgstr "час закінчення"
+
+#: judge/models/contest.py:80 judge/models/problem.py:140
+#: judge/models/problem.py:482
+msgid "time limit"
+msgstr "обмеження по часу"
+
+#: judge/models/contest.py:81 judge/models/problem.py:158
+msgid "publicly visible"
+msgstr "видимий публічно"
+
+#: judge/models/contest.py:82
+msgid "Should be set even for organization-private contests, where it determines whether the contest is visible to members of the specified organizations."
+msgstr "Його слід встановити навіть для приватно-організаційних змагань, де він визначає, чи бачать змагання члени зазначених організацій."
+
+#: judge/models/contest.py:85
+msgid "contest rated"
+msgstr "рейтингове змагання"
+
+#: judge/models/contest.py:85
+msgid "Whether this contest can be rated."
+msgstr "Чи можна оцінити це змагання."
+
+#: judge/models/contest.py:87
+msgid "view contest scoreboard"
+msgstr "переглянути табло змагання"
+
+#: judge/models/contest.py:89
+msgid "These users will be able to view the scoreboard."
+msgstr "Ці користувачі зможуть переглядати табло."
+
+#: judge/models/contest.py:90
+msgid "scoreboard visibility"
+msgstr "видимість табло"
+
+#: judge/models/contest.py:91
+msgid "Scoreboard visibility through the duration of the contest"
+msgstr "Видимість табло протягом усього періоду змагань"
+
+#: judge/models/contest.py:93
+msgid "no comments"
+msgstr "без коментарів"
+
+#: judge/models/contest.py:94
+msgid "Use clarification system instead of comments."
+msgstr "Використовувати систему роз’яснень замість коментарів."
+
+#: judge/models/contest.py:96
+msgid "Rating floor for contest"
+msgstr "Нижня межа рейтингу для змагання"
+
+#: judge/models/contest.py:98
+msgid "Rating ceiling for contest"
+msgstr "Верхня межа рейтингу для змагання"
+
+#: judge/models/contest.py:100
+msgid "rate all"
+msgstr "оцінити всіх"
+
+#: judge/models/contest.py:100
+msgid "Rate all users who joined."
+msgstr "Оцінити усіх користувачів, які приєдналися."
+
+#: judge/models/contest.py:101
+msgid "exclude from ratings"
+msgstr "виключити з рейтингів"
+
+#: judge/models/contest.py:103
+msgid "private to specific users"
+msgstr "приватний для певних користувачів"
+
+#: judge/models/contest.py:104
+msgid "private contestants"
+msgstr "приватні учасники"
+
+#: judge/models/contest.py:105
+msgid "If private, only these users may see the contest"
+msgstr "Якщо змагання приватне, лише ці користувачі можуть його бачити"
+
+#: judge/models/contest.py:107
+msgid "hide problem tags"
+msgstr "приховати теги задачі"
+
+#: judge/models/contest.py:108
+msgid "Whether problem tags should be hidden by default."
+msgstr "Чи слід приховувати теги задачі за замовчуванням."
+
+#: judge/models/contest.py:110
+msgid "hide problem authors"
+msgstr "приховати авторів задачі"
+
+#: judge/models/contest.py:111
+msgid "Whether problem authors should be hidden by default."
+msgstr "Чи слід авторів задачі приховувати за замовчуванням."
+
+#: judge/models/contest.py:113
+msgid "run pretests only"
+msgstr "запускати лише претести"
+
+#: judge/models/contest.py:114
+msgid "Whether judges should grade pretests only, versus all testcases. Commonly set during a contest, then unset prior to rejudging user submissions when the contest ends."
+msgstr "Чи судді повинні оцінювати лише претести, порівняно з усіма тестами. Зазвичай встановлюється під час змагання, а потім знімається перед повторним оскарженням розв’язків користувачів, коли змагання закінчується."
+
+#: judge/models/contest.py:118
+msgid "show short form settings display"
+msgstr "показати коротку версію налаштувань"
+
+#: judge/models/contest.py:119
+msgid "Whether to show a section containing contest settings on the contest page or not."
+msgstr "Показувати розділ, що містить налаштування змагання, на сторінці змагання чи ні."
+
+#: judge/models/contest.py:122 judge/models/problem.py:183
+msgid "private to organizations"
+msgstr "приватний для організацій"
+
+#: judge/models/contest.py:123 judge/models/problem.py:181
+#: judge/models/profile.py:86
+msgid "organizations"
+msgstr "організації"
+
+#: judge/models/contest.py:124
+msgid "If private, only these organizations may see the contest"
+msgstr "Якщо змагання приватне, його можуть переглядати лише ці організації"
+
+#: judge/models/contest.py:125 judge/models/problem.py:167
+msgid "OpenGraph image"
+msgstr "Зображення OpenGraph"
+
+#: judge/models/contest.py:126 judge/models/profile.py:57
+msgid "Logo override image"
+msgstr "Перевизначене зображення конкурсу"
+
+#: judge/models/contest.py:128
+msgid "This image will replace the default site logo for users inside the contest."
+msgstr "Це зображення замінить логотип сайту за замовчуванням для учасників змагання."
+
+#: judge/models/contest.py:131
+msgid "the amount of live participants"
+msgstr "кількість учасників у реальному часі"
+
+#: judge/models/contest.py:132
+msgid "contest summary"
+msgstr "підсумок змагання"
+
+#: judge/models/contest.py:133 judge/models/problem.py:169
+msgid "Plain-text, shown in meta description tag, e.g. for social media."
+msgstr "Звичайний текст, показаний у мета-тезі опису, напр. для соціальних медіа."
+
+#: judge/models/contest.py:134 judge/models/profile.py:56
+msgid "access code"
+msgstr "код доступу"
+
+#: judge/models/contest.py:135
+msgid "An optional code to prompt contestants before they are allowed to join the contest. Leave it blank to disable."
+msgstr "Необов’язковий код для запрошення учасників перед тим, як їм буде дозволено приєднатися до змагання. Залиште поле порожнім, щоб вимкнути."
+
+#: judge/models/contest.py:137 judge/models/problem.py:163
+msgid "personae non gratae"
+msgstr "персона нон ґрата"
+
+#: judge/models/contest.py:138
+msgid "Bans the selected users from joining this contest."
+msgstr "Заборонити обраним користувачам участь у цьому змаганні."
+
+#: judge/models/contest.py:139
+msgid "contest format"
+msgstr "формат змагання"
+
+#: judge/models/contest.py:140
+msgid "The contest format module to use."
+msgstr "Модуль формату змагання для використання."
+
+#: judge/models/contest.py:141
+msgid "contest format configuration"
+msgstr "конфігурація формату змагання"
+
+#: judge/models/contest.py:142
+msgid "A JSON object to serve as the configuration for the chosen contest format module. Leave empty to use None. Exact format depends on the contest format selected."
+msgstr "Об’єкт JSON, який буде служити конфігурацією для обраного модуля формату змагання. Залиште порожнім, щоб використовувати None. Точний формат залежить від обраного формату змагання."
+
+#: judge/models/contest.py:149
+msgid "contest lock"
+msgstr "блокування змагання"
+
+#: judge/models/contest.py:150
+msgid "Prevent submissions from this contest from being rejudged after this date."
+msgstr "Запобігати повторному оцінюванню розв’язку змагання після цієї дати."
+
+#: judge/models/contest.py:152
+msgid "precision points"
+msgstr "очки точності"
+
+#: judge/models/contest.py:154
+msgid "Number of digits to round points to."
+msgstr "Кількість цифр, до яких потрібно округлити бали."
+
+#: judge/models/contest.py:402
+msgid "See private contests"
+msgstr "Дивитись приватні змагання"
+
+#: judge/models/contest.py:403
+msgid "Edit own contests"
+msgstr "Редагувати власні змагання"
+
+#: judge/models/contest.py:404
+msgid "Edit all contests"
+msgstr "Редагувати всі змагання"
+
+#: judge/models/contest.py:405
+msgid "Clone contest"
+msgstr "Клонувати змагання"
+
+#: judge/models/contest.py:406 templates/contest/moss.html:74
+msgid "MOSS contest"
+msgstr "MOSS змагання"
+
+#: judge/models/contest.py:407
+msgid "Rate contests"
+msgstr "Оцінити змагання"
+
+#: judge/models/contest.py:408
+msgid "Contest access codes"
+msgstr "Коди доступу до змагання"
+
+#: judge/models/contest.py:409
+msgid "Create private contests"
+msgstr "Створити приватні змагання"
+
+#: judge/models/contest.py:410
+msgid "Change contest visibility"
+msgstr "Змінити видимість змагання"
+
+#: judge/models/contest.py:411
+msgid "Edit contest problem label script"
+msgstr "Редагувати сценарій назви задачі змагання"
+
+#: judge/models/contest.py:412
+msgid "Change lock status of contest"
+msgstr "Змінити статус блокування змагання"
+
+#: judge/models/contest.py:414 judge/models/contest.py:514
+#: judge/models/contest.py:553 judge/models/contest.py:576
+#: judge/models/submission.py:85
+msgid "contest"
+msgstr "змагання"
+
+#: judge/models/contest.py:415
+msgid "contests"
+msgstr "змагання"
+
+#: judge/models/contest.py:422
+msgid "associated contest"
+msgstr "пов’язане змагання"
+
+#: judge/models/contest.py:425
+msgid "score"
+msgstr "оцінка"
+
+#: judge/models/contest.py:426
+msgid "cumulative time"
+msgstr "сукупний час"
+
+#: judge/models/contest.py:427
+msgid "is disqualified"
+msgstr "дискваліфікується"
+
+#: judge/models/contest.py:428
+msgid "Whether this participation is disqualified."
+msgstr "Чи дискваліфікується ця участь."
+
+#: judge/models/contest.py:429
+msgid "tie-breaking field"
+msgstr "поле розриву зв’язку"
+
+#: judge/models/contest.py:430
+msgid "virtual participation id"
+msgstr "ідентифікатор віртуальної участі"
+
+#: judge/models/contest.py:431
+msgid "0 means non-virtual, otherwise the n-th virtual participation."
+msgstr "0 означає невіртуальну, інакше n-ту віртуальну участь."
+
+#: judge/models/contest.py:432
+msgid "contest format specific data"
+msgstr "специфічні дані формату змагань"
+
+#: judge/models/contest.py:500
+msgid "%s spectating in %s"
+msgstr "%s спостерігає за %s"
+
+#: judge/models/contest.py:502
+msgid "%s in %s, v%d"
+msgstr "%s у %s, v%d"
+
+#: judge/models/contest.py:503
+msgid "%s in %s"
+msgstr "%s у %s"
+
+#: judge/models/contest.py:506
+msgid "contest participation"
+msgstr "участь у змаганнях"
+
+#: judge/models/contest.py:507
+msgid "contest participations"
+msgstr "участі у змаганнях"
+
+#: judge/models/contest.py:513 judge/models/contest.py:537
+#: judge/models/contest.py:577 judge/models/problem.py:457
+#: judge/models/problem.py:462 judge/models/problem.py:480
+#: judge/models/problem_data.py:35
+msgid "problem"
+msgstr "задача"
+
+#: judge/models/contest.py:515 judge/models/contest.py:541
+#: judge/models/problem.py:151
+msgid "points"
+msgstr "очок"
+
+#: judge/models/contest.py:516
+msgid "partial"
+msgstr "частковий"
+
+#: judge/models/contest.py:517 judge/models/contest.py:542
+msgid "is pretested"
+msgstr "попередньо тестована"
+
+#: judge/models/contest.py:518 judge/models/interface.py:43
+msgid "order"
+msgstr "порядок"
+
+#: judge/models/contest.py:519
+msgid "output prefix length override"
+msgstr "довжина заміни вихідного префіксу"
+
+#: judge/models/contest.py:521
+msgid "Maximum number of submissions for this problem, or leave blank for no limit."
+msgstr "Максимальна кількість надсилань для цієї задачі або залиште порожнім для необмеженої кількості."
+
+#: judge/models/contest.py:524
+msgid "Why include a problem you can't submit to?"
+msgstr "Навіщо включати задачу, розв’зок якої Ви не можете надіслати?"
+
+#: judge/models/contest.py:529
+msgid "contest problem"
+msgstr "задача змагання"
+
+#: judge/models/contest.py:530
+msgid "contest problems"
+msgstr "задачі змагання"
+
+#: judge/models/contest.py:535 judge/models/submission.py:218
+msgid "submission"
+msgstr "розв’язок"
+
+#: judge/models/contest.py:539 judge/models/contest.py:554
+msgid "participation"
+msgstr "участь"
+
+#: judge/models/contest.py:543
+msgid "Whether this submission was ran only on pretests."
+msgstr "Чи цей розв’язок розглядався лише на претестах."
+
+#: judge/models/contest.py:547
+msgid "contest submission"
+msgstr "розв’язок змагання"
+
+#: judge/models/contest.py:548
+msgid "contest submissions"
+msgstr "розв’язки змагання"
+
+#: judge/models/contest.py:556
+msgid "rank"
+msgstr "ранг"
+
+#: judge/models/contest.py:557
+msgid "rating"
+msgstr "рейтинг"
+
+#: judge/models/contest.py:558
+msgid "raw rating"
+msgstr "необроблений рейтинг"
+
+#: judge/models/contest.py:559
+msgid "contest performance"
+msgstr "успішність змагання"
+
+#: judge/models/contest.py:560
+msgid "last rated"
+msgstr "востаннє оцінена"
+
+#: judge/models/contest.py:564
+msgid "contest rating"
+msgstr "рейтинг змагання"
+
+#: judge/models/contest.py:565
+msgid "contest ratings"
+msgstr "рейтинги змагання"
+
+#: judge/models/contest.py:584
+msgid "contest moss result"
+msgstr "результат змагання moss"
+
+#: judge/models/contest.py:585
+msgid "contest moss results"
+msgstr "результати змагання moss"
+
+#: judge/models/interface.py:24
+msgid "configuration item"
+msgstr "елемент конфігурації"
+
+#: judge/models/interface.py:25
+msgid "miscellaneous configuration"
+msgstr "інша конфігурація"
+
+#: judge/models/interface.py:37
+msgid "navigation item"
+msgstr "елемент навігації"
+
+#: judge/models/interface.py:38
+msgid "navigation bar"
+msgstr "панель навігації"
+
+#: judge/models/interface.py:44
+msgid "identifier"
+msgstr "ідентифікатор"
+
+#: judge/models/interface.py:45
+msgid "label"
+msgstr "ярлик"
+
+#: judge/models/interface.py:47
+msgid "highlight regex"
+msgstr "регулярний вираз підсвічення"
+
+#: judge/models/interface.py:48
+msgid "parent item"
+msgstr "батьківський елемент"
+
+#: judge/models/interface.py:66
+msgid "post title"
+msgstr "заголовок допису"
+
+#: judge/models/interface.py:67 judge/models/problem.py:500
+msgid "authors"
+msgstr "автори"
+
+#: judge/models/interface.py:68
+msgid "slug"
+msgstr "скорочення"
+
+#: judge/models/interface.py:69 judge/models/problem.py:498
+msgid "public visibility"
+msgstr "публічність"
+
+#: judge/models/interface.py:70
+msgid "sticky"
+msgstr "липкий"
+
+#: judge/models/interface.py:71
+msgid "publish after"
+msgstr "опублікувати після"
+
+#: judge/models/interface.py:72
+msgid "post content"
+msgstr "зміст допису"
+
+#: judge/models/interface.py:73
+msgid "post summary"
+msgstr "резюме допису"
+
+#: judge/models/interface.py:74
+msgid "openGraph image"
+msgstr "зображення openGraph"
+
+#: judge/models/interface.py:96
+msgid "Edit all posts"
+msgstr "Редагувати всі дописи"
+
+#: judge/models/interface.py:98
+msgid "blog post"
+msgstr "допис у блозі"
+
+#: judge/models/interface.py:99
+msgid "blog posts"
+msgstr "дописи в блозі"
+
+#: judge/models/problem.py:30
+msgid "Disallowed characters: %(value)s"
+msgstr "Заборонені символи: %(value)s"
+
+#: judge/models/problem.py:35
+msgid "problem category ID"
+msgstr "ідентифікатор категорії задач"
+
+#: judge/models/problem.py:36
+msgid "problem category name"
+msgstr "назва категорії задач"
+
+#: judge/models/problem.py:43
+msgid "problem type"
+msgstr "тип задачі"
+
+#: judge/models/problem.py:44 judge/models/problem.py:135
+msgid "problem types"
+msgstr "типи задач"
+
+#: judge/models/problem.py:48
+msgid "problem group ID"
+msgstr "ідентифікатор групи задач"
+
+#: judge/models/problem.py:49
+msgid "problem group name"
+msgstr "назва групи задач"
+
+#: judge/models/problem.py:56 judge/models/problem.py:138
+msgid "problem group"
+msgstr "група задач"
+
+#: judge/models/problem.py:57
+msgid "problem groups"
+msgstr "групи задач"
+
+#: judge/models/problem.py:61
+msgid "key"
+msgstr "ключ"
+
+#: judge/models/problem.py:63
+msgid "link"
+msgstr "посилання"
+
+#: judge/models/problem.py:64
+msgid "full name"
+msgstr "повне ім’я"
+
+#: judge/models/problem.py:65 judge/models/profile.py:44
+#: judge/models/runtime.py:24
+msgid "short name"
+msgstr "коротке ім’я"
+
+#: judge/models/problem.py:66
+msgid "Displayed on pages under this license"
+msgstr "Відображається на сторінках з цією ліцензією"
+
+#: judge/models/problem.py:67
+msgid "icon"
+msgstr "значок"
+
+#: judge/models/problem.py:67
+msgid "URL to the icon"
+msgstr "URL-адреса значка"
+
+#: judge/models/problem.py:68
+msgid "license text"
+msgstr "текст ліцензії"
+
+#: judge/models/problem.py:77
+msgid "license"
+msgstr "ліцензія"
+
+#: judge/models/problem.py:78
+msgid "licenses"
+msgstr "ліцензії"
+
+#: judge/models/problem.py:112
+msgid "Follow global setting"
+msgstr "Дотримуватись глобальних налаштувань"
+
+#: judge/models/problem.py:113
+msgid "Always visible"
+msgstr "Завжди видно"
+
+#: judge/models/problem.py:114
+msgid "Visible if problem solved"
+msgstr "Видно, якщо задача розв’язана"
+
+#: judge/models/problem.py:115
+msgid "Only own submissions"
+msgstr "Тільки власні розв’язки"
+
+#: judge/models/problem.py:118
+msgid "problem code"
+msgstr "код задачі"
+
+#: judge/models/problem.py:120
+msgid "A short, unique code for the problem, used in the url after /problem/"
+msgstr "Короткий унікальний код задачі, який використовується в URL після /problem/"
+
+#: judge/models/problem.py:122
+msgid "problem name"
+msgstr "назва задачі"
+
+#: judge/models/problem.py:123
+msgid "The full name of the problem, as shown in the problem list."
+msgstr "Повна назва задачі, як показано у списку задач."
+
+#: judge/models/problem.py:125
+msgid "problem body"
+msgstr "тіло задачі"
+
+#: judge/models/problem.py:126
+msgid "creators"
+msgstr "творці"
+
+#: judge/models/problem.py:127
+msgid "These users will be able to edit the problem, and be listed as authors."
+msgstr "Ці користувачі зможуть редагувати задачу та будуть внесені до списку авторів."
+
+#: judge/models/problem.py:129
+msgid "curators"
+msgstr "куратори"
+
+#: judge/models/problem.py:130
+msgid "These users will be able to edit the problem, but not be listed as authors."
+msgstr "Ці користувачі зможуть редагувати задачу, але не будуть вказані як автори."
+
+#: judge/models/problem.py:132
+msgid "testers"
+msgstr "тестери"
+
+#: judge/models/problem.py:134
+msgid "These users will be able to view the private problem, but not edit it."
+msgstr "Ці користувачі зможуть переглядати приватну задачу, але не редагувати її."
+
+#: judge/models/problem.py:136
+msgid "The type of problem, as shown on the problem's page."
+msgstr "Тип задачі, показаний на сторінці задачі."
+
+#: judge/models/problem.py:139
+msgid "The group of problem, shown under Category in the problem list."
+msgstr "Група задач, показана під \"Категорія\" у списку задач."
+
+#: judge/models/problem.py:141
+msgid "The time limit for this problem, in seconds. Fractional seconds (e.g. 1.5) are supported."
+msgstr "Обмеження часу для цієї задачі, в секундах. Підтримуються дробові секунди (наприклад, 1.5)."
+
+#: judge/models/problem.py:145 judge/models/problem.py:485
+msgid "memory limit"
+msgstr "ліміт пам’яті"
+
+#: judge/models/problem.py:146
+msgid "The memory limit for this problem, in kilobytes (e.g. 64mb = 65536 kilobytes)."
+msgstr "Обмеження пам’яті для цієї задачі, в кілобайтах (наприклад, 64 Мб = 65536 кілобайт)."
+
+#: judge/models/problem.py:152
+msgid "Points awarded for problem completion. Points are displayed with a 'p' suffix if partial."
+msgstr "Бали нараховуються за вирішення проблеми. Бали відображаються суфіксом \"p\", якщо вони часткові."
+
+#: judge/models/problem.py:155
+msgid "allows partial points"
+msgstr "допускаються часткові розв’язки"
+
+#: judge/models/problem.py:156
+msgid "allowed languages"
+msgstr "дозволені мови"
+
+#: judge/models/problem.py:157
+msgid "List of allowed submission languages."
+msgstr "Список дозволених мов розв’язання."
+
+#: judge/models/problem.py:159
+msgid "manually managed"
+msgstr "керується вручну"
+
+#: judge/models/problem.py:160
+msgid "Whether judges should be allowed to manage data or not."
+msgstr "Дозволити суддям керувати даними чи ні."
+
+#: judge/models/problem.py:161
+msgid "date of publishing"
+msgstr "дата публікації"
+
+#: judge/models/problem.py:162
+msgid "Doesn't have magic ability to auto-publish due to backward compatibility"
+msgstr "Не має магічної можливості автоматичної публікації через зворотну сумісність"
+
+#: judge/models/problem.py:164
+msgid "Bans the selected users from submitting to this problem."
+msgstr "Вибраним користувачам заборонено надсилати розв’язок."
+
+#: judge/models/problem.py:166
+msgid "The license under which this problem is published."
+msgstr "Ліцензія, під якою публікується ця задача."
+
+#: judge/models/problem.py:168
+msgid "problem summary"
+msgstr "підсумок задачі"
+
+#: judge/models/problem.py:170
+msgid "number of users"
+msgstr "кількість користувачів"
+
+#: judge/models/problem.py:171
+msgid "The number of users who solved the problem."
+msgstr "Кількість користувачів, які розв’язали задачу."
+
+#: judge/models/problem.py:172
+msgid "solve rate"
+msgstr "швидкість вирішення"
+
+#: judge/models/problem.py:173
+msgid "allow full markdown access"
+msgstr "дозволити повний доступ до markdown"
+
+#: judge/models/problem.py:174
+msgid "submission source visibility"
+msgstr "видимість вихідного коду роз’язку"
+
+#: judge/models/problem.py:182
+msgid "If private, only these organizations may see the problem."
+msgstr "Тільки ці організації можуть бачити задачу, якщо вона приватна."
+
+#: judge/models/problem.py:447
+msgid "See hidden problems"
+msgstr "Бачити приховані задачі"
+
+#: judge/models/problem.py:448
+msgid "Edit own problems"
+msgstr "Редагування власних задач"
+
+#: judge/models/problem.py:449
+msgid "Edit all problems"
+msgstr "Редагування всіх задач"
+
+#: judge/models/problem.py:450
+msgid "Edit all public problems"
+msgstr "Редагування всіх публічних задач"
+
+#: judge/models/problem.py:451
+msgid "Edit problems with full markup"
+msgstr "Редагування задач з повною розміткою"
+
+#: judge/models/problem.py:452 templates/problem/problem.html:161
+msgid "Clone problem"
+msgstr "Клонування задачі"
+
+#: judge/models/problem.py:453
+msgid "Change is_public field"
+msgstr "Зміна поля is_public"
+
+#: judge/models/problem.py:454
+msgid "Change is_manually_managed field"
+msgstr "Зміна поля is_manually_managed"
+
+#: judge/models/problem.py:455
+msgid "See organization-private problems"
+msgstr "Бачити приватні задачі організації"
+
+#: judge/models/problem.py:463 judge/models/problem.py:481
+#: judge/models/runtime.py:111
+msgid "language"
+msgstr "мова"
+
+#: judge/models/problem.py:464
+msgid "translated name"
+msgstr "перекладена назва"
+
+#: judge/models/problem.py:465
+msgid "translated description"
+msgstr "перекладений опис"
+
+#: judge/models/problem.py:469
+msgid "problem translation"
+msgstr "переклад задачі"
+
+#: judge/models/problem.py:470
+msgid "problem translations"
+msgstr "переклади задачі"
+
+#: judge/models/problem.py:474
+msgid "clarified problem"
+msgstr "уточнена задача"
+
+#: judge/models/problem.py:475
+msgid "clarification body"
+msgstr "зміст уточнення"
+
+#: judge/models/problem.py:476
+msgid "clarification timestamp"
+msgstr "час уточнення"
+
+#: judge/models/problem.py:491
+msgid "language-specific resource limit"
+msgstr "обмеження ресурсу для конкретної мови"
+
+#: judge/models/problem.py:492
+msgid "language-specific resource limits"
+msgstr "обмеження ресурсів для конкретної мови"
+
+#: judge/models/problem.py:496
+msgid "associated problem"
+msgstr "пов’язана задача"
+
+#: judge/models/problem.py:499
+msgid "publish date"
+msgstr "дата публікації"
+
+#: judge/models/problem.py:501
+msgid "editorial content"
+msgstr "зміст розв’язку"
+
+#: judge/models/problem.py:524
+msgid "See hidden solutions"
+msgstr "Перегляд приватних розв’язків"
+
+#: judge/models/problem.py:526
+msgid "solution"
+msgstr "розв’язок"
+
+#: judge/models/problem.py:527
+msgid "solutions"
+msgstr "розв’язки"
+
+#: judge/models/problem_data.py:23
+msgid "Standard"
+msgstr "Стандартний"
+
+#: judge/models/problem_data.py:24
+msgid "Floats"
+msgstr "Floating point"
+
+#: judge/models/problem_data.py:25
+msgid "Floats (absolute)"
+msgstr "Floating point (абсолютно)"
+
+#: judge/models/problem_data.py:26
+msgid "Floats (relative)"
+msgstr "Floating point (відносно)"
+
+#: judge/models/problem_data.py:27
+msgid "Non-trailing spaces"
+msgstr "Без пробілів вкінці"
+
+#: judge/models/problem_data.py:28
+msgid "Unordered"
+msgstr "Невпорядкований"
+
+#: judge/models/problem_data.py:29
+msgid "Byte identical"
+msgstr "Побайтове співпадіння"
+
+#: judge/models/problem_data.py:30
+msgid "Line-by-line"
+msgstr "Рядок за рядком"
+
+#: judge/models/problem_data.py:37
+msgid "data zip file"
+msgstr "zip-файл даних"
+
+#: judge/models/problem_data.py:39
+msgid "generator file"
+msgstr "файл генератора"
+
+#: judge/models/problem_data.py:41 judge/models/problem_data.py:90
+msgid "output prefix length"
+msgstr "довжина вихідного префікса"
+
+#: judge/models/problem_data.py:42 judge/models/problem_data.py:91
+msgid "output limit length"
+msgstr "ліміт довжини вихідних даних"
+
+#: judge/models/problem_data.py:43
+msgid "init.yml generation feedback"
+msgstr "відгук про генерацію init.yml"
+
+#: judge/models/problem_data.py:44 judge/models/problem_data.py:92
+msgid "checker"
+msgstr "чекер"
+
+#: judge/models/problem_data.py:45 judge/models/problem_data.py:93
+msgid "checker arguments"
+msgstr "аргументи чекера"
+
+#: judge/models/problem_data.py:46 judge/models/problem_data.py:94
+msgid "checker arguments as a JSON object"
+msgstr "аргументи перевірки як об’єкт JSON"
+
+#: judge/models/problem_data.py:77
+msgid "problem data set"
+msgstr "набір даних задачі"
+
+#: judge/models/problem_data.py:79
+msgid "case position"
+msgstr "положення справи"
+
+#: judge/models/problem_data.py:80
+msgid "case type"
+msgstr "тип випадку"
+
+#: judge/models/problem_data.py:81
+msgid "Normal case"
+msgstr "Звичайний випадок"
+
+#: judge/models/problem_data.py:82
+msgid "Batch start"
+msgstr "Початок групи"
+
+#: judge/models/problem_data.py:83
+msgid "Batch end"
+msgstr "Кінець групи"
+
+#: judge/models/problem_data.py:85
+msgid "input file name"
+msgstr "ім’я вхідного файлу"
+
+#: judge/models/problem_data.py:86
+msgid "output file name"
+msgstr "ім’я вихідного файлу"
+
+#: judge/models/problem_data.py:87
+msgid "generator arguments"
+msgstr "аргументи генератора"
+
+#: judge/models/problem_data.py:88
+msgid "point value"
+msgstr "кількість балів"
+
+#: judge/models/problem_data.py:89
+msgid "case is pretest?"
+msgstr "випадок є передтестом?"
+
+#: judge/models/profile.py:41
+msgid "organization title"
+msgstr "назва організації"
+
+#: judge/models/profile.py:42
+msgid "organization slug"
+msgstr "скорочена назва"
+
+#: judge/models/profile.py:43
+msgid "Organization name shown in URL"
+msgstr "Назва організації при відображенні в URL"
+
+#: judge/models/profile.py:45
+msgid "Displayed beside user name during contests"
+msgstr "Відображається біля імені користувача під час змагань"
+
+#: judge/models/profile.py:46
+msgid "organization description"
+msgstr "опис організації"
+
+#: judge/models/profile.py:47
+msgid "administrators"
+msgstr "адміністратори"
+
+#: judge/models/profile.py:48
+msgid "Those who can edit this organization"
+msgstr "Ті, хто може редагувати цю організацію"
+
+#: judge/models/profile.py:49
+msgid "creation date"
+msgstr "дата створення"
+
+#: judge/models/profile.py:50
+msgid "is open organization?"
+msgstr "відкрита організація?"
+
+#: judge/models/profile.py:51
+msgid "Allow joining organization"
+msgstr "Дозволити приєднатися до організації"
+
+#: judge/models/profile.py:52
+msgid "maximum size"
+msgstr "максимальний розмір"
+
+#: judge/models/profile.py:53
+msgid "Maximum amount of users in this organization, only applicable to private organizations"
+msgstr "Максимальна кількість користувачів у цій організації, застосовується лише до приватних організацій"
+
+#: judge/models/profile.py:55
+msgid "Student access code"
+msgstr "Код доступу студента"
+
+#: judge/models/profile.py:59
+msgid "This image will replace the default site logo for users viewing the organization."
+msgstr "Це зображення замінить стандартний логотип сайту для користувачів, які переглядають організацію."
+
+#: judge/models/profile.py:82
+msgid "Administer organizations"
+msgstr "Керування організаціями"
+
+#: judge/models/profile.py:83
+msgid "Edit all organizations"
+msgstr "Редагувати всі організації"
+
+#: judge/models/profile.py:85 judge/models/profile.py:102
+#: judge/models/profile.py:299
+msgid "organization"
+msgstr "організація"
+
+#: judge/models/profile.py:90
+msgid "user associated"
+msgstr "асоційований користувач"
+
+#: judge/models/profile.py:91
+msgid "self-description"
+msgstr "самоопис"
+
+#: judge/models/profile.py:92
+msgid "location"
+msgstr "розташування"
+
+#: judge/models/profile.py:94
+msgid "preferred language"
+msgstr "бажана мова"
+
+#: judge/models/profile.py:100
+msgid "last access time"
+msgstr "час останнього доступу"
+
+#: judge/models/profile.py:101
+msgid "last IP"
+msgstr "остання IP -адреса"
+
+#: judge/models/profile.py:104
+msgid "display rank"
+msgstr "відображення рангу"
+
+#: judge/models/profile.py:106
+msgid "Normal User"
+msgstr "Звичайний користувач"
+
+#: judge/models/profile.py:107
+msgid "Problem Setter"
+msgstr "Автор задач"
+
+#: judge/models/profile.py:108 templates/base.html:220
+#: templates/comments/list.html:99 templates/contest/contest-list-tabs.html:24
+#: templates/contest/ranking-table.html:49
+#: templates/problem/problem-list-tabs.html:6
+#: templates/submission/info-base.html:13
+#: templates/submission/submission-list-tabs.html:15
+msgid "Admin"
+msgstr "Адміністратор"
+
+#: judge/models/profile.py:109
+msgid "comment mute"
+msgstr "заборона коментувати"
+
+#: judge/models/profile.py:109
+msgid "Some users are at their best when silent."
+msgstr "Деякі користувачі найкращі, коли мовчать."
+
+#: judge/models/profile.py:111
+msgid "unlisted user"
+msgstr "користувач, що не відображається"
+
+#: judge/models/profile.py:111
+msgid "User will not be ranked."
+msgstr "Користувач не буде відображений."
+
+#: judge/models/profile.py:114
+msgid "user script"
+msgstr "сценарій користувача"
+
+#: judge/models/profile.py:115
+msgid "User-defined JavaScript for site customization."
+msgstr "Визначений користувачем JavaScript для кастомізації сайту."
+
+#: judge/models/profile.py:116
+msgid "current contest"
+msgstr "поточне змагання"
+
+#: judge/models/profile.py:118
+msgid "math engine"
+msgstr "математичний двигун"
+
+#: judge/models/profile.py:120
+msgid "the rendering engine used to render math"
+msgstr "рушій рендеринга, який використовується для обробки математики"
+
+#: judge/models/profile.py:121
+msgid "TOTP 2FA enabled"
+msgstr "TOTP 2FA увімкнено"
+
+#: judge/models/profile.py:122
+msgid "check to enable TOTP-based two-factor authentication"
+msgstr "встановіть прапорець, щоб увімкнути двофакторну автентифікацію на основі TOTP"
+
+#: judge/models/profile.py:123
+msgid "WebAuthn 2FA enabled"
+msgstr "WebAuthn 2FA увімкнено"
+
+#: judge/models/profile.py:124
+msgid "check to enable WebAuthn-based two-factor authentication"
+msgstr "встановіть прапорець, щоб увімкнути двофакторну автентифікацію на основі WebAuthn"
+
+#: judge/models/profile.py:125
+msgid "TOTP key"
+msgstr "TOTP ключ"
+
+#: judge/models/profile.py:126
+msgid "32 character base32-encoded key for TOTP"
+msgstr "32-символьний base32-закодований ключ для TOTP"
+
+#: judge/models/profile.py:128
+msgid "TOTP key must be empty or base32"
+msgstr "Ключ TOTP повинен бути порожнім або base32"
+
+#: judge/models/profile.py:129
+msgid "scratch codes"
+msgstr "скретч-коди"
+
+#: judge/models/profile.py:130
+msgid "JSON array of 16 character base32-encoded codes                                                         for scratch codes"
+msgstr "Масив JSON з 16-знакових base32-кодів                                                          для скретч-кодів"
+
+#: judge/models/profile.py:134
+msgid "Scratch codes must be empty or a JSON array of                                                                  16-character base32 codes"
+msgstr "Скретч-коди повинні бути порожніми або мати масив JSON з                                                                   16-знакових base32 кодів"
+
+#: judge/models/profile.py:136
+msgid "last TOTP timecode"
+msgstr "останній часовий код TOTP"
+
+#: judge/models/profile.py:137
+msgid "API token"
+msgstr "API-токен"
+
+#: judge/models/profile.py:138
+msgid "64 character hex-encoded API access token"
+msgstr "64-знаковий шістнадцятковий API-токен"
+
+#: judge/models/profile.py:140
+msgid "API token must be None or hexadecimal"
+msgstr "API-токен повинен мати значення None або шістнадцятковий"
+
+#: judge/models/profile.py:141
+msgid "internal notes"
+msgstr "внутрішні примітки"
+
+#: judge/models/profile.py:142
+msgid "Notes for administrators regarding this user."
+msgstr "Примітки для адміністраторів щодо цього користувача."
+
+#: judge/models/profile.py:143
+msgid "last data download time"
+msgstr "останній час завантаження даних"
+
+#: judge/models/profile.py:144
+msgid "display name override"
+msgstr "заміна імені відображення"
+
+#: judge/models/profile.py:145
+msgid "name displayed in place of username"
+msgstr "ім’я, що відображається замість імені користувача"
+
+#: judge/models/profile.py:259
+msgid "Shows in-progress development stuff"
+msgstr "Відображення матеріалів, що тривають у процесі розробки"
+
+#: judge/models/profile.py:260
+msgid "Edit TOTP settings"
+msgstr "Зміна налаштування TOTP"
+
+#: judge/models/profile.py:262
+msgid "user profile"
+msgstr "профіль користувача"
+
+#: judge/models/profile.py:263
+msgid "user profiles"
+msgstr "профілі користувачів"
+
+#: judge/models/profile.py:269
+msgid "device name"
+msgstr "ім’я пристрою"
+
+#: judge/models/profile.py:270
+msgid "credential ID"
+msgstr "ідентифікатор облікових даних"
+
+#: judge/models/profile.py:271
+msgid "public key"
+msgstr "відкритий ключ"
+
+#: judge/models/profile.py:272
+msgid "sign counter"
+msgstr "лічильник входів"
+
+#: judge/models/profile.py:293
+msgid "WebAuthn credential"
+msgstr "Облікові дані WebAuthn"
+
+#: judge/models/profile.py:294
+msgid "WebAuthn credentials"
+msgstr "Облікові дані WebAuthn"
+
+#: judge/models/profile.py:301
+msgid "request time"
+msgstr "час запиту"
+
+#: judge/models/profile.py:302
+msgid "state"
+msgstr "стан"
+
+#: judge/models/profile.py:307
+msgid "reason"
+msgstr "причина"
+
+#: judge/models/profile.py:310
+msgid "organization join request"
+msgstr "запит на приєднання до організації"
+
+#: judge/models/profile.py:311
+msgid "organization join requests"
+msgstr "запити на приєднання до організації"
+
+#: judge/models/runtime.py:19
+msgid "short identifier"
+msgstr "короткий ідентифікатор"
+
+#: judge/models/runtime.py:20
+msgid "The identifier for this language; the same as its executor id for judges."
+msgstr "Ідентифікатор цієї мови; так само, як ідентифікатор виконавця для суддів."
+
+#: judge/models/runtime.py:22
+msgid "long name"
+msgstr "довга назва"
+
+#: judge/models/runtime.py:23
+msgid "Longer name for the language, e.g. \"Python 2\" or \"C++11\"."
+msgstr "Більш довга назва мови, напр. \"Python 2\" або \"C++11\"."
+
+#: judge/models/runtime.py:25
+msgid "More readable, but short, name to display publicly; e.g. \"PY2\" or \"C++11\". If left blank, it will default to the short identifier."
+msgstr "Більш читабельне, але коротке ім’я для публічного відображення; наприклад \"PY2\" або \"C++11\". Якщо залишити це поле порожнім, воно буде за замовчуванням використовувати короткий ідентифікатор."
+
+#: judge/models/runtime.py:29
+msgid "common name"
+msgstr "звичайне ім’я"
+
+#: judge/models/runtime.py:30
+msgid "Common name for the language. For example, the common name for C++03, C++11, and C++14 would be \"C++\""
+msgstr "Загальна назва мови. Наприклад, загальною назвою для C++03, C++11 та C++14 буде \"C++\""
+
+#: judge/models/runtime.py:32
+msgid "ace mode name"
+msgstr "назва режиму ace"
+
+#: judge/models/runtime.py:33
+msgid "Language ID for Ace.js editor highlighting, appended to \"mode-\" to determine the Ace JavaScript file to use, e.g., \"python\"."
+msgstr "Ідентифікатор мови для підсвічування редактора Ace.js, доданий до \"mode-\" для визначення файлу Ace JavaScript для використання, наприклад, \"python\"."
+
+#: judge/models/runtime.py:35
+msgid "pygments name"
+msgstr "ім’я pygments"
+
+#: judge/models/runtime.py:36
+msgid "Language ID for Pygments highlighting in source windows."
+msgstr "Ідентифікатор мови для Pygments-підсвітки синтаксису у вікнах з вихідною інформацією."
+
+#: judge/models/runtime.py:37
+msgid "code template"
+msgstr "шаблон коду"
+
+#: judge/models/runtime.py:38
+msgid "Code template to display in submission editor."
+msgstr "Шаблон коду для відображення в редакторі розв’язків."
+
+#: judge/models/runtime.py:39
+msgid "runtime info override"
+msgstr "перевизначити інформацію про середовище"
+
+#: judge/models/runtime.py:40
+msgid "Do not set this unless you know what you're doing! It will override the usually more specific, judge-provided runtime info!"
+msgstr "Не встановлюйте це, якщо не знаєте, що робите! Він замінить зазвичай більш конкретну інформацію, надану суддею, під час виконання!"
+
+#: judge/models/runtime.py:42
+msgid "language description"
+msgstr "опис мови"
+
+#: judge/models/runtime.py:43
+msgid "Use this field to inform users of quirks with your environment, additional restrictions, etc."
+msgstr "Використовуйте це поле для інформування користувачів про дивацтва з вашим середовищем, додаткові обмеження тощо."
+
+#: judge/models/runtime.py:45
+msgid "extension"
+msgstr "розширення"
+
+#: judge/models/runtime.py:46
+msgid "The extension of source files, e.g., \"py\" or \"cpp\"."
+msgstr "Розширення вихідних файлів, наприклад, \"py\" або \"cpp\"."
+
+#: judge/models/runtime.py:112
+msgid "languages"
+msgstr "мови"
+
+#: judge/models/runtime.py:116
+msgid "language to which this runtime belongs"
+msgstr "мова, до якої належить це середовище"
+
+#: judge/models/runtime.py:117
+msgid "judge on which this runtime exists"
+msgstr "суддя, на якому існує це середовище"
+
+#: judge/models/runtime.py:118
+msgid "runtime name"
+msgstr "ім’я середовища"
+
+#: judge/models/runtime.py:119
+msgid "runtime version"
+msgstr "версія середовища"
+
+#: judge/models/runtime.py:120
+msgid "order in which to display this runtime"
+msgstr "порядок відображення цього середовища"
+
+#: judge/models/runtime.py:124
+msgid "Server name, hostname-style"
+msgstr "Назва сервера, стиль-імені-хосту"
+
+#: judge/models/runtime.py:125
+msgid "time of creation"
+msgstr "час створення"
+
+#: judge/models/runtime.py:126
+msgid "A key to authenticate this judge"
+msgstr "Ключ для автентифікації цього судді"
+
+#: judge/models/runtime.py:127
+msgid "authentication key"
+msgstr "ключ аутентифікації"
+
+#: judge/models/runtime.py:128
+msgid "block judge"
+msgstr "заблокувати суддю"
+
+#: judge/models/runtime.py:129
+msgid "Whether this judge should be blocked from connecting, even if its key is correct."
+msgstr "Чи слід заблокувати цьому судді підключення, навіть якщо його ключ правильний."
+
+#: judge/models/runtime.py:131
+msgid "judge online status"
+msgstr "онлайн"
+
+#: judge/models/runtime.py:132
+msgid "judge start time"
+msgstr "час старту судді"
+
+#: judge/models/runtime.py:133
+msgid "response time"
+msgstr "час реакції"
+
+#: judge/models/runtime.py:134
+msgid "system load"
+msgstr "навантаження"
+
+#: judge/models/runtime.py:135
+msgid "Load for the last minute, divided by processors to be fair."
+msgstr "Навантаження за останню хвилину, поділено на кількість процесорів, щоб бути справедливими."
+
+#: judge/models/runtime.py:139 judge/models/runtime.py:181
+msgid "judges"
+msgstr "судді"
+
+#: judge/models/runtime.py:180
+msgid "judge"
+msgstr "суддя"
+
+#: judge/models/submission.py:21 judge/models/submission.py:48
+#: judge/utils/problems.py:74
+msgid "Accepted"
+msgstr "Прийнято"
+
+#: judge/models/submission.py:22 judge/models/submission.py:49
+msgid "Wrong Answer"
+msgstr "Неправильна відповідь"
+
+#: judge/models/submission.py:23 judge/models/submission.py:51
+msgid "Time Limit Exceeded"
+msgstr "Перевищений час виконання"
+
+#: judge/models/submission.py:24 judge/models/submission.py:52
+msgid "Memory Limit Exceeded"
+msgstr "Обмеження пам’яті перевищено"
+
+#: judge/models/submission.py:25 judge/models/submission.py:53
+msgid "Output Limit Exceeded"
+msgstr "Вихідний ліміт перевищено"
+
+#: judge/models/submission.py:26 judge/models/submission.py:54
+msgid "Invalid Return"
+msgstr "Недійсний результат"
+
+#: judge/models/submission.py:27 judge/models/submission.py:55
+msgid "Runtime Error"
+msgstr "Помилка виконання"
+
+#: judge/models/submission.py:28 judge/models/submission.py:42
+#: judge/models/submission.py:56 judge/utils/problems.py:76
+msgid "Compile Error"
+msgstr "Помилка компіляції"
+
+#: judge/models/submission.py:29 judge/models/submission.py:41
+msgid "Internal Error"
+msgstr "Внутрішня помилка"
+
+#: judge/models/submission.py:30
+msgid "Short circuit"
+msgstr "Коротке замикання"
+
+#: judge/models/submission.py:31 judge/models/submission.py:43
+#: judge/models/submission.py:62
+msgid "Aborted"
+msgstr "Скасовано"
+
+#: judge/models/submission.py:37 judge/models/submission.py:58
+msgid "Queued"
+msgstr "В черзі"
+
+#: judge/models/submission.py:38 judge/models/submission.py:59
+msgid "Processing"
+msgstr "Обробка"
+
+#: judge/models/submission.py:39 judge/models/submission.py:60
+msgid "Grading"
+msgstr "Оцінювання"
+
+#: judge/models/submission.py:40 judge/models/submission.py:61
+msgid "Completed"
+msgstr "Завершено"
+
+#: judge/models/submission.py:57
+msgid "Internal Error (judging server error)"
+msgstr "Внутрішня помилка (суддівський сервер)"
+
+#: judge/models/submission.py:67
+msgid "submission time"
+msgstr "час надсилання"
+
+#: judge/models/submission.py:68 judge/models/submission.py:238
+msgid "execution time"
+msgstr "час виконання"
+
+#: judge/models/submission.py:69 judge/models/submission.py:239
+msgid "memory usage"
+msgstr "використання пам’яті"
+
+#: judge/models/submission.py:70 judge/models/submission.py:240
+msgid "points granted"
+msgstr "набраних балів"
+
+#: judge/models/submission.py:71
+msgid "submission language"
+msgstr "мова розв’язку"
+
+#: judge/models/submission.py:72
+msgid "status"
+msgstr "статус"
+
+#: judge/models/submission.py:73
+msgid "result"
+msgstr "результат"
+
+#: judge/models/submission.py:75
+msgid "compile errors"
+msgstr "помилки компіляції"
+
+#: judge/models/submission.py:77
+msgid "batched cases"
+msgstr "пакетні випадки"
+
+#: judge/models/submission.py:78
+msgid "test case points"
+msgstr "бали тестового випадку"
+
+#: judge/models/submission.py:79
+msgid "test case total points"
+msgstr "загальна кількість балів тестового випадку"
+
+#: judge/models/submission.py:80
+msgid "judged on"
+msgstr "оцінений"
+
+#: judge/models/submission.py:82
+msgid "submission judge time"
+msgstr "час надсилання судді"
+
+#: judge/models/submission.py:83
+msgid "last rejudge date by admin"
+msgstr "дата останнього повторного оцінювання адміністратором"
+
+#: judge/models/submission.py:84
+msgid "was ran on pretests only"
+msgstr "працював тільки на претестах"
+
+#: judge/models/submission.py:87
+msgid "submission lock"
+msgstr "блокування розв’язку"
+
+#: judge/models/submission.py:210
+msgid "Abort any submission"
+msgstr "Скасувати будь-який розв’язок"
+
+#: judge/models/submission.py:211
+msgid "Rejudge the submission"
+msgstr "Повторно надіслати розв’язок"
+
+#: judge/models/submission.py:212
+msgid "Rejudge a lot of submissions"
+msgstr "Перенадіслати багато розв’язків"
+
+#: judge/models/submission.py:213
+msgid "Submit without limit"
+msgstr "Надсилати без обмежень"
+
+#: judge/models/submission.py:214
+msgid "View all submission"
+msgstr "Переглянути всі розв’язки"
+
+#: judge/models/submission.py:215
+msgid "Resubmit others' submission"
+msgstr "Повторно надіслати розв’язок іншого"
+
+#: judge/models/submission.py:216
+msgid "Change lock status of submission"
+msgstr "Змінити статус блокування розв’язку"
+
+#: judge/models/submission.py:219 templates/contest/moss.html:58
+msgid "submissions"
+msgstr "розв’язки"
+
+#: judge/models/submission.py:223 judge/models/submission.py:234
+msgid "associated submission"
+msgstr "пов’язаний розв’язок"
+
+#: judge/models/submission.py:225
+msgid "source code"
+msgstr "вихідний код"
+
+#: judge/models/submission.py:236
+msgid "test case ID"
+msgstr "ID тестового випадку"
+
+#: judge/models/submission.py:237
+msgid "status flag"
+msgstr "індикатор стану"
+
+#: judge/models/submission.py:241
+msgid "points possible"
+msgstr "можливі бали"
+
+#: judge/models/submission.py:242
+msgid "batch number"
+msgstr "номер пакету"
+
+#: judge/models/submission.py:243
+msgid "judging feedback"
+msgstr "суддівський вілгук"
+
+#: judge/models/submission.py:244
+msgid "extended judging feedback"
+msgstr "розширений суддівський відгук"
+
+#: judge/models/submission.py:245
+msgid "program output"
+msgstr "вихідні дані програми"
+
+#: judge/models/submission.py:253
+msgid "submission test case"
+msgstr "тестовий випадок розв’язку"
+
+#: judge/models/submission.py:254
+msgid "submission test cases"
+msgstr "тестові випадки розв’язку"
+
+#: judge/models/ticket.py:10
+msgid "ticket title"
+msgstr "назва тікета"
+
+#: judge/models/ticket.py:11
+msgid "ticket creator"
+msgstr "автор тікета"
+
+#: judge/models/ticket.py:13
+msgid "creation time"
+msgstr "час створення"
+
+#: judge/models/ticket.py:14
+msgid "assignees"
+msgstr "призначені"
+
+#: judge/models/ticket.py:16
+msgid "quick notes"
+msgstr "швидкі нотатки"
+
+#: judge/models/ticket.py:17
+msgid "Staff notes for this issue to aid in processing."
+msgstr "Примітки персоналу з цього питання для допомоги в обробці."
+
+#: judge/models/ticket.py:18
+msgid "linked item type"
+msgstr "тип пов’язаного об’єкту"
+
+#: judge/models/ticket.py:20
+msgid "linked item ID"
+msgstr "ID пов’язаного об’єкту"
+
+#: judge/models/ticket.py:22
+msgid "is ticket open?"
+msgstr "тікет відкритий?"
+
+#: judge/models/ticket.py:26
+msgid "ticket"
+msgstr "тікет"
+
+#: judge/models/ticket.py:28
+msgid "poster"
+msgstr "плакат"
+
+#: judge/models/ticket.py:30
+msgid "message body"
+msgstr "тіло повідомлення"
+
+#: judge/models/ticket.py:31
+msgid "message time"
+msgstr "час повідомлення"
+
+#: judge/pdf_problems.py:147 judge/pdf_problems.py:200
+#: judge/pdf_problems.py:260
+msgid "Page [page] of [topage]"
+msgstr "Сторінка [page] з [topage]"
+
+#: judge/pdf_problems.py:282
+msgid "Page %s of %s"
+msgstr "Сторінка %s з %s"
+
+#: judge/tasks/contest.py:19
+msgid "Recalculating contest scores"
+msgstr "Перерахунок балів змагання"
+
+#: judge/tasks/contest.py:40
+msgid "Running MOSS"
+msgstr "Запуск MOSS"
+
+#: judge/tasks/submission.py:45
+msgid "Modifying submissions"
+msgstr "Зміна розв’язків"
+
+#: judge/tasks/submission.py:58
+msgid "Recalculating user points"
+msgstr "Перерахунок очок користувачів"
+
+#: judge/tasks/user.py:49
+msgid "Applying filters"
+msgstr "Застосування фільтрів"
+
+#: judge/tasks/user.py:64
+msgid "Preparing your submission data"
+msgstr "Підготовка Ваших даних по розв’язкам"
+
+#: judge/tasks/user.py:95
+msgid "Preparing your comment data"
+msgstr "Підготовка даних про ваші коментарі"
+
+#: judge/utils/problem_data.py:63
+msgid "Empty batches not allowed."
+msgstr "Порожні групи не допускаються."
+
+#: judge/utils/problem_data.py:82
+msgid "Points must be defined for non-batch case #%d."
+msgstr "Очки мають бути визначені для негрупового випадку #%d."
+
+#: judge/utils/problem_data.py:87
+msgid "Input file for case %d does not exist: %s"
+msgstr "Вхідний файл для випадку %d не існує: %s"
+
+#: judge/utils/problem_data.py:90
+msgid "Output file for case %d does not exist: %s"
+msgstr "Вихідний файл для випадку %d не існує: %s"
+
+#: judge/utils/problem_data.py:115
+msgid "Batch start case #%d requires points."
+msgstr "Початковий випадок групи #%d вимагає очки."
+
+#: judge/utils/problem_data.py:136
+msgid "Attempt to end batch outside of one in case #%d"
+msgstr "Спроба завершити групу поза нею у випадку #%d"
+
+#: judge/utils/problem_data.py:154
+msgid "How did you corrupt the zip path?"
+msgstr "Як ви пошкодили zip-шлях?"
+
+#: judge/utils/problem_data.py:160
+msgid "How did you corrupt the generator path?"
+msgstr "Як Ви пошкодили шлях генератора?"
+
+#: judge/utils/problems.py:75
+msgid "Wrong"
+msgstr "Неправильно"
+
+#: judge/utils/problems.py:77
+msgid "Timeout"
+msgstr "Час вийшов"
+
+#: judge/utils/problems.py:78
+msgid "Error"
+msgstr "Помилка"
+
+#: judge/utils/problems.py:89
+msgid "Can't pass both queryset and keyword filters"
+msgstr "Не вдається передати фільтри набору запитів та ключових слів"
+
+#: judge/utils/pwned.py:101
+msgid "Your password can't be a commonly used password."
+msgstr "Ваш пароль не може бути загальновживаним паролем."
+
+#: judge/utils/pwned.py:102
+msgid "This password is too common."
+msgstr "Цей пароль надто поширений."
+
+#: judge/utils/timedelta.py:49
+msgctxt "time format with day"
+msgid "%d day %h:%m:%s"
+msgid_plural "%d days %h:%m:%s"
+msgstr[0] "%d день%h:%m:%s"
+msgstr[1] "%d дні %h:%m:%s"
+msgstr[2] "%d днів %h:%m:%s"
+
+#: judge/utils/timedelta.py:53
+msgctxt "time format without day"
+msgid "%h:%m:%s"
+msgstr "%h:%m:%s"
+
+#: judge/utils/timedelta.py:59
+msgctxt "time format no seconds with day"
+msgid "%d day %h:%m"
+msgid_plural "%d days %h:%m"
+msgstr[0] "%d день %h: %m"
+msgstr[1] "%d дні %h: %m"
+msgstr[2] "%d днів %h: %m"
+
+#: judge/utils/timedelta.py:61
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d день"
+msgstr[1] "%d дні"
+msgstr[2] "%d днів"
+
+#: judge/utils/timedelta.py:63
+msgctxt "hours and minutes"
+msgid "%h:%m"
+msgstr "%h:%m"
+
+#: judge/views/blog.py:37
+msgid "Page %d of Posts"
+msgstr "Сторінка %d дописів"
+
+#: judge/views/comment.py:27
+msgid "Messing around, are we?"
+msgstr "Маємось чортівнею, чи не так?"
+
+#: judge/views/comment.py:36
+msgid "You must solve at least one problem before you can vote."
+msgstr "Перед голосуванням потрібно вирішити хоча б одну задачу."
+
+#: judge/views/comment.py:66
+msgid "You already voted."
+msgstr "Ви вже проголосували."
+
+#: judge/views/comment.py:129 judge/views/organization.py:297
+msgid "Edited from site"
+msgstr "Відредаговано з сайту"
+
+#: judge/views/comment.py:150
+msgid "Editing comment"
+msgstr "Редагування коментаря"
+
+#: judge/views/contests.py:57 judge/views/contests.py:210
+#: judge/views/contests.py:213 judge/views/contests.py:410
+msgid "No such contest"
+msgstr "Такого змагання немає"
+
+#: judge/views/contests.py:58 judge/views/contests.py:211
+msgid "Could not find a contest with the key \"%s\"."
+msgstr "Не вдалося знайти змагання з ключем \"%s\"."
+
+#: judge/views/contests.py:71
+msgid "Contests"
+msgstr "Змагання"
+
+#: judge/views/contests.py:214
+msgid "Could not find such contest."
+msgstr "Неможливо знайти таке змагання."
+
+#: judge/views/contests.py:217
+msgid "Access to contest \"%s\" denied"
+msgstr "У доступі до змагання \"%s\" відмовлено"
+
+#: judge/views/contests.py:259
+msgid "Clone Contest"
+msgstr "Клонувати змагання"
+
+#: judge/views/contests.py:293
+msgid "Cloned contest from %s"
+msgstr "Змагання клоноване з %s"
+
+#: judge/views/contests.py:329
+msgid "Contest not ongoing"
+msgstr "Змагання не триває"
+
+#: judge/views/contests.py:330
+msgid "\"%s\" is not currently ongoing."
+msgstr "\"%s\" наразі не триває."
+
+#: judge/views/contests.py:334
+msgid "Already in contest"
+msgstr "Вже в змаганні"
+
+#: judge/views/contests.py:335
+msgid "You are already in a contest: \"%s\"."
+msgstr "Ви вже берете участь у змаганні: \"%s\"."
+
+#: judge/views/contests.py:338
+msgid "Banned from joining"
+msgstr "Вступ заборонено"
+
+#: judge/views/contests.py:339
+msgid "You have been declared persona non grata for this contest. You are permanently barred from joining this contest."
+msgstr "Вас було оголошено персоною нон ґрата для цього змагання. Вам назавжди заборонено брати участь у цьому змаганні."
+
+#: judge/views/contests.py:400
+msgid "Enter access code for \"%s\""
+msgstr "Введіть код доступу для \"%s\""
+
+#: judge/views/contests.py:411
+msgid "You are not in contest \"%s\"."
+msgstr "Ви не берете участь у змаганні \"%s\"."
+
+#: judge/views/contests.py:430
+msgid "ContestCalendar requires integer year and month"
+msgstr "Календар змагань вимагає цілого року та місяця"
+
+#: judge/views/contests.py:470
+msgid "Contests in %(month)s"
+msgstr "Змагання у %(month)s"
+
+#: judge/views/contests.py:470
+msgid "F Y"
+msgstr "F Y"
+
+#: judge/views/contests.py:517
+msgid "%s Statistics"
+msgstr "Статистика %s"
+
+#: judge/views/contests.py:691
+msgid "%s Rankings"
+msgstr "Положення %s"
+
+#: judge/views/contests.py:699
+msgid "???"
+msgstr "???"
+
+#: judge/views/contests.py:715
+msgid "Your participation in %s"
+msgstr "Ваша участь у %s"
+
+#: judge/views/contests.py:716
+msgid "%s's participation in %s"
+msgstr "участь %s у %s"
+
+#: judge/views/contests.py:723
+msgid "Live"
+msgstr "Наживо"
+
+#: judge/views/contests.py:735 templates/contest/contest-tabs.html:13
+msgid "Participation"
+msgstr "Участь"
+
+#: judge/views/contests.py:779
+msgid "%s MOSS Results"
+msgstr "Результати MOSS для %s"
+
+#: judge/views/contests.py:806
+msgid "Running MOSS for %s..."
+msgstr "Запуск MOSS для %s ..."
+
+#: judge/views/contests.py:829
+msgid "Contest tag: %s"
+msgstr "Тег змагання: %s"
+
+#: judge/views/error.py:14
+msgid "404 error"
+msgstr "Помилка 404"
+
+#: judge/views/error.py:15
+msgid "Could not find page \"%s\""
+msgstr "Не вдалося знайти сторінку \"%s\""
+
+#: judge/views/error.py:22
+msgid "no permission for %s"
+msgstr "немає дозволу для %s"
+
+#: judge/views/error.py:30
+msgid "corrupt page %s"
+msgstr "пошкодити сторінка %s"
+
+#: judge/views/language.py:12 templates/status/judge-status-table.html:9
+#: templates/status/status-tabs.html:5
+msgid "Runtimes"
+msgstr "Середовища"
+
+#: judge/views/organization.py:43 judge/views/organization.py:46
+msgid "No such organization"
+msgstr "Немає такої організації"
+
+#: judge/views/organization.py:44
+msgid "Could not find an organization with the key \"%s\"."
+msgstr "Не вдалося знайти організацію з ключем \"%s\"."
+
+#: judge/views/organization.py:47
+msgid "Could not find such organization."
+msgstr "Не вдалося знайти таку організацію."
+
+#: judge/views/organization.py:71 judge/views/register.py:33
+#: templates/organization/list.html:15 templates/user/user-list-tabs.html:5
+msgid "Organizations"
+msgstr "Організації"
+
+#: judge/views/organization.py:92
+msgid "%s Members"
+msgstr "Учасники %s"
+
+#: judge/views/organization.py:117 judge/views/organization.py:120
+#: judge/views/organization.py:125
+msgid "Joining organization"
+msgstr "Приєднання до організації"
+
+#: judge/views/organization.py:117
+msgid "You are already in the organization."
+msgstr "Ви вже в організації."
+
+#: judge/views/organization.py:120
+msgid "This organization is not open."
+msgstr "Ця організація не відкрита."
+
+#: judge/views/organization.py:137
+msgid "Leaving organization"
+msgstr "Вихід з організації"
+
+#: judge/views/organization.py:137
+msgid "You are not in \"%s\"."
+msgstr "Ви не в \"%s\"."
+
+#: judge/views/organization.py:161
+msgid "Request to join %s"
+msgstr "Надіслати запит на приєднання до %s"
+
+#: judge/views/organization.py:179
+msgid "Join request detail"
+msgstr "Деталі запиту на приєднання"
+
+#: judge/views/organization.py:207
+msgid "Managing join requests for %s"
+msgstr "Керування запитами на приєднання до %s"
+
+#: judge/views/organization.py:238
+msgid "Your organization can only receive %d more members. You cannot approve %d users."
+msgstr "Ваша організація може прийняти лише ще %d членів. Ви не можете прийняти %d користувачів."
+
+#: judge/views/organization.py:250
+msgid "Approved %d user."
+msgid_plural "Approved %d users."
+msgstr[0] "Затверджено %d користувача."
+msgstr[1] "Затверджено %d користувачі."
+msgstr[2] "Затверджено %d користувачів."
+
+#: judge/views/organization.py:251
+msgid "Rejected %d user."
+msgid_plural "Rejected %d users."
+msgstr[0] "Відхилено %d користувача."
+msgstr[1] "Відхилено %d користувачі."
+msgstr[2] "Відхилено %d користувачів."
+
+#: judge/views/organization.py:281
+msgid "Editing %s"
+msgstr "Редагування %s"
+
+#: judge/views/organization.py:305 judge/views/organization.py:313
+msgid "Can't edit organization"
+msgstr "Не вдається редагувати організацію"
+
+#: judge/views/organization.py:306
+msgid "You are not allowed to edit this organization."
+msgstr "Ви не маєте права редагувати цю організацію."
+
+#: judge/views/organization.py:314
+msgid "You are not allowed to kick people from this organization."
+msgstr "Ви не маєте права виганяти людей із цієї організації."
+
+#: judge/views/organization.py:319 judge/views/organization.py:323
+msgid "Can't kick user"
+msgstr "Не вдається вигнати користувача"
+
+#: judge/views/organization.py:320
+msgid "The user you are trying to kick does not exist!"
+msgstr "Користувача, якого ви намагаєтесь вигнати, не існує!"
+
+#: judge/views/organization.py:324
+msgid "The user you are trying to kick is not in organization: %s."
+msgstr "Користувач, якого ви намагаєтесь вигнати, не в організації: %s."
+
+#: judge/views/problem.py:68
+msgid "No such problem"
+msgstr "Такої задачі немає"
+
+#: judge/views/problem.py:69
+msgid "Could not find a problem with the code \"%s\"."
+msgstr "Не вдалося знайти задачу з кодом \"%s\"."
+
+#: judge/views/problem.py:111
+msgid "Editorial for {0}"
+msgstr "Розв’язок до {0}"
+
+#: judge/views/problem.py:114
+msgid "Editorial for <a href=\"{1}\">{0}</a>"
+msgstr "Розв’язок до <a href=\"{1}\">{0}</a>"
+
+#: judge/views/problem.py:133
+msgid "No such editorial"
+msgstr "Немає такого розв’язку"
+
+#: judge/views/problem.py:134
+msgid "Could not find an editorial with the code \"%s\"."
+msgstr "Не вдалося знайти розв’язок задачі за кодом \"%s\"."
+
+#: judge/views/problem.py:289 templates/contest/contest.html:188
+#: templates/user/user-tabs.html:5 templates/user/users-table.html:23
+msgid "Problems"
+msgstr "Задачі"
+
+#: judge/views/problem.py:562 judge/views/problem.py:570
+msgid "Submit to %s"
+msgstr "Надіслати %s"
+
+#: judge/views/problem.py:619
+msgid "Banned from submitting"
+msgstr "Заборонено надсилати"
+
+#: judge/views/problem.py:620
+msgid "You have been declared persona non grata for this problem. You are permanently barred from submitting this problem."
+msgstr "Вас було оголошено персоною нон ґрата для цієї задачі. Вам назавжди заборонено надсилати розв’язки до неї."
+
+#: judge/views/problem.py:624
+msgid "Too many submissions"
+msgstr "Занадто багато надсилань"
+
+#: judge/views/problem.py:625
+msgid "You have exceeded the submission limit for this problem."
+msgstr "Ви перевищили межу надсилання для цієї задачі."
+
+#: judge/views/problem.py:693
+msgid "Clone Problem"
+msgstr "Клонувати задачу"
+
+#: judge/views/problem.py:720
+msgid "Cloned problem from %s"
+msgstr "Задача клонована з %s"
+
+#: judge/views/problem_data.py:37
+msgid "Checker arguments must be a JSON object"
+msgstr "Аргументи чекера повинні бути об’єктом JSON"
+
+#: judge/views/problem_data.py:39
+msgid "Checker arguments is invalid JSON"
+msgstr "Аргументи чекера є невалідним JSON"
+
+#: judge/views/problem_data.py:46
+msgid "Your zip file is invalid!"
+msgstr "Ваш zip-файл невалідний!"
+
+#: judge/views/problem_data.py:104
+msgid "Comparing submissions for {0}"
+msgstr "Порівняння надсилань {0}"
+
+#: judge/views/problem_data.py:107
+msgid "Comparing submissions for <a href=\"{1}\">{0}</a>"
+msgstr "Порівняння розв’язків <a href=\"{1}\">{0}</a>"
+
+#: judge/views/problem_data.py:142
+msgid "Editing data for {0}"
+msgstr "Редагування даних {0}"
+
+#: judge/views/problem_data.py:145
+msgid "Editing data for %s"
+msgstr "Редагування даних задачі %s"
+
+#: judge/views/problem_data.py:243 judge/views/problem_data.py:244
+msgid "Generated init.yml for %s"
+msgstr "Створено init.yml для %s"
+
+#: judge/views/problem_manage.py:50 judge/views/problem_manage.py:53
+msgid "Managing submissions for %s"
+msgstr "Керування розв’язками задачі %s"
+
+#: judge/views/problem_manage.py:95
+msgid "Rejudging selected submissions for %s..."
+msgstr "Переоцінка обраних розв’язків задачі %s..."
+
+#: judge/views/problem_manage.py:110
+msgid "Rescoring all submissions for %s..."
+msgstr "Переоцінка всіх розв’язків задачі %s ..."
+
+#: judge/views/problem_manage.py:119
+msgid "Successfully scheduled %d submission for rejudging."
+msgid_plural "Successfully scheduled %d submissions for rejudging."
+msgstr[0] "Успішно заплановано %d розв'язок на повторне оцінювання."
+msgstr[1] "Успішно заплановано %d розв'язки на повторне оцінювання."
+msgstr[2] "Успішно заплановано %d розв'язків на повторне оцінювання."
+
+#: judge/views/ranked_submission.py:67
+msgid "Best solutions for %s"
+msgstr "Найкращі рішення %s"
+
+#: judge/views/ranked_submission.py:70
+msgid "Best solutions for <a href=\"{1}\">{0}</a>"
+msgstr "Найкращі рішення <a href=\"{1}\">{0}</a>"
+
+#: judge/views/ranked_submission.py:82
+msgid "Best solutions for %(problem)s in %(contest)s"
+msgstr "Найкращі рішення %(problem)s у %(contest)s"
+
+#: judge/views/ranked_submission.py:85
+msgid "Best solutions for problem %(number)s in %(contest)s"
+msgstr "Найкращі рішення задачі %(number)s у %(contest)s"
+
+#: judge/views/ranked_submission.py:91
+msgid "Best solutions for <a href=\"{1}\">{0}</a> in <a href=\"{3}\">{2}</a>"
+msgstr "Найкращі рішення для <a href=\"{1}\">{0}</a> у <a href=\"{3}\">{2}</a>"
+
+#: judge/views/ranked_submission.py:94
+msgid "Best solutions for problem {0} in <a href=\"{2}\">{1}</a>"
+msgstr "Найкращі рішення задачі {0} в <a href=\"{2}\">{1}</a>"
+
+#: judge/views/register.py:26
+msgid "A username must contain letters, numbers, or underscores"
+msgstr "Ім’я користувача має містити літери, цифри або підкреслення"
+
+#: judge/views/register.py:30
+msgid "Preferred language"
+msgstr "Бажана мова"
+
+#: judge/views/register.py:37
+msgid "Subscribe to newsletter?"
+msgstr "Підписатися на розсилку?"
+
+#: judge/views/register.py:44
+msgid "The email address \"%s\" is already taken. Only one registration is allowed per address."
+msgstr "Адреса електронної пошти \"%s\" уже зайнята. На одну адресу дозволена лише одна реєстрація."
+
+#: judge/views/register.py:50
+msgid "Your email provider is not allowed due to history of abuse. Please use a reputable email provider."
+msgstr "Ваш провайдер послуг електронної пошти заборонений через історію зловживань. Будь ласка, використовуйте перевіреного провайдера послуг електронної пошти."
+
+#: judge/views/register.py:56 judge/views/register.py:94
+msgid "Registration"
+msgstr "Реєстрація"
+
+#: judge/views/register.py:105
+msgid "Authentication failure"
+msgstr "Помилка автентифікації"
+
+#: judge/views/stats.py:67
+msgid "Language statistics"
+msgstr "Статистика мов"
+
+#: judge/views/status.py:24 templates/submission/list.html:310
+msgid "Status"
+msgstr "Статус"
+
+#: judge/views/status.py:109
+msgid "Version matrix"
+msgstr "Матриця версій"
+
+#: judge/views/submission.py:55 judge/views/submission.py:62
+msgid "Submission of %(problem)s by %(user)s"
+msgstr "Розв’язки %(problem)s від %(user)s"
+
+#: judge/views/submission.py:205 judge/views/submission.py:206
+#: templates/problem/problem.html:127
+msgid "All submissions"
+msgstr "Усі розв’язки"
+
+#: judge/views/submission.py:355
+msgid "All my submissions"
+msgstr "Усі мої розв’язки"
+
+#: judge/views/submission.py:356
+msgid "All submissions by %s"
+msgstr "Усі розв’язки від %s"
+
+#: judge/views/submission.py:387
+msgid "All submissions for %s"
+msgstr "Усі розв’язки до %s"
+
+#: judge/views/submission.py:410
+msgid "Must pass a problem"
+msgstr "Треба вирішити задачу"
+
+#: judge/views/submission.py:449
+msgid "My submissions for %(problem)s"
+msgstr "Мої розв’язки до %(problem)s"
+
+#: judge/views/submission.py:450
+msgid "%(user)s's submissions for %(problem)s"
+msgstr "Розв’язки %(user)s для %(problem)s"
+
+#: judge/views/submission.py:548
+msgid "Must pass a contest"
+msgstr "Треба пройти змагання"
+
+#: judge/views/submission.py:556
+msgid "My submissions in %(contest)s"
+msgstr "Мої розв’язки в %(contest)s"
+
+#: judge/views/submission.py:557
+msgid "%(user)s's submissions in %(contest)s"
+msgstr "Розв’язки %(user)s у %(contest)s"
+
+#: judge/views/submission.py:571
+msgid "My submissions in <a href=\"{1}\">{0}</a>"
+msgstr "Мої розв’язки в <a href=\"{1}\">{0}</a>"
+
+#: judge/views/submission.py:573
+msgid "<a href=\"{1}\">{0}</a>'s submissions in <a href=\"{3}\">{2}</a>"
+msgstr "Розв’язки <a href=\"{1}\">{0}</a> у <a href=\"{3}\">{2}</a>"
+
+#: judge/views/submission.py:599
+msgid "<a href=\"{1}\">{0}</a>'s submissions for <a href=\"{3}\">{2}</a> in <a href=\"{5}\">{4}</a>"
+msgstr "Розв’язки <a href=\"{1}\"> {0}</a> для <a href=\"{3}\">{2}</a> у <a href=\"{5}\">{4}</a>"
+
+#: judge/views/submission.py:604
+msgid "<a href=\"{1}\">{0}</a>'s submissions for problem {2} in <a href=\"{4}\">{3}</a>"
+msgstr "Розв’язки <a href=\"{1}\">{0}</a> задачі {2} у <a href=\"{4}\">{3}</a>"
+
+#: judge/views/ticket.py:33 judge/views/ticket.py:39
+msgid "Ticket title"
+msgstr "Назва тікета"
+
+#: judge/views/ticket.py:40
+msgid "Issue description"
+msgstr "Опис проблеми"
+
+#: judge/views/ticket.py:48
+msgid "You must solve at least one problem before you can create a ticket."
+msgstr "Щоб створити тікет, потрібно вирішити хоча б одну проблему."
+
+#: judge/views/ticket.py:91 judge/views/ticket.py:94
+msgid "New ticket for %s"
+msgstr "Новий тікет для %s"
+
+#: judge/views/ticket.py:148
+msgid "%(title)s - Ticket %(id)d"
+msgstr "%(title)s - тікет %(id)d"
+
+#: judge/views/ticket.py:253
+msgid "Tickets - Page %(number)d of %(total)d"
+msgstr "Тікети - Сторінка %(number)d з %(total)d"
+
+#: judge/views/ticket.py:302
+msgid "New Ticket: %s"
+msgstr "Новий тікет: %s"
+
+#: judge/views/ticket.py:303
+msgid "#%(id)d, assigned to: %(users)s"
+msgstr "#%(id)d, призначено: %(users)s"
+
+#: judge/views/ticket.py:305
+msgid ", "
+msgstr ", "
+
+#: judge/views/ticket.py:305
+msgid "no one"
+msgstr "ніхто"
+
+#: judge/views/ticket.py:325
+msgid "New Ticket Message For: %s"
+msgstr "Повідомлення про новий тікет для: %s"
+
+#: judge/views/two_factor.py:49
+msgid "Enable Two-factor Authentication"
+msgstr "Увімкнути двофакторну автентифікацію"
+
+#: judge/views/two_factor.py:108
+msgid "Refresh Two-factor Authentication"
+msgstr "Оновити двофакторну автентифікацію"
+
+#: judge/views/two_factor.py:116
+msgid "Disable Two-factor Authentication"
+msgstr "Вимкнути двофакторну автентифікацію"
+
+#: judge/views/two_factor.py:165
+msgid "Invalid WebAuthn response"
+msgstr "Недійсна відповідь WebAuthn"
+
+#: judge/views/two_factor.py:168
+msgid "Invalid name"
+msgstr "Недійсне ім’я"
+
+#: judge/views/two_factor.py:221
+msgid "Staff may not disable 2FA"
+msgstr "Персонал не може відключити 2FA"
+
+#: judge/views/two_factor.py:229
+msgid "Perform Two-factor Authentication"
+msgstr "Виконати двофакторну автентифікацію"
+
+#: judge/views/user.py:78
+msgid "No such user"
+msgstr "Немає такого користувача"
+
+#: judge/views/user.py:78
+msgid "No user handle \"%s\"."
+msgstr "Немає нікнейма \"%s\"."
+
+#: judge/views/user.py:82
+msgid "My account"
+msgstr "Мій акаунт"
+
+#: judge/views/user.py:83
+msgid "User %s"
+msgstr "Користувач %s"
+
+#: judge/views/user.py:131
+msgid "Login"
+msgstr "Увійти"
+
+#: judge/views/user.py:172
+msgid "M j, Y, G:i"
+msgstr "j M Y, G:i"
+
+#: judge/views/user.py:306
+msgid "Preparing your data..."
+msgstr "Підготовка ваших даних..."
+
+#: judge/views/user.py:310 templates/user/edit-profile.html:352
+msgid "Download your data"
+msgstr "Завантажте свої дані"
+
+#: judge/views/user.py:366
+msgid "Updated on site"
+msgstr "Оновлено на сайті"
+
+#: judge/views/user.py:399 templates/admin/auth/user/change_form.html:14
+#: templates/admin/auth/user/change_form.html:17 templates/base.html:222
+#: templates/user/user-tabs.html:16
+msgid "Edit profile"
+msgstr "Редагувати профіль"
+
+#: judge/views/user.py:414
+msgid "Generated API token for user"
+msgstr "Згенеровано API-токен для користувача"
+
+#: judge/views/user.py:426
+msgid "Removed API token for user"
+msgstr "Видалено API-токен користувача"
+
+#: judge/views/user.py:436
+msgid "Generated scratch codes for user"
+msgstr "Сформовані скретч-коди для користувача"
+
+#: judge/views/user.py:442 templates/user/user-list-tabs.html:4
+msgid "Leaderboard"
+msgstr "Таблиця лідерів"
+
+#: judge/views/user.py:503
+msgid "You have been successfully logged out."
+msgstr "Ви успішно вийшли."
+
+#: judge/views/widgets.py:52 judge/views/widgets.py:62
+msgid "Invalid upstream data: %s"
+msgstr "Недійсні вихідні дані: %s"
+
+#: judge/views/widgets.py:72
+msgid "Bad latitude or longitude"
+msgstr "Неправильна широта чи довгота"
+
+#: templates/admin/judge/contest/change_form.html:9
+msgid "Are you sure you want to rejudge ALL the submissions?"
+msgstr "Ви впевнені, що хочете повторно оцінити ВСІ надісланні розв’язки?"
+
+#: templates/admin/judge/contest/change_form.html:17
+#: templates/admin/judge/contest/change_form.html:20
+msgid "Rate"
+msgstr "Оцінити"
+
+#: templates/admin/judge/contest/change_list.html:9
+msgid "Rate all ratable contests"
+msgstr "Оцінити всі оцінювані змагання"
+
+#: templates/admin/judge/judge/change_form.html:15
+#: templates/admin/judge/judge/change_form.html:18
+msgid "Disconnect"
+msgstr "Відключити"
+
+#: templates/admin/judge/judge/change_form.html:20
+#: templates/admin/judge/judge/change_form.html:23
+msgid "Terminate"
+msgstr "Припинити"
+
+#: templates/admin/judge/problem/change_form.html:14
+msgid "View Submissions"
+msgstr "Переглянути розв’язки"
+
+#: templates/admin/judge/problem/change_form.html:17
+#: templates/user/user-base.html:61
+msgid "View submissions"
+msgstr "Переглянути надіслані розв’язки"
+
+#: templates/admin/judge/profile/change_form.html:14
+#: templates/admin/judge/profile/change_form.html:17
+msgid "Edit user"
+msgstr "Редагувати користувача"
+
+#: templates/admin/judge/submission/change_form.html:14
+#: templates/admin/judge/submission/change_form.html:17
+#: templates/submission/source.html:34 templates/submission/status.html:80
+msgid "Rejudge"
+msgstr "Оцінити повторно"
+
+#: templates/base.html:214
+msgid "Hello, <b>%(username)s</b>."
+msgstr "Привіт, <b>%(username)s</b>."
+
+#: templates/base.html:229
+msgid "Log out"
+msgstr "Вийти"
+
+#: templates/base.html:238
+#: templates/registration/password_reset_complete.html:4
+msgid "Log in"
+msgstr "Увійдіть"
+
+#: templates/base.html:239 templates/registration/registration_form.html:175
+msgid "or"
+msgstr "або"
+
+#: templates/base.html:240
+msgid "Sign up"
+msgstr "Зареєструйтесь"
+
+#: templates/base.html:252
+msgid "spectating"
+msgstr "спостереження"
+
+#: templates/base.html:265
+msgid "This site works best with JavaScript enabled."
+msgstr "Цей сайт найкраще працює з увімкненим JavaScript."
+
+#: templates/blog/content.html:13 templates/comments/list.html:75
+#: templates/comments/list.html:90 templates/contest/contest-tabs.html:23
+#: templates/contest/tag-title.html:9 templates/flatpages/admin_link.html:3
+#: templates/license.html:10 templates/problem/data.html:428
+#: templates/problem/editorial.html:14
+msgid "Edit"
+msgstr "Редагувати"
+
+#: templates/blog/content.html:27
+msgid ""
+"\n"
+"                    posted on %(time)s\n"
+"                "
+msgstr ""
+"\n"
+"                    розміщено %(time)s\n"
+"                "
+
+#: templates/blog/dashboard.html:21
+msgid ""
+"\n"
+"                                    on %(time)s\n"
+"                                "
+msgstr ""
+"\n"
+"                                    о %(time)s\n"
+"                                "
+
+#: templates/blog/list.html:85
+msgid "Blog"
+msgstr "Блог"
+
+#: templates/blog/list.html:87
+msgid "Events"
+msgstr "Події"
+
+#: templates/blog/list.html:92
+msgid "News"
+msgstr "Новини"
+
+#: templates/blog/list.html:106
+msgid "posted on {time}"
+msgstr "опубліковано {time}"
+
+#: templates/blog/list.html:130 templates/problem/problem.html:311
+msgid "Clarifications"
+msgstr "Уточнення"
+
+#: templates/blog/list.html:146 templates/problem/problem.html:322
+msgid "No clarifications have been made at this time."
+msgstr "На даний момент ніяких уточнень не зроблено."
+
+#: templates/blog/list.html:154
+msgid "Ongoing contests"
+msgstr "Поточні змагання"
+
+#: templates/blog/list.html:172
+msgid "Upcoming contests"
+msgstr "Найближчі змагання"
+
+#: templates/blog/list.html:189
+msgid "Comment stream"
+msgstr "Стрічка коментарів"
+
+#: templates/blog/list.html:209
+msgid "New problems"
+msgstr "Нові задачі"
+
+#: templates/blog/list.html:226
+msgid "My open tickets"
+msgstr "Мої відкриті тікети"
+
+#: templates/blog/list.html:247
+msgid "New tickets"
+msgstr "Нові тікети"
+
+#: templates/comments/list.html:2 templates/user/prepare-data.html:97
+msgid "Comments"
+msgstr "Коментарі"
+
+#: templates/comments/list.html:18 templates/comments/list.html:27
+msgid "Please login to vote"
+msgstr "Будь ласка, увійдіть, щоб проголосувати"
+
+#: templates/comments/list.html:47
+msgid "commented on {time}"
+msgstr "прокоментував {time}"
+
+#: templates/comments/list.html:56
+msgid "edit %(edits)s"
+msgstr "редагувати %(edits)s"
+
+#: templates/comments/list.html:58 templates/comments/media-js.html:96
+msgid "edited"
+msgstr "відредаговано"
+
+#: templates/comments/list.html:67
+msgid "Link"
+msgstr "Посилання"
+
+#: templates/comments/list.html:80 templates/comments/list.html:87
+msgid "Reply"
+msgstr "Відповісти"
+
+#: templates/comments/list.html:95 templates/comments/votes.html:1
+msgid "Votes"
+msgstr "Голоси"
+
+#: templates/comments/list.html:96
+msgid "Hide"
+msgstr "Сховати"
+
+#: templates/comments/list.html:111
+msgid ""
+"\n"
+"                                                This comment is hidden due to too much negative feedback.\n"
+"                                                Click <a href=\"javascript:comment_show_content(%(id)s)\">here</a> to view it.\n"
+"                                            "
+msgstr ""
+"\n"
+"                                                Цей коментар прихований через занадто багато негативних відгуків.\n"
+"                                                Натисніть <a href=\"javascript:comment_show_content(%(id)s)\">тут</a>, щоб переглянути його.\n"
+"                                            "
+
+#: templates/comments/list.html:131
+msgid "There are no comments at the moment."
+msgstr "Наразі коментарів немає."
+
+#: templates/comments/list.html:137
+msgid "New comment"
+msgstr "Новий коментар"
+
+#: templates/comments/list.html:151
+msgid "Invalid comment body."
+msgstr "Недійсне тіло коментаря."
+
+#: templates/comments/list.html:159
+msgid "Post!"
+msgstr "Опублікувати!"
+
+#: templates/comments/list.html:167
+msgid "Comments are disabled on this page."
+msgstr "Коментарі на цій сторінці відключені."
+
+#: templates/comments/media-js.html:38
+msgid "Replying to comment"
+msgstr "Відповідаючи на коментар"
+
+#: templates/comments/media-js.html:91
+msgid "edit {edits}"
+msgstr "ревізія {edits}"
+
+#: templates/comments/media-js.html:94
+msgid "original"
+msgstr "оригінал"
+
+#: templates/comments/votes.html:5
+msgid "Voter"
+msgstr "Учасник голосувань"
+
+#: templates/comments/votes.html:6 templates/user/user-problems.html:101
+msgid "Score"
+msgstr "Оцінка"
+
+#: templates/comments/votes.html:17
+msgid "No votes"
+msgstr "Голосів немає"
+
+#: templates/contest/access_code.html:26
+msgid "Invalid access code."
+msgstr "Неправильний код доступу."
+
+#: templates/contest/access_code.html:29
+msgid "Please enter your access code:"
+msgstr "Будь ласка, введіть Ваш код доступу:"
+
+#: templates/contest/access_code.html:32
+msgid "Join Contest"
+msgstr "Приєднатись до змагання"
+
+#: templates/contest/calendar.html:12
+msgid "Sunday"
+msgstr "Неділя"
+
+#: templates/contest/calendar.html:13
+msgid "Monday"
+msgstr "Понеділок"
+
+#: templates/contest/calendar.html:14
+msgid "Tuesday"
+msgstr "Вівторок"
+
+#: templates/contest/calendar.html:15
+msgid "Wednesday"
+msgstr "Середа"
+
+#: templates/contest/calendar.html:16
+msgid "Thursday"
+msgstr "Четвер"
+
+#: templates/contest/calendar.html:17
+msgid "Friday"
+msgstr "П’ятниця"
+
+#: templates/contest/calendar.html:18
+msgid "Saturday"
+msgstr "Субота"
+
+#: templates/contest/clone.html:37
+msgid "Enter a new key for the cloned contest:"
+msgstr "Введіть новий ключ для клонованого змагання:"
+
+#: templates/contest/clone.html:40 templates/problem/clone.html:40
+msgid "Clone!"
+msgstr "Клонувати!"
+
+#: templates/contest/contest-list-tabs.html:7
+msgid "Prev"
+msgstr "Назад"
+
+#: templates/contest/contest-list-tabs.html:10
+msgid "Today"
+msgstr "Сьогодні"
+
+#: templates/contest/contest-list-tabs.html:13
+msgid "Next"
+msgstr "Далі"
+
+#: templates/contest/contest-list-tabs.html:21
+#: templates/problem/problem-list-tabs.html:5
+msgid "List"
+msgstr "Перелік"
+
+#: templates/contest/contest-list-tabs.html:22
+msgid "Calendar"
+msgstr "Календар"
+
+#: templates/contest/contest-tabs.html:4
+msgid "Info"
+msgstr "Інформація"
+
+#: templates/contest/contest-tabs.html:6 templates/stats/base.html:9
+#: templates/submission/list.html:336
+msgid "Statistics"
+msgstr "Статистика"
+
+#: templates/contest/contest-tabs.html:11
+msgid "Rankings"
+msgstr "Положення"
+
+#: templates/contest/contest-tabs.html:16
+msgid "Hidden Rankings"
+msgstr "Приховані положення"
+
+#: templates/contest/contest-tabs.html:21
+msgid "MOSS"
+msgstr "MOSS"
+
+#: templates/contest/contest-tabs.html:26
+msgid "Clone"
+msgstr "Клонувати"
+
+#: templates/contest/contest-tabs.html:38
+#: templates/contest/contest-tabs.html:58
+msgid "Leave contest"
+msgstr "Покинути змагання"
+
+#: templates/contest/contest-tabs.html:45 templates/contest/list.html:294
+msgid "Virtual join"
+msgstr "Віртуальне приєднання"
+
+#: templates/contest/contest-tabs.html:56
+msgid "Stop spectating"
+msgstr "Закінчити спостереження"
+
+#: templates/contest/contest-tabs.html:65
+msgid "Spectate contest"
+msgstr "Спостерігати за змаганням"
+
+#: templates/contest/contest-tabs.html:72
+msgid "Join contest"
+msgstr "Приєднатись до змагання"
+
+#: templates/contest/contest-tabs.html:81
+msgid "Log in to participate"
+msgstr "Увійдіть, щоб взяти участь"
+
+#: templates/contest/contest.html:37
+msgid "Participating virtually."
+msgstr "Віртуальна участь."
+
+#: templates/contest/contest.html:43
+msgid "Contest is over."
+msgstr "Змагання закінчилось."
+
+#: templates/contest/contest.html:59 templates/contest/contest.html:63
+msgid "F j, Y, G:i T"
+msgstr "j F Y, G: i"
+
+#: templates/contest/contest.html:59
+msgid "<b>%(time_limit)s</b> window between <b>%(start_time)s</b> and <b>%(end_time)s</b>"
+msgstr "Часове вікно тривалістю <b>%(time_limit)s</b> між <b>%(start_time)s</b> та <b>%(end_time)s</b>"
+
+#: templates/contest/contest.html:63
+msgid "<b>%(length)s</b> long starting on <b>%(start_time)s</b>"
+msgstr "Довжиною <b>%(length)s</b> починаючи з <b>%(start_time)s</b>"
+
+#: templates/contest/contest.html:74
+msgid "The author of this contest is %(link_authors)s."
+msgid_plural "The authors of this contest are %(link_authors)s."
+msgstr[0] "Автором цього змагання є %(link_authors)s."
+msgstr[1] "Авторами цього змагання є %(link_authors)s."
+msgstr[2] "Авторами цього змагання є %(link_authors)s."
+
+#: templates/contest/contest.html:85
+msgid "Special thanks to %(link_testers)s for testing and feedback on the problems."
+msgid_plural "Special thanks to %(link_testers)s for testing and feedback on the problems."
+msgstr[0] "Особлива подяка %(link_testers)s за тестування та зауваження щодо проблем."
+msgstr[1] "Особлива подяка %(link_testers)s за тестування та зауваження щодо проблем."
+msgstr[2] "Особлива подяка %(link_testers)s за тестування та зауваження щодо проблем."
+
+#: templates/contest/contest.html:97
+msgid "This contest will be **rated** for **all** participants who have a rating between **%(rating_floor)d** and **%(rating_ceiling)d**, inclusive."
+msgstr "Це змагання буде **оцінюватися** для **всіх** учасників, які мають рейтинг між **%(rating_floor)d** та **%(rating_ceiling)d** включно."
+
+#: templates/contest/contest.html:99
+msgid "This contest will be **rated** for **all** participants who have a rating of at least **%(rating_floor)d**."
+msgstr "Це змагання **буде оцінюватись** для **всіх** учасників, які мають рейтинг не менше **%(rating_floor)d**."
+
+#: templates/contest/contest.html:101
+msgid "This contest will be **rated** for **all** participants who have a rating of at most **%(rating_ceiling)d**."
+msgstr "Це змагання **буде оцінюватися** для **всіх** учасників, які мають рейтинг не більше **%(rating_ceiling)d**."
+
+#: templates/contest/contest.html:103
+msgid "This contest will be **rated** for **all** participants."
+msgstr "Це змагання **буде оцінюватися** для **всіх** учасників."
+
+#: templates/contest/contest.html:107
+msgid "This contest will be **rated** for participants who submit at least once and have a rating between **%(rating_floor)d** and **%(rating_ceiling)d**, inclusive."
+msgstr "Це змагання **буде оцінюватися** для учасників, які надсилали розв’язок хоча б раз і мають рейтинг від **%(rating_floor)d** до **%(rating_ceiling)d** включно."
+
+#: templates/contest/contest.html:109
+msgid "This contest will be **rated** for participants who submit at least once and have a rating of at least **%(rating_floor)d**."
+msgstr "Це змагання **буде оцінюватися** для учасників, які хоча б раз надіслали розв’язок і мають рейтинг не менше **%(rating_floor)d**."
+
+#: templates/contest/contest.html:111
+msgid "This contest will be **rated** for participants who submit at least once and have a rating of at most **%(rating_ceiling)d**."
+msgstr "Це змагання **буде оцінюватися** для учасників, які хоча б раз надіслали розв’язок і мають рейтинг не більше **%(rating_ceiling)d**."
+
+#: templates/contest/contest.html:113
+msgid "This contest will be **rated** for participants who submit at least once."
+msgstr "Це змагання буде **оцінюватись** для учасників, які надсилали розв’язки хоча б один раз."
+
+#: templates/contest/contest.html:117
+msgid "This contest will **not** be rated."
+msgstr "Це змагання **не оцінюватиметься**."
+
+#: templates/contest/contest.html:122
+msgid "There is **%(count)s** problem in this contest."
+msgid_plural "There are **%(count)s** problems in this contest."
+msgstr[0] "У цьому змаганні **%(count)s** задача."
+msgstr[1] "У цьому змаганні **%(count)s** задачі."
+msgstr[2] "У цьому змаганні **%(count)s** задач."
+
+#: templates/contest/contest.html:131
+msgid "**Partial scoring is enabled** for some or all of these problems."
+msgstr "**Часткове оцінювання включене** для деяких або всіх цих задач."
+
+#: templates/contest/contest.html:133
+msgid "This contest **will not use partial scoring**."
+msgstr "У цьому змаганні **не буде використовуватися часткове оцінювання**."
+
+#: templates/contest/contest.html:138
+msgid "The pretest system **will be used** for some or all of these problems."
+msgstr "Система попереднього тестування **буде використовуватися** для деяких або всіх задач."
+
+#: templates/contest/contest.html:140
+msgid "The pretest system **will not be used** for this contest."
+msgstr "Система попереднього тестування **не буде використовуватися** для цих змагань."
+
+#: templates/contest/contest.html:145
+msgid "Some or all of these problems **have a submission limit**."
+msgstr "Деякі або всі з цих задач **мають обмеження на кількість надісланих розв’язків**."
+
+#: templates/contest/contest.html:147
+msgid "There is **no submission limit** for any of these problems."
+msgstr "Для будь-якої з цих задач **немає обмежень на кількість розв’язків**."
+
+#: templates/contest/contest.html:153
+msgid "The contest format is **%(format)s**."
+msgstr "Формат конкурсу - **%(format)s**."
+
+#: templates/contest/contest.html:162
+msgid "The scoreboard will be **visible** for the duration of the contest."
+msgstr "Табло буде **доступне** протягом усього часу змагань."
+
+#: templates/contest/contest.html:164
+msgid "The scoreboard will be **hidden** until your window is over."
+msgstr "Табло буде **приховано**, поки Ваше часове вікно змагань не закінчиться."
+
+#: templates/contest/contest.html:166
+msgid "The scoreboard will be **hidden** for the entire duration of the contest."
+msgstr "Табло буде **приховане** протягом усього періоду змагань."
+
+#: templates/contest/contest.html:171
+msgid "An **access code is required** to join the contest."
+msgstr "**Потрібен код доступу** для участі у змаганні."
+
+#: templates/contest/contest.html:194
+msgid "AC Rate"
+msgstr "Успішність"
+
+#: templates/contest/contest.html:195 templates/contest/list.html:152
+#: templates/contest/list.html:194 templates/contest/list.html:271
+#: templates/problem/list.html:210 templates/problem/list.html:236
+msgid "Users"
+msgstr "Користувачі"
+
+#: templates/contest/contest.html:197
+msgid "Editorials"
+msgstr "Розв’язки"
+
+#: templates/contest/contest.html:223
+msgid "Editorial"
+msgstr "Розв’язок"
+
+#: templates/contest/list.html:31 templates/contest/media-js.html:9
+msgid "Are you sure you want to join?"
+msgstr "Ви впевнені, що хочете приєднатися?"
+
+#: templates/contest/list.html:32
+msgid "Joining a contest for the first time starts your timer, after which it becomes unstoppable."
+msgstr "Участь у конкурсі вперше запускає Ваш таймер, після чого його неможливо зупинити."
+
+#: templates/contest/list.html:65
+msgid "hidden"
+msgstr "приховано"
+
+#: templates/contest/list.html:78
+msgid "private"
+msgstr "приватний"
+
+#: templates/contest/list.html:83
+msgid "rated"
+msgstr "оцінена"
+
+#: templates/contest/list.html:131
+msgid "Spectate"
+msgstr "Спостерігати"
+
+#: templates/contest/list.html:137
+msgid "Join"
+msgstr "Приєднатись"
+
+#: templates/contest/list.html:147
+msgid "Active Contests"
+msgstr "Активні змагання"
+
+#: templates/contest/list.html:151 templates/contest/list.html:193
+#: templates/contest/list.html:231 templates/contest/list.html:268
+msgid "Contest"
+msgstr "Змагання"
+
+#: templates/contest/list.html:189
+msgid "Ongoing Contests"
+msgstr "Активні змагання"
+
+#: templates/contest/list.html:226
+msgid "Upcoming Contests"
+msgstr "Майбутні змагання"
+
+#: templates/contest/list.html:254
+msgid "There are no scheduled contests at this time."
+msgstr "Наразі немає запланованих змагань."
+
+#: templates/contest/list.html:260
+msgid "Past Contests"
+msgstr "Минулі змагання"
+
+#: templates/contest/media-js.html:4
+msgid "Are you sure you want to leave?"
+msgstr "Ви впевнені, що хочете покинути?"
+
+#: templates/contest/media-js.html:5
+msgid "You cannot come back to a virtual participation. You will have to start a new one."
+msgstr "Ви не можете повернутися до віртуальної участі. Вам доведеться починати нову."
+
+#: templates/contest/media-js.html:10
+msgid "Joining a contest starts your timer, after which it becomes unstoppable."
+msgstr "Приєднання до конкурсу запускає Ваш таймер, після чого його не можна зупинити."
+
+#: templates/contest/moss.html:28
+msgid "Are you sure you want MOSS the contest?"
+msgstr "Ви впевнені, що хочете використати MOSS для змагання?"
+
+#: templates/contest/moss.html:33
+msgid "Are you sure you want to delete the MOSS results?"
+msgstr "Ви впевнені, що хочете видалити результати MOSS?"
+
+#: templates/contest/moss.html:60
+msgid "No submissions"
+msgstr "Немає розв’язків"
+
+#: templates/contest/moss.html:74
+msgid "Re-MOSS contest"
+msgstr "Заново запустити MOSS"
+
+#: templates/contest/moss.html:82
+msgid "Delete MOSS results"
+msgstr "Видалити результати MOSS"
+
+#: templates/contest/private.html:5
+msgid "This contest is private to specific users."
+msgstr "Це змагання є приватним для певних користувачів."
+
+#: templates/contest/private.html:10
+msgid "Additionally, only the following organizations may access this contest:"
+msgstr "Крім того, участь у змаганні можуть брати лише такі організації:"
+
+#: templates/contest/private.html:12
+msgid "Only the following organizations may access this contest:"
+msgstr "До участі у цьому змаганні можуть потрапити лише такі організації:"
+
+#: templates/contest/ranking-table.html:7
+msgid "Organization"
+msgstr "Організація"
+
+#: templates/contest/ranking-table.html:27
+msgid "Started on {time}"
+msgstr "Почалось о {time}"
+
+#: templates/contest/ranking-table.html:30
+msgid "Participation ended."
+msgstr "Участь закінчилася."
+
+#: templates/contest/ranking-table.html:40
+msgid "Un-Disqualify"
+msgstr "Скасувати дискваліфікацію"
+
+#: templates/contest/ranking-table.html:43
+msgid "Disqualify"
+msgstr "Дискваліфікувати"
+
+#: templates/contest/ranking.html:173
+msgid "Are you sure you want to disqualify this participation?"
+msgstr "Ви впевнені, що хочете дискваліфікувати цю участь?"
+
+#: templates/contest/ranking.html:178
+msgid "Are you sure you want to un-disqualify this participation?"
+msgstr "Ви впевнені, що хочете скасувати дискваліфікацію цієї участі?"
+
+#: templates/contest/ranking.html:250
+msgid "View user participation"
+msgstr "Переглянути участь користувача"
+
+#: templates/contest/ranking.html:254
+msgid "Show organizations"
+msgstr "Показати організації"
+
+#: templates/contest/stats.html:38
+msgid "Problem Status Distribution"
+msgstr "Розподіл статусу задачі"
+
+#: templates/contest/stats.html:43
+msgid "Problem AC Rate"
+msgstr "Успішність розв’язання задачі"
+
+#: templates/contest/stats.html:48 templates/stats/language.html:16
+msgid "Submissions by Language"
+msgstr "Розв’язки за мовою"
+
+#: templates/contest/stats.html:54 templates/stats/language.html:26
+msgid "Language AC Rate"
+msgstr "Успішність мови"
+
+#: templates/license.html:12
+msgid "Source:"
+msgstr "Джерело:"
+
+#: templates/newsletter/common.html:6
+#: templates/newsletter/subscription_unsubscribe_activated.html:3
+#: templates/newsletter/subscription_unsubscribe_activated.html:6
+#: templates/newsletter/subscription_update_activated.html:3
+#: templates/newsletter/subscription_update_activated.html:6
+msgid "Newsletter"
+msgstr "Інформаційний бюлетень"
+
+#: templates/newsletter/subscription_unsubscribe_activated.html:3
+#: templates/newsletter/subscription_unsubscribe_activated.html:6
+#: templates/newsletter/subscription_update_activated.html:3
+#: templates/newsletter/subscription_update_activated.html:6
+msgid "activate"
+msgstr "активувати"
+
+#: templates/newsletter/subscription_unsubscribe_activated.html:8
+msgid "You have successfully been unsubscribed."
+msgstr "Ви успішно скасували підписку."
+
+#: templates/newsletter/subscription_unsubscribe_email_sent.html:3
+#: templates/newsletter/subscription_unsubscribe_email_sent.html:6
+#: templates/newsletter/subscription_unsubscribe_user.html:3
+#: templates/newsletter/subscription_unsubscribe_user.html:6
+msgid "Newsletter unsubscribe"
+msgstr "Відписатися від розсилки"
+
+#: templates/newsletter/subscription_unsubscribe_email_sent.html:8
+msgid "Your unsubscription request has successfully been received. An email has been sent to you with a link you need to follow in order to confirm your unsubscription."
+msgstr "Ваш запит на скасування підписки успішно отримано. Вам було надіслано електронний лист із посиланням, за яким потрібно перейти, щоб підтвердити свою відмову."
+
+#: templates/newsletter/subscription_unsubscribe_user.html:17
+msgid "Do you want to unsubscribe from this newsletter?"
+msgstr "Ви хочете скасувати підписку на цю розсилку?"
+
+#: templates/newsletter/subscription_unsubscribe_user.html:21
+msgid "Unsubscribe"
+msgstr "Відписатись"
+
+#: templates/newsletter/subscription_update.html:3
+#: templates/newsletter/subscription_update.html:6
+#: templates/newsletter/subscription_update_email_sent.html:3
+#: templates/newsletter/subscription_update_email_sent.html:6
+msgid "Newsletter update"
+msgstr "Оновлення інформаційного бюлетеня"
+
+#: templates/newsletter/subscription_update.html:9
+msgid "Due to a technical error we were not able to submit your confirmation email. This could be because your email address is invalid."
+msgstr "Через технічну помилку ми не змогли надіслати Ваш електронний лист із підтвердженням. Можливо, це тому, що ваша електронна адреса недійсна."
+
+#: templates/newsletter/subscription_update.html:14
+msgid "Update subscription"
+msgstr "Оновити підписку"
+
+#: templates/newsletter/subscription_update_activated.html:8
+msgid "Your subscription has successfully been updated."
+msgstr "Вашу підписку успішно оновлено."
+
+#: templates/newsletter/subscription_update_email_sent.html:8
+msgid "Your update request was successfully received and an activation email has been sent to you. In that email you will find a link which you need to follow in order to update your subscription."
+msgstr "Ваш запит на оновлення успішно отримано, і Вам надіслано електронний лист для активації. У цьому листі ви знайдете посилання, за яким потрібно перейти, щоб оновити підписку."
+
+#: templates/organization/edit.html:47
+#: templates/organization/requests/pending.html:34
+#: templates/ticket/edit-notes.html:4
+msgid "Update"
+msgstr "Оновити"
+
+#: templates/organization/home.html:7
+msgid "Are you sure you want to leave this organization?"
+msgstr "Ви впевнені, що хочете покинути цю організацію?"
+
+#: templates/organization/home.html:9
+msgid "You will have to rejoin to show up on the organization leaderboard."
+msgstr "Вам доведеться знову приєднатися, щоб з’явитися в таблиці лідерів організації."
+
+#: templates/organization/home.html:11
+msgid "You will have to request membership in order to join again."
+msgstr "Щоб знову приєднатися, Вам потрібно буде запросити членство."
+
+#: templates/organization/home.html:24
+msgid "Leave organization"
+msgstr "Вийти з організації"
+
+#: templates/organization/home.html:29
+msgid "Join organization"
+msgstr "Приєднатись до організації"
+
+#: templates/organization/home.html:33
+msgid "Request membership"
+msgstr "Запит на членство"
+
+#: templates/organization/home.html:39
+msgid "Edit organization"
+msgstr "Редагувати організацію"
+
+#: templates/organization/home.html:43
+msgid "View requests"
+msgstr "Переглянути запити"
+
+#: templates/organization/home.html:50
+msgid "Admin organization"
+msgstr "Керування організацією"
+
+#: templates/organization/home.html:55
+msgid "View members"
+msgstr "Переглянути учасників"
+
+#: templates/organization/list.html:23 templates/status/language-list.html:35
+msgid "Name"
+msgstr "Назва"
+
+#: templates/organization/list.html:24
+msgid "Members"
+msgstr "Учасники"
+
+#: templates/organization/new.html:10 templates/ticket/new.html:39
+msgid "Create"
+msgstr "Створити"
+
+#: templates/organization/requests/detail.html:13
+msgid "User:"
+msgstr "Користувач:"
+
+#: templates/organization/requests/detail.html:17
+msgid "Organization:"
+msgstr "Організація:"
+
+#: templates/organization/requests/detail.html:25
+msgid "Time:"
+msgstr "Час:"
+
+#: templates/organization/requests/detail.html:29
+msgid "Reason:"
+msgstr "Причина:"
+
+#: templates/organization/requests/log.html:11
+#: templates/organization/requests/pending.html:14
+msgid "State"
+msgstr "Стан"
+
+#: templates/organization/requests/log.html:12
+#: templates/organization/requests/pending.html:15
+msgid "Reason"
+msgstr "Причина"
+
+#: templates/organization/requests/log.html:28
+#: templates/organization/requests/pending.html:37
+msgid "There are no requests to approve."
+msgstr "Немає запитів на підтвердження."
+
+#: templates/organization/requests/pending.html:17
+#: templates/problem/data.html:392
+msgid "Delete?"
+msgstr "Видалити?"
+
+#: templates/organization/requests/request.html:18
+msgid "Your reason for joining:"
+msgstr "Ваша причина приєднання:"
+
+#: templates/organization/requests/request.html:20
+msgid "Request"
+msgstr "Приєднатись"
+
+#: templates/organization/requests/tabs.html:4
+msgid "Pending"
+msgstr "Очікує на розгляд"
+
+#: templates/organization/requests/tabs.html:7
+msgid "Log"
+msgstr "Журнал"
+
+#: templates/organization/requests/tabs.html:10
+msgid "Approved"
+msgstr "Схвалено"
+
+#: templates/organization/requests/tabs.html:13
+msgid "Rejected"
+msgstr "Відхилено"
+
+#: templates/organization/users-table.html:15
+msgid "Kick"
+msgstr "Вигнати"
+
+#: templates/organization/users.html:34
+msgid "Are you sure you want to kick this user?"
+msgstr "Ви впевнені, що хочете вигнати цього користувача?"
+
+#: templates/pagedown.html:10
+msgid "Update preview"
+msgstr "Оновити прев’ю"
+
+#: templates/problem/clone.html:37
+msgid "Enter a new code for the cloned problem:"
+msgstr "Введіть новий код клонованої проблеми:"
+
+#: templates/problem/data.html:344
+msgid "View YAML"
+msgstr "Переглянути YAML"
+
+#: templates/problem/data.html:360
+msgid "Show columns:"
+msgstr "Показати стовпці:"
+
+#: templates/problem/data.html:363 templates/problem/data.html:387
+msgid "Output prefix"
+msgstr "Префікс виходу"
+
+#: templates/problem/data.html:367 templates/problem/data.html:388
+msgid "Output limit"
+msgstr "Ліміт виходу"
+
+#: templates/problem/data.html:371 templates/problem/data.html:389
+msgid "Checker"
+msgstr "Чекер"
+
+#: templates/problem/data.html:375 templates/problem/data.html:390
+msgid "Generator args"
+msgstr "Аргументи генератора"
+
+#: templates/problem/data.html:382
+msgid "Type"
+msgstr "Тип"
+
+#: templates/problem/data.html:383
+msgid "Input file"
+msgstr "Вхідний файл"
+
+#: templates/problem/data.html:384
+msgid "Output file"
+msgstr "Вихідний файл"
+
+#: templates/problem/data.html:386
+msgid "Pretest?"
+msgstr "Передтест?"
+
+#: templates/problem/data.html:438 templates/problem/submit.html:258
+msgid "Submit!"
+msgstr "Надіслати!"
+
+#: templates/problem/data.html:439
+msgid "Add new case"
+msgstr "Додати новий випадок"
+
+#: templates/problem/data.html:441
+msgid "Save"
+msgstr "Зберегти"
+
+#: templates/problem/editorial.html:22
+msgid "Remember to use this editorial <b>only</b> when stuck, and <b>not to copy-paste code from it</b>. Please be respectful to the problem author and editorialist. <br><br> <b>Submitting an official solution before solving the problem yourself is a bannable offence.</b>"
+msgstr "Вкористовуйте цей розв’язок <b>лише</b> тоді, коли застрягли, і <b>не копіюйте код з нього</b>. Будь ласка, поважайте автора задачі та редакторів. <br><br> <b>Надсилання офіційного розв’язку перед тим, як Ви розв’язали задачу самостійно, може призвести до бану.</b>"
+
+#: templates/problem/editorial.html:27 templates/problem/problem.html:210
+msgid "Author:"
+msgid_plural "Authors:"
+msgstr[0] "Автор:"
+msgstr[1] "Автори:"
+msgstr[2] "Автори:"
+
+#: templates/problem/list.html:62
+msgid "Filter by type..."
+msgstr "Фільтрувати за типом..."
+
+#: templates/problem/list.html:183
+msgid "Hot problems"
+msgstr "Популярні задачі"
+
+#: templates/problem/list.html:205 templates/problem/list.html:222
+#: templates/problem/search-form.html:30 templates/user/user-problems.html:59
+msgid "Category"
+msgstr "Категорія"
+
+#: templates/problem/list.html:207 templates/problem/list.html:226
+msgid "Types"
+msgstr "Типи"
+
+#: templates/problem/list.html:233
+msgid "AC %%"
+msgstr "Успішність %%"
+
+#: templates/problem/manage_submission.html:55
+msgid "Leave empty to not filter by language"
+msgstr "Залиште поле порожнім, щоб не фільтрувати за мовою"
+
+#: templates/problem/manage_submission.html:60
+msgid "Leave empty to not filter by result"
+msgstr "Залиште порожнім, щоб не фільтрувати за результатами"
+
+#: templates/problem/manage_submission.html:79
+msgid "Need valid values for both start and end IDs."
+msgstr "Потрібні валідні значення для ідентифікаторів початку та закінчення."
+
+#: templates/problem/manage_submission.html:82
+msgid "End ID must be after start ID."
+msgstr "Кінцевий ID має бути після початкового ID."
+
+#: templates/problem/manage_submission.html:90
+msgid "You are about to rejudge {count} submissions. Are you sure you want to do this?"
+msgstr "Ви збираєтесь повторно оцінити {count} розв’язків. Ви впевнені, що хочете це зробити?"
+
+#: templates/problem/manage_submission.html:96
+msgid "You are about to rejudge a few submissions. Are you sure you want to do this?"
+msgstr "Ви збираєтесь повторно оцінити кілька розв’язків. Ви впевнені, що хочете це зробити?"
+
+#: templates/problem/manage_submission.html:115
+msgid "Rejudge Submissions"
+msgstr "Повторне оцінювання розв’язків"
+
+#: templates/problem/manage_submission.html:120
+msgid "Filter by ID:"
+msgstr "Фільтрувати за ID:"
+
+#: templates/problem/manage_submission.html:123
+msgid "Starting ID:"
+msgstr "Початковий ID:"
+
+#: templates/problem/manage_submission.html:127
+msgid "Ending ID:"
+msgstr "Кінцевий ID:"
+
+#: templates/problem/manage_submission.html:131
+msgid "This range includes both endpoints."
+msgstr "Цей діапазон включає обидві кінцеві точки."
+
+#: templates/problem/manage_submission.html:134
+msgid "Filter by language:"
+msgstr "Фільтрувати за мовою:"
+
+#: templates/problem/manage_submission.html:150
+msgid "Rejudge selected submissions"
+msgstr "Повторно оцінити вибрані розв’язки"
+
+#: templates/problem/manage_submission.html:157
+msgid "Rescore Everything"
+msgstr "Перерахувати все"
+
+#: templates/problem/manage_submission.html:158
+msgid "This will rescore %(count)d submissions."
+msgstr "Це дозволить повторно оцінити %(count)d розв’язків."
+
+#: templates/problem/manage_submission.html:162
+msgid "Are you sure you want to rescore %(count)d submissions?"
+msgstr "Ви впевнені, що хочете заново порахувати %(count)d розв’язків?"
+
+#: templates/problem/manage_submission.html:163
+msgid "Rescore all submissions"
+msgstr "Перерахувати всі розв’язки"
+
+#: templates/problem/problem.html:91
+msgid "View as PDF"
+msgstr "Переглянути у PDF"
+
+#: templates/problem/problem.html:101 templates/problem/problem.html:111
+#: templates/problem/problem.html:116
+msgid "Submit solution"
+msgstr "Надіслати розв’язок"
+
+#: templates/problem/problem.html:104
+msgid "%(counter)s submission left"
+msgid_plural "%(counter)s submissions left"
+msgstr[0] "Залишилася %(counter)s спроба"
+msgstr[1] "Залишилися %(counter)s спроби"
+msgstr[2] "Залишилося %(counter)s спроб"
+
+#: templates/problem/problem.html:112
+msgid "0 submissions left"
+msgstr "Залишилось 0 розв’язків"
+
+#: templates/problem/problem.html:124
+msgid "My submissions"
+msgstr "Мої розв’язки"
+
+#: templates/problem/problem.html:128
+msgid "Best submissions"
+msgstr "Найкращі розв’язки"
+
+#: templates/problem/problem.html:131
+msgid "Read editorial"
+msgstr "Читати редакцію"
+
+#: templates/problem/problem.html:136
+msgid "Manage tickets"
+msgstr "Керування тікетами"
+
+#: templates/problem/problem.html:140
+msgid "Edit problem"
+msgstr "Редагувати задачу"
+
+#: templates/problem/problem.html:142
+msgid "Edit test data"
+msgstr "Редагувати тестові дані"
+
+#: templates/problem/problem.html:147
+msgid "My tickets"
+msgstr "Мої тікети"
+
+#: templates/problem/problem.html:155
+msgid "Manage submissions"
+msgstr "Керувати розв’язками"
+
+#: templates/problem/problem.html:168
+msgid "Points:"
+msgstr "Очки:"
+
+#: templates/problem/problem.html:171 templates/problem/problem.html:173
+msgid "(partial)"
+msgstr "(частково)"
+
+#: templates/problem/problem.html:178
+msgid "Time limit:"
+msgstr "Ліміт часу:"
+
+#: templates/problem/problem.html:190
+msgid "Memory limit:"
+msgstr "Ліміт пам’яті:"
+
+#: templates/problem/problem.html:226
+msgid "Problem type"
+msgid_plural "Problem types"
+msgstr[0] "Тип задачі"
+msgstr[1] "Типи задач"
+msgstr[2] "Типи задач"
+
+#: templates/problem/problem.html:239
+msgid "Allowed languages"
+msgstr "Дозволені мови"
+
+#: templates/problem/problem.html:247
+msgid "No %(lang)s judge online"
+msgstr "Жодного %(lang)s-судді в мережі"
+
+#: templates/problem/problem.html:258
+msgid "Judge:"
+msgid_plural "Judges:"
+msgstr[0] "Суддя:"
+msgstr[1] "Судді:"
+msgstr[2] "Судді:"
+
+#: templates/problem/problem.html:275
+msgid "none available"
+msgstr "жодного в наявності"
+
+#: templates/problem/problem.html:300
+msgid "Request clarification"
+msgstr "Попросити уточнення"
+
+#: templates/problem/problem.html:302
+msgid "Report an issue"
+msgstr "Повідомити про проблему"
+
+#: templates/problem/raw.html:62
+msgid "Time Limit:"
+msgstr "Ліміт часу:"
+
+#: templates/problem/raw.html:71
+msgid "Memory Limit:"
+msgstr "Ліміт пам’яті:"
+
+#: templates/problem/search-form.html:2
+msgid "Problem search"
+msgstr "Пошук задач"
+
+#: templates/problem/search-form.html:8
+msgid "Search problems..."
+msgstr "Шукати задачі..."
+
+#: templates/problem/search-form.html:14
+msgid "Full text search"
+msgstr "Повнотекстовий пошук"
+
+#: templates/problem/search-form.html:21
+msgid "Hide solved problems"
+msgstr "Приховати вирішені проблеми"
+
+#: templates/problem/search-form.html:27
+msgid "Show problem types"
+msgstr "Показати типи проблем"
+
+#: templates/problem/search-form.html:33 templates/problem/search-form.html:35
+#: templates/submission/submission-list-tabs.html:4
+msgid "All"
+msgstr "Усі"
+
+#: templates/problem/search-form.html:46
+msgid "Problem types"
+msgstr "Типи проблем"
+
+#: templates/problem/search-form.html:57
+msgid "Point range"
+msgstr "Діапазон очок"
+
+#: templates/problem/search-form.html:63 templates/submission/list.html:328
+#: templates/ticket/list.html:248
+msgid "Go"
+msgstr "Почати"
+
+#: templates/problem/search-form.html:64
+msgid "Random"
+msgstr "Випадковий"
+
+#: templates/problem/submit.html:117
+msgid "Your source code must contain at most 65536 characters."
+msgstr "Ваш вихідний код повинен містити щонайбільше 65536 символів."
+
+#: templates/problem/submit.html:204
+msgid "<b>Warning!</b> Your default language, <b>%(default_language)s</b>, is unavailable for this problem and has been deselected."
+msgstr "<b>Попередження!</b> Ваша мова за замовчуванням, <b>%(default_language)s</b>, недоступна для цієї задачі та була скасована."
+
+#: templates/problem/submit.html:215
+msgid "You have %(left)s submission left"
+msgid_plural "You have %(left)s submissions left"
+msgstr[0] "У вас залишилася %(left)s спроба"
+msgstr[1] "У вас залишилися %(left)s спроби"
+msgstr[2] "У вас залишилось %(left)s спроб"
+
+#: templates/problem/submit.html:220
+msgid "You have 0 submissions left"
+msgstr "У вас залишилося 0 розв’язків"
+
+#: templates/problem/submit.html:254
+msgid "No judge is available for this problem."
+msgstr "Суддів для цієї задачі немає."
+
+#: templates/registration/activate.html:3
+msgid "%(key)s is an invalid activation key."
+msgstr "%(key)s є недійсним ключем активації."
+
+#: templates/registration/activation_complete.html:3
+msgid "Your account has been successfully activated."
+msgstr "Ваш обліковий запис успішно активовано."
+
+#: templates/registration/login.html:35
+msgid "Invalid username or password."
+msgstr "Неправильне ім’я користувача або пароль."
+
+#: templates/registration/login.html:53
+#: templates/registration/two_factor_auth.html:92
+msgid "Login!"
+msgstr "Увійти!"
+
+#: templates/registration/login.html:56
+msgid "Forgot your password?"
+msgstr "Забули свій пароль?"
+
+#: templates/registration/login.html:59
+msgid "Or log in with..."
+msgstr "Або увійдіть за допомогою..."
+
+#: templates/registration/logout.html:3
+msgid "See you later!"
+msgstr "Побачимося пізніше!"
+
+#: templates/registration/password_change_done.html:3
+msgid "Your password was sucessfully changed."
+msgstr "Ваш пароль успішно змінено."
+
+#: templates/registration/password_change_form.html:13
+msgid "Change Password"
+msgstr "Змінити пароль"
+
+#: templates/registration/password_reset.html:7
+msgid "Send Reset Email"
+msgstr "Надіслати електронний лист скидання"
+
+#: templates/registration/password_reset_complete.html:3
+msgid "Your password has been set.  You may go ahead and log in now"
+msgstr "Ваш пароль встановлено. Ви можете продовжити та увійти зараз"
+
+#: templates/registration/password_reset_confirm.html:9
+msgid "Reset Password"
+msgstr "Скинути пароль"
+
+#: templates/registration/password_reset_confirm.html:12
+msgid "Invalid password reset link."
+msgstr "Недійсне посилання для скидання пароля."
+
+#: templates/registration/password_reset_done.html:4
+msgid "We've emailed you instructions for setting your password. You should be receiving them shortly."
+msgstr "Ми надіслали Вам електронною поштою інструкції щодо встановлення пароля. Ви повинні отримати їх найближчим часом."
+
+#: templates/registration/password_reset_done.html:5
+msgid "If you don't receive an email, please make sure you've entered the address you registered with, and check your spam folder."
+msgstr "Якщо Ви не отримали електронного листа, переконайтеся, що Ви ввели адресу, з якою Ви зареєструвалися, і перевірте папку зі спамом."
+
+#: templates/registration/password_reset_email.html:9
+msgid ""
+"\n"
+"<b>Forgot your password on the %(site_name)s? Don't worry!</b><br><br>\n"
+"To reset the password for your account \"%(username)s\", click the button below.\n"
+msgstr ""
+"\n"
+"<b> Забули пароль на %(site_name)s? Не хвилюйтесь! </b> <br> <br>\n"
+"Щоб скинути пароль для свого облікового запису \"%(username)s\", натисніть кнопку нижче.\n"
+
+#: templates/registration/password_reset_email.html:17
+msgid "See you soon! If you have problems resetting your email, feel free to shoot us an email at"
+msgstr "До зустрічі! Якщо у Вас виникли проблеми зі скиданням електронної пошти, не соромтеся надіслати нам листа на адресу"
+
+#: templates/registration/password_reset_email.html:19
+msgid "See you soon!"
+msgstr "До зустрічі!"
+
+#: templates/registration/password_reset_email.txt:1
+msgid "You're receiving this email because you requested a password reset for your user account at %(site_name)s."
+msgstr "Ви отримали цей електронний лист, оскільки Ви попросили змінити пароль для свого облікового запису користувача на %(site_name)s."
+
+#: templates/registration/password_reset_email.txt:3
+msgid "Please go to the following page and choose a new password:"
+msgstr "Перейдіть на наступну сторінку та створіть новий пароль:"
+
+#: templates/registration/password_reset_email.txt:7
+msgid "Your username, in case you've forgotten:"
+msgstr "Ваше ім’я користувача, якщо Ви забули:"
+
+#: templates/registration/password_reset_email.txt:9
+msgid "Thanks for using our site!"
+msgstr "Дякуємо, що користуєтесь нашим сайтом!"
+
+#: templates/registration/password_reset_email.txt:11
+msgid "The %(site_name)s team"
+msgstr "Команда %(site_name)s"
+
+#: templates/registration/password_reset_subject.txt:1
+msgid "Password reset on %(site_name)s"
+msgstr "Скидання паролю на %(site_name)s"
+
+#: templates/registration/profile_creation.html:36
+#: templates/registration/username_select.html:7
+msgid "Continue >"
+msgstr "Продовжити>"
+
+#: templates/registration/registration_closed.html:3
+msgid "Registration is currently closed. Please contact an administrator."
+msgstr "Наразі реєстрація закрита. Зверніться до адміністратора."
+
+#: templates/registration/registration_complete.html:3
+msgid "You have successfully been registered. An email has been sent to the email address you provided to confirm your registration."
+msgstr "Ви успішно зареєстровані. На електронну адресу, яку Ви вказали, було надіслано електронний лист для підтвердження реєстрації."
+
+#: templates/registration/registration_form.html:164
+msgid "(again, for confirmation)"
+msgstr "(знову для підтвердження)"
+
+#: templates/registration/registration_form.html:171
+msgid "(select your closest major city)"
+msgstr "(оберіть найближче велике місто)"
+
+#: templates/registration/registration_form.html:176
+msgid "pick from map"
+msgstr "вибрати з карти"
+
+#: templates/registration/registration_form.html:181
+msgid "Default language"
+msgstr "Мова за замовчуванням"
+
+#: templates/registration/registration_form.html:184
+#: templates/user/edit-profile.html:314
+msgid "Affiliated organizations"
+msgstr "Дочірні організації"
+
+#: templates/registration/registration_form.html:190
+#: templates/user/edit-profile.html:328
+msgid "Notify me about upcoming contests"
+msgstr "Повідомляти мене про майбутні змагання"
+
+#: templates/registration/registration_form.html:204
+msgid "By registering, you agree to our"
+msgstr "Реєструючись, Ви погоджуєтесь із"
+
+#: templates/registration/registration_form.html:205
+msgid "Terms & Conditions"
+msgstr "Загальні положення та умови"
+
+#: templates/registration/registration_form.html:208
+msgid "Register!"
+msgstr "Зареєструватись!"
+
+#: templates/registration/totp_disable.html:31
+msgid "To protect your account, you must first authenticate before you can disable Two Factor Authentication."
+msgstr "Щоб захистити свій обліковий запис, перш ніж вимкнути двофакторну автентифікацію, потрібно спочатку пройти автентифікацію."
+
+#: templates/registration/totp_disable.html:38
+msgid "Enter the 6-digit code generated by your app or one of your 16-digit scratch codes:"
+msgstr "Введіть 6-значний код, створений вашим додатком, або один із 16-значних скретч-кодів:"
+
+#: templates/registration/totp_disable.html:41
+msgid "Disable Two Factor Authentication"
+msgstr "Вимкнути двофакторну автентифікацію"
+
+#: templates/registration/totp_enable.html:72
+msgid "Scan this code with your authenticator app:"
+msgstr "Відскануйте цей код за допомогою програми-автентифікатора:"
+
+#: templates/registration/totp_enable.html:73
+msgid "QR code"
+msgstr "QR-код"
+
+#: templates/registration/totp_enable.html:74
+msgid "Or enter this code manually:"
+msgstr "Або введіть цей код вручну:"
+
+#: templates/registration/totp_enable.html:85
+msgid "Enter the 6-digit code generated by your app:"
+msgstr "Введіть 6-значний код, створений Вашою програмою:"
+
+#: templates/registration/totp_enable.html:90
+msgid "Refresh Two Factor Authentication"
+msgstr "Оновити двофакторну автентифікацію"
+
+#: templates/registration/totp_enable.html:92
+msgid "Enable Two Factor Authentication"
+msgstr "Увімкнути двофакторну автентифікацію"
+
+#: templates/registration/totp_enable.html:98
+msgid "Below is a list of one-time use scratch codes."
+msgstr "Нижче наведено список одноразових скретч-кодів."
+
+#: templates/registration/totp_enable.html:99
+msgid "These codes can only be used once and are for emergency use."
+msgstr "Ці коди можна використовувати лише один раз і призначені для екстреного використання."
+
+#: templates/registration/totp_enable.html:100
+msgid "You can use these codes to login to your account or disable two-factor authentication."
+msgstr "Ви можете використовувати ці коди, щоб увійти у свій обліковий запис або вимкнути двофакторну автентифікацію."
+
+#: templates/registration/totp_enable.html:101
+msgid "If you ever need more scratch codes, you can regenerate them on the edit profile tab."
+msgstr "Якщо вам коли-небудь знадобиться більше скретч-кодів, Ви можете згенерувати їх на вкладці редагування профілю."
+
+#: templates/registration/totp_enable.html:102
+msgid "Please write these down and keep them in a secure location."
+msgstr "Запишіть їх і зберігайте в надійному місці."
+
+#: templates/registration/totp_enable.html:103
+msgid "These codes will never be shown again after you enable two-factor authentication."
+msgstr "Ці коди більше ніколи не відображатимуться після ввімкнення двофакторної автентифікації."
+
+#: templates/registration/two_factor_auth.html:33
+#: templates/user/edit-profile.html:165
+msgid "WebAuthn is not supported by your browser."
+msgstr "Ваш браузер не підтримує WebAuthn."
+
+#: templates/registration/two_factor_auth.html:54
+#: templates/user/edit-profile.html:189
+msgid "Failed to contact server."
+msgstr "Не вдалося зв’язатися з сервером."
+
+#: templates/registration/two_factor_auth.html:79
+msgid "Enter the 6-digit code generated by your app or one of your 16-character scratch codes:"
+msgstr "Введіть 6-значний код, створений вашим додатком, або один із 16-значних скретч-кодів:"
+
+#: templates/registration/two_factor_auth.html:81
+msgid "Enter one of your 16-character scratch codes:"
+msgstr "Введіть один із 16-значних скретч-кодів:"
+
+#: templates/registration/two_factor_auth.html:89
+msgid "Use security key"
+msgstr "Використати ключ безпеки"
+
+#: templates/registration/two_factor_auth.html:94
+msgid "Use scratch code"
+msgstr "Використати скретч-код"
+
+#: templates/registration/two_factor_auth.html:97
+msgid "If you lost your authentication device and are unable to use your scratch codes, please contact us at %(email)s."
+msgstr "Якщо Ви втратили пристрій автентифікації та не можете використовувати свої скретч-коди, зв’яжіться з нами за адресою %(email)s."
+
+#: templates/stats/language.html:11
+msgid "Submission Statistics"
+msgstr "Статистика розв’язків"
+
+#: templates/stats/language.html:21
+msgid "AC Submissions by Language"
+msgstr "Успшність розв’язків за мовою"
+
+#: templates/status/judge-status-table.html:2
+msgid "Judge"
+msgstr "Суддя"
+
+#: templates/status/judge-status-table.html:4
+msgid "Online"
+msgstr "Онлайн"
+
+#: templates/status/judge-status-table.html:6
+msgid "Uptime"
+msgstr "Час роботи"
+
+#: templates/status/judge-status-table.html:7
+msgid "Ping"
+msgstr "Пінг"
+
+#: templates/status/judge-status-table.html:8
+msgid "Load"
+msgstr "Завантажити"
+
+#: templates/status/judge-status-table.html:34
+#: templates/status/judge-status-table.html:41
+#: templates/status/judge-status-table.html:48
+#: templates/status/judge-status-table.html:59
+msgid "N/A"
+msgstr "Н/Д"
+
+#: templates/status/judge-status-table.html:64
+msgid "There are no judges available at this time."
+msgstr "Наразі суддів немає."
+
+#: templates/status/language-list.html:34 templates/ticket/list.html:259
+msgid "ID"
+msgstr "ID"
+
+#: templates/status/language-list.html:36
+msgid "Runtime Info"
+msgstr "Інформація про середовища"
+
+#: templates/status/status-tabs.html:4
+msgid "Judges"
+msgstr "Судді"
+
+#: templates/status/status-tabs.html:6
+msgid "Version Matrix"
+msgstr "Матриця версій"
+
+#: templates/submission/internal-error-message.html:3
+msgid "An internal error occurred while grading, and the %(SITE_NAME)s administrators have been notified.<br> In the meantime, try resubmitting in a few seconds."
+msgstr "Під час оцінювання сталася внутрішня помилка, і адміністратори %(SITE_NAME)s отримали сповіщення. <br> Спробуйте надіслати повторно за кілька секунд."
+
+#: templates/submission/internal-error-message.html:8
+msgid "An internal error occurred while grading."
+msgstr "Під час оцінювання сталася внутрішня помилка."
+
+#: templates/submission/internal-error-message.html:15
+msgid "Error information"
+msgstr "Інформація про помилку"
+
+#: templates/submission/list.html:76
+msgid "Filter by status..."
+msgstr "Фільтрувати за статусом..."
+
+#: templates/submission/list.html:82
+msgid "Filter by language..."
+msgstr "Фільтрувати за мовою..."
+
+#: templates/submission/list.html:306
+msgid "Filter submissions"
+msgstr "Фільтрувати надіслані розв’язки"
+
+#: templates/submission/list.html:342
+msgid "Total:"
+msgstr "Всього:"
+
+#: templates/submission/list.html:352
+msgid "You were disconnected. Refresh to show latest updates."
+msgstr "Ви відключились. Оновіть сторінку, щоб бачити останні оновлення."
+
+#: templates/submission/row.html:44
+msgid "Case #%(case)s"
+msgstr "Тест #%(case)s"
+
+#: templates/submission/row.html:54
+msgid "view"
+msgstr "дивитись"
+
+#: templates/submission/row.html:59
+msgid "rejudge"
+msgstr "оцінити повторно"
+
+#: templates/submission/row.html:64
+msgid "This submission has been locked, and cannot be rejudged."
+msgstr "Цей розв’язок заблоковано, і його неможливо оскаржити."
+
+#: templates/submission/row.html:65
+msgid "locked"
+msgstr "заблоковано"
+
+#: templates/submission/row.html:71
+msgid "admin"
+msgstr "admin"
+
+#: templates/submission/source.html:25
+msgid "View status"
+msgstr "Переглянути статус"
+
+#: templates/submission/source.html:26
+msgid "View raw source"
+msgstr "Переглянути вихідний код"
+
+#: templates/submission/source.html:28 templates/submission/status.html:74
+msgid "Resubmit"
+msgstr "Надіслати повторно"
+
+#: templates/submission/status-testcases.html:10
+msgid "We are waiting for a suitable judge to process your submission..."
+msgstr "Ми чекаємо відповідного судді, який розгляне Ваш розв’язок..."
+
+#: templates/submission/status-testcases.html:12
+msgid "Your submission is being processed..."
+msgstr "Ваш розв’язок обробляється ..."
+
+#: templates/submission/status-testcases.html:14
+msgid "Compilation Error"
+msgstr "Помилка компіляції"
+
+#: templates/submission/status-testcases.html:18
+msgid "Compilation Warnings"
+msgstr "Попередження компілятора"
+
+#: templates/submission/status-testcases.html:23
+msgid "Pretest Execution Results"
+msgstr "Результати виконання попередніх тестів"
+
+#: templates/submission/status-testcases.html:25
+msgid "Execution Results"
+msgstr "Результати виконання"
+
+#: templates/submission/status-testcases.html:51
+msgid "Batch "
+msgstr "Група "
+
+#: templates/submission/status-testcases.html:64
+msgid "Case"
+msgstr "Випадок"
+
+#: templates/submission/status-testcases.html:66
+msgid "Pretest"
+msgstr "Передтест"
+
+#: templates/submission/status-testcases.html:68
+msgid "Test case"
+msgstr "Тест-кейс"
+
+#: templates/submission/status-testcases.html:101
+msgid "Your output (clipped)"
+msgstr "Ваш вихід (обрізаний)"
+
+#: templates/submission/status-testcases.html:113
+msgid "Judge feedback"
+msgstr "Відгуки суддів"
+
+#: templates/submission/status-testcases.html:129
+msgid "Resources:"
+msgstr "Ресурси:"
+
+#: templates/submission/status-testcases.html:138
+msgid "Maximum runtime on single test case:"
+msgstr "Максимальний час роботи в одному тестовому випадку:"
+
+#: templates/submission/status-testcases.html:143
+msgid "Final pretest score:"
+msgstr "Остаточний результат передтесту:"
+
+#: templates/submission/status-testcases.html:145
+msgid "Final score:"
+msgstr "Підсумковий рахунок:"
+
+#: templates/submission/status-testcases.html:159
+msgid "Passing pretests does not guarantee a full score on system tests."
+msgstr "Проходження попередніх тестів не гарантує повної оцінки на системних тестах."
+
+#: templates/submission/status-testcases.html:162
+msgid "Submission aborted!"
+msgstr "Розв’язок скасовано!"
+
+#: templates/submission/status.html:72
+msgid "View source"
+msgstr "Переглянути код"
+
+#: templates/submission/status.html:100
+msgid "Press Ctrl-Enter or Command-Enter to abort."
+msgstr "Щоб скасувати, натисніть Ctrl-Enter або Command-Enter."
+
+#: templates/submission/status.html:102
+msgid "Abort"
+msgstr "Скасувати"
+
+#: templates/submission/submission-list-tabs.html:6
+msgid "Mine"
+msgstr "Моє"
+
+#: templates/submission/submission-list-tabs.html:9
+msgid "Best"
+msgstr "Найкраще"
+
+#: templates/submission/submission-list-tabs.html:12
+msgid "%(user)s's"
+msgstr "%(user)s"
+
+#: templates/ticket/list.html:135 templates/ticket/ticket.html:259
+msgid "Reopened: "
+msgstr "Відкрито знову: "
+
+#: templates/ticket/list.html:138 templates/ticket/ticket.html:260
+msgid "Closed: "
+msgstr "Закрито: "
+
+#: templates/ticket/list.html:221
+msgid "Use desktop notification"
+msgstr "Використовувати сповіщення на робочому столі"
+
+#: templates/ticket/list.html:227
+msgid "Show my tickets only"
+msgstr "Показати лише мої тікети"
+
+#: templates/ticket/list.html:231
+msgid "Filing user"
+msgstr "Користувач, що подає заявку"
+
+#: templates/ticket/list.html:240 templates/ticket/ticket.html:360
+msgid "Assignee"
+msgid_plural "Assignees"
+msgstr[0] "Назначений"
+msgstr[1] "Назначені"
+msgstr[2] "Назначені"
+
+#: templates/ticket/list.html:260
+msgid "Title"
+msgstr "Заголовок"
+
+#: templates/ticket/list.html:262
+msgid "Assignees"
+msgstr "Назначені"
+
+#: templates/ticket/new_problem.html:7
+msgid "Thanks for opening a ticket!"
+msgstr "Дякуємо, що відкрили тікет!"
+
+#: templates/ticket/new_problem.html:9
+msgid "Please keep in mind that this form is for reporting issues with a problem statement, and not for asking for help. If you require assistance on solving a problem, ask in the comments instead."
+msgstr "Майте на увазі, що ця форма призначена для повідомлення про проблеми з умовою задачі, а не для прохання про допомогу. Якщо Вам потрібна допомога у вирішенні проблеми, запитайте натомість у коментарях."
+
+#: templates/ticket/ticket.html:345
+msgid "Post"
+msgstr "Опублікувати"
+
+#: templates/ticket/ticket.html:353
+msgid "Associated object"
+msgstr "Пов’язаний об’єкт"
+
+#: templates/ticket/ticket.html:370
+msgid "No one is assigned."
+msgstr "Ніхто не призначений."
+
+#: templates/ticket/ticket.html:376
+msgid "Close ticket"
+msgstr "Закрити тікет"
+
+#: templates/ticket/ticket.html:378
+msgid "Reopen ticket"
+msgstr "Повторно відкрити тікет"
+
+#: templates/ticket/ticket.html:382
+msgid "Assignee notes"
+msgstr "Примітки назначеного"
+
+#: templates/ticket/ticket.html:389 templates/widgets/select_all.html:4
+msgid "Nothing here."
+msgstr "Тут нічого."
+
+#: templates/user/base-users-table.html:3
+msgid "Rank"
+msgstr "Положення"
+
+#: templates/user/base-users.html:14 templates/user/base-users.html:71
+msgid "Search by handle..."
+msgstr "Пошук за нікнеймом..."
+
+#: templates/user/edit-profile.html:113
+msgid "Are you sure you want to generate or regenerate your API token?"
+msgstr "Ви впевнені, що хочете створити або відновити API-токен?"
+
+#: templates/user/edit-profile.html:114
+msgid "This will invalidate any previous API tokens."
+msgstr "Це скасовує всі попередні API-токени."
+
+#: templates/user/edit-profile.html:115
+msgid "It also allows access to your account without Two-factor Authentication."
+msgstr "Він також надає доступ до Вашого облікового запису без двофакторної автентифікації."
+
+#: templates/user/edit-profile.html:116
+msgid "You will not be able to view your api token after you leave this page!"
+msgstr "Ви не зможете переглянути свій API-токен після того, як Ви залишите цю сторінку!"
+
+#: templates/user/edit-profile.html:117 templates/user/edit-profile.html:211
+msgid "Generating..."
+msgstr "Генерація..."
+
+#: templates/user/edit-profile.html:125 templates/user/edit-profile.html:247
+#: templates/user/edit-profile.html:373 templates/user/edit-profile.html:395
+msgid "Regenerate"
+msgstr "Регенерувати"
+
+#: templates/user/edit-profile.html:131 templates/user/edit-profile.html:397
+msgid "Remove"
+msgstr "Видалити"
+
+#: templates/user/edit-profile.html:141
+msgid "Are you sure you want to remove your API token?"
+msgstr "Ви впевнені, що хочете видалити API-токен?"
+
+#: templates/user/edit-profile.html:148 templates/user/edit-profile.html:377
+#: templates/user/edit-profile.html:401
+msgid "Generate"
+msgstr "Згенерувати"
+
+#: templates/user/edit-profile.html:194
+msgid "Are you sure you want to delete this security key?"
+msgstr "Ви впевнені, що хочете видалити цей ключ безпеки?"
+
+#: templates/user/edit-profile.html:284
+msgid "Self-description"
+msgstr "Про себе"
+
+#: templates/user/edit-profile.html:291
+msgid "Select your closest major city"
+msgstr "Виберіть найближче велике місто"
+
+#: templates/user/edit-profile.html:300
+msgid "Editor theme"
+msgstr "Тема редактора"
+
+#: templates/user/edit-profile.html:305
+msgid "Math engine"
+msgstr "Математичний двигун"
+
+#: templates/user/edit-profile.html:339 templates/user/edit-profile.html:341
+msgid "Change your avatar"
+msgstr "Змінити аватар"
+
+#: templates/user/edit-profile.html:346
+msgid "Change your password"
+msgstr "Змінити пароль"
+
+#: templates/user/edit-profile.html:359
+msgid "Two-factor Authentication is enabled"
+msgstr "Увімкнено двофакторну автентифікацію"
+
+#: templates/user/edit-profile.html:362 templates/user/edit-profile.html:365
+msgid "Disable"
+msgstr "Вимкнути"
+
+#: templates/user/edit-profile.html:367
+msgid "Refresh"
+msgstr "Оновити"
+
+#: templates/user/edit-profile.html:370
+msgid "Scratch Codes:"
+msgstr "Скретч-коди:"
+
+#: templates/user/edit-profile.html:374 templates/user/edit-profile.html:398
+msgid "Hidden"
+msgstr "Приховані"
+
+#: templates/user/edit-profile.html:384
+msgid "Two-factor Authentication is disabled"
+msgstr "Двофакторну автентифікацію вимкнено"
+
+#: templates/user/edit-profile.html:385
+msgid "Enable"
+msgstr "Увімкнути"
+
+#: templates/user/edit-profile.html:392
+msgid "API Token"
+msgstr "API-токен"
+
+#: templates/user/edit-profile.html:409
+msgid "Security keys"
+msgstr "Ключі безпеки"
+
+#: templates/user/edit-profile.html:419
+msgid "Delete"
+msgstr "Видалити"
+
+#: templates/user/edit-profile.html:426
+msgid "Enter a name for this key"
+msgstr "Введіть назву цього ключа"
+
+#: templates/user/edit-profile.html:427
+msgid "Add"
+msgstr "Додати"
+
+#: templates/user/edit-profile.html:435
+msgid "User-script"
+msgstr "Сценарій користувача"
+
+#: templates/user/edit-profile.html:439
+msgid "Update profile"
+msgstr "Оновити профіль"
+
+#: templates/user/pp-row.html:24
+msgid ""
+"\n"
+"            weighted <b>%(weight)s%%</b>\n"
+"        "
+msgstr ""
+"\n"
+"            зважено <b>%(weight)s%% </b>\n"
+"        "
+
+#: templates/user/pp-row.html:29
+msgid "%(pp).1fpp"
+msgstr "%(pp).1fpp"
+
+#: templates/user/pp-row.html:31
+msgid "%(pp).0fpp"
+msgstr "%(pp).0fpp"
+
+#: templates/user/prepare-data.html:64
+msgid "Are you sure you want to prepare a download?"
+msgstr "Ви впевнені, що хочете підготувати завантаження?"
+
+#: templates/user/prepare-data.html:79
+msgid "We are currently preparing your data."
+msgstr "Наразі ми готуємо Ваші дані."
+
+#: templates/user/prepare-data.html:81
+msgid "Track progress"
+msgstr "Відстежуйте прогрес"
+
+#: templates/user/prepare-data.html:86
+msgid "Once your data is ready, you will find a download link on this page."
+msgstr "Як тільки Ваші дані будуть готові, Ви знайдете посилання для завантаження на цій сторінці."
+
+#: templates/user/prepare-data.html:103
+msgid "Submissions"
+msgstr "Надіслані розв’язки"
+
+#: templates/user/prepare-data.html:120
+msgid "Prepare new download"
+msgstr "Підготувати нове завантаження"
+
+#: templates/user/prepare-data.html:122
+msgid "Prepare download"
+msgstr "Підготувати завантаження"
+
+#: templates/user/prepare-data.html:126
+msgid "Download prepared data"
+msgstr "Завантажте підготовлені дані"
+
+#: templates/user/prepare-data.html:132
+msgid "Your data is ready!"
+msgstr "Ваші дані готові!"
+
+#: templates/user/prepare-data.html:136
+msgid "Download data"
+msgstr "Завантажити дані"
+
+#: templates/user/user-about.html:14
+msgid "From"
+msgstr "Від"
+
+#: templates/user/user-about.html:25
+msgid "Admin Notes"
+msgstr "Примітки адміністратора"
+
+#: templates/user/user-about.html:33 templates/user/user-tabs.html:4
+msgid "About"
+msgstr "Про користувача"
+
+#: templates/user/user-about.html:40
+msgid "You have not shared any information."
+msgstr "Ви не поділилися ніякою інформацією."
+
+#: templates/user/user-about.html:42
+msgid "This user has not shared any information."
+msgstr "Цей користувач не надав жодної інформації."
+
+#: templates/user/user-about.html:59
+msgid "Sun"
+msgstr "Нд"
+
+#: templates/user/user-about.html:64
+msgid "Mon"
+msgstr "Пн"
+
+#: templates/user/user-about.html:69
+msgid "Tues"
+msgstr "Вт"
+
+#: templates/user/user-about.html:74
+msgid "Wed"
+msgstr "Ср"
+
+#: templates/user/user-about.html:79
+msgid "Thurs"
+msgstr "Чт"
+
+#: templates/user/user-about.html:84
+msgid "Fri"
+msgstr "Пт"
+
+#: templates/user/user-about.html:89
+msgid "Sat"
+msgstr "Сб"
+
+#: templates/user/user-about.html:98
+msgid "Less"
+msgstr "Менше"
+
+#: templates/user/user-about.html:104
+msgid "More"
+msgstr "Більше"
+
+#: templates/user/user-about.html:112
+msgid "Rating history"
+msgstr "Історія рейтингу"
+
+#: templates/user/user-about.html:183
+msgid "past year"
+msgstr "минулого року"
+
+#: templates/user/user-base.html:42
+msgid "%(counter)s problem solved"
+msgid_plural "%(counter)s problems solved"
+msgstr[0] "%(counter)s задача розв'язана"
+msgstr[1] "Розв'язано %(counter)s задачі"
+msgstr[2] "Розв'язано %(counter)s задач"
+
+#: templates/user/user-base.html:50
+msgid "Rank by points:"
+msgstr "Позиція за очками:"
+
+#: templates/user/user-base.html:53
+msgid "Total points:"
+msgstr "Загальна кількість балів:"
+
+#: templates/user/user-base.html:67
+msgid "%(counter)s contest written"
+msgid_plural "%(counter)s contests written"
+msgstr[0] "Написано %(counter)s змагання"
+msgstr[1] "Написано %(counter)s змагання"
+msgstr[2] "Написано %(counter)s змагань"
+
+#: templates/user/user-base.html:74
+msgid "Rank by rating:"
+msgstr "Позиція за рейтингом:"
+
+#: templates/user/user-base.html:76
+msgid "Rating:"
+msgstr "Рейтинг:"
+
+#: templates/user/user-base.html:77
+msgid "Min. rating:"
+msgstr "Мінімальний рейтинг:"
+
+#: templates/user/user-base.html:78
+msgid "Max rating:"
+msgstr "Максимальний рейтинг:"
+
+#: templates/user/user-problems.html:37
+msgid "Points breakdown"
+msgstr "Розподіл балів"
+
+#: templates/user/user-problems.html:43
+msgid "Load more..."
+msgstr "Завантажити ще..."
+
+#: templates/user/user-problems.html:47
+msgid "This user has not yet solved any problems."
+msgstr "Цей користувач ще не вирішив жодних задач."
+
+#: templates/user/user-problems.html:53
+msgid "Authored problems"
+msgstr "Створені задачі"
+
+#: templates/user/user-problems.html:85
+msgid "Hide problems I've solved"
+msgstr "Приховати розв’язані задачі"
+
+#: templates/user/user-problems.html:95
+msgid "%(points).1f points"
+msgstr "%(points).1f балів"
+
+#: templates/user/user-problems.html:112
+msgid "%(points)s / %(total)s"
+msgstr "%(points)s / %(total)s"
+
+#: templates/user/user-tabs.html:7
+msgid "Impersonate"
+msgstr "Уособлення"
+
+#: templates/user/user-tabs.html:10
+msgid "Admin User"
+msgstr "Адміністратор"
+
+#: templates/user/user-tabs.html:13
+msgid "Admin Profile"
+msgstr "Профіль адміністратора"
+
+#: templates/widgets/select_all.html:8
+msgid "Check all"
+msgstr "Перевірити все"

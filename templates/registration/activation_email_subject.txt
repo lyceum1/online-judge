@@ -1,1 +1,1 @@
-Activate your {{ SITE_NAME }} account
+Активуйте Ваш {{ SITE_NAME }} акаунт
