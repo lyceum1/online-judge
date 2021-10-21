@@ -3177,8 +3177,8 @@ msgstr ""
 msgid "All submissions for %s"
 msgstr ""
 
-msgid: "All submissions for <a href=\"{1}\">{0}</a>"
-msgstr: ""
+msgid "All submissions for <a href=\"{1}\">{0}</a>"
+msgstr ""
 
 #: judge/views/submission.py:410
 msgid "Must pass a problem"

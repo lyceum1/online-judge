@@ -3024,8 +3024,8 @@ msgstr "Усі розв’язки від %s"
 msgid "All submissions for %s"
 msgstr "Усі розв’язки до %s"
 
-msgid: "All submissions for <a href=\"{1}\">{0}</a>"
-msgstr: "Усі розв’язки до <a href=\"{1}\">{0}</a>"
+msgid "All submissions for <a href=\"{1}\">{0}</a>"
+msgstr "Усі розв’язки до <a href=\"{1}\">{0}</a>"
 
 #: judge/views/submission.py:410
 msgid "Must pass a problem"
