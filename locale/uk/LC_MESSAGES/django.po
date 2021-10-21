@@ -147,7 +147,7 @@ msgstr "Доступ"
 
 #: judge/admin/contest.py:126 judge/admin/problem.py:135
 msgid "Justice"
-msgstr "Справедливість"
+msgstr "Правосуддя"
 
 #: judge/admin/contest.py:215
 msgid "%d contest successfully marked as visible."
@@ -839,7 +839,7 @@ msgstr "обмеження по часу"
 
 #: judge/models/contest.py:81 judge/models/problem.py:158
 msgid "publicly visible"
-msgstr "видимий публічно"
+msgstr "видима публічно"
 
 #: judge/models/contest.py:82
 msgid "Should be set even for organization-private contests, where it determines whether the contest is visible to members of the specified organizations."
@@ -1431,7 +1431,7 @@ msgstr "тіло задачі"
 
 #: judge/models/problem.py:126
 msgid "creators"
-msgstr "творці"
+msgstr "автори"
 
 #: judge/models/problem.py:127
 msgid "These users will be able to edit the problem, and be listed as authors."
@@ -1495,7 +1495,7 @@ msgstr "керується вручну"
 
 #: judge/models/problem.py:160
 msgid "Whether judges should be allowed to manage data or not."
-msgstr "Дозволити суддям керувати даними чи ні."
+msgstr "Дозволити суддям керувати даними."
 
 #: judge/models/problem.py:161
 msgid "date of publishing"
@@ -1563,7 +1563,7 @@ msgstr "Редагування задач з повною розміткою"
 
 #: judge/models/problem.py:452 templates/problem/problem.html:161
 msgid "Clone problem"
-msgstr "Клонування задачі"
+msgstr "Клонувати задачу"
 
 #: judge/models/problem.py:453
 msgid "Change is_public field"
@@ -3023,6 +3023,9 @@ msgstr "Усі розв’язки від %s"
 #: judge/views/submission.py:387
 msgid "All submissions for %s"
 msgstr "Усі розв’язки до %s"
+
+msgid: "All submissions for <a href=\"{1}\">{0}</a>"
+msgstr: "Усі розв’язки до <a href=\"{1}\">{0}</a>"
 
 #: judge/views/submission.py:410
 msgid "Must pass a problem"
@@ -4649,7 +4652,7 @@ msgstr "Пінг"
 
 #: templates/status/judge-status-table.html:8
 msgid "Load"
-msgstr "Завантажити"
+msgstr "Навантаження"
 
 #: templates/status/judge-status-table.html:34
 #: templates/status/judge-status-table.html:41
