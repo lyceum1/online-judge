@@ -5526,9 +5526,6 @@ msgstr ""
 msgid "Starting in %(countdown)s."
 msgstr ""
 
-msgid "Contest is over."
-msgstr ""
-
 msgid "Your time is up! Contest ends in %(countdown)s."
 msgstr ""
 
@@ -5536,12 +5533,6 @@ msgid "You have %(countdown)s remaining."
 msgstr ""
 
 msgid "Contest ends in %(countdown)s."
-msgstr ""
-
-msgid "Stop impersonating"
-msgstr ""
-
-msgid "%(duration)s long"
 msgstr ""
 
 msgid "%(cnt)d total submission"
