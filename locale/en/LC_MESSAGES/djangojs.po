@@ -29,3 +29,23 @@ msgstr[1] ""
 msgctxt "time format without day"
 msgid "%h:%m:%s"
 msgstr ""
+
+msgid "%(cnt)d total submission"
+msgid_plural "%(cnt)d total submissions"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "%(cnt)d submission in the last year"
+msgid_plural "%(cnt)d submissions in the last year"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "%(cnt)d submission in %(year)d"
+msgid_plural "%(cnt)d submissions in %(year)d"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "%(cnt)d submission on %(date)s"
+msgid_plural "%(cnt)d submissions on %(date)s"
+msgstr[0] ""
+msgstr[1] ""

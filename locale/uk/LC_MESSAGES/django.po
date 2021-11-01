@@ -5267,27 +5267,3 @@ msgstr "Припинити уособлення"
 
 msgid "%(duration)s long"
 msgstr "тривалість %(duration)s"
-
-msgid "%(cnt)d total submission"
-msgid_plural "%(cnt)d total submissions"
-msgstr[0] "Всього %(cnt)d надсилання"
-msgstr[1] "Всього %(cnt)d надсилання"
-msgstr[2] "Всього %(cnt)d надсилань"
-
-msgid "%(cnt)d submission in the last year"
-msgid_plural "%(cnt)d submissions in the last year"
-msgstr[0] "%(cnt)d надсилання за останній рік"
-msgstr[1] "%(cnt)d надсилання за останній рік"
-msgstr[2] "%(cnt)d надсилань за останній рік"
-
-msgid "%(cnt)d submission in %(year)d"
-msgid_plural "%(cnt)d submissions in %(year)d"
-msgstr[0] "%(cnt)d надсилання в %(year)d"
-msgstr[1] "%(cnt)d надсилання в %(year)d"
-msgstr[2] "%(cnt)d надсилань в %(year)d"
-
-msgid "%(cnt)d submission on %(date)s"
-msgid_plural "%(cnt)d submissions on %(date)s"
-msgstr[0] "%(cnt)d надсилання %(date)s"
-msgstr[1] "%(cnt)d надсилання %(date)s"
-msgstr[2] "%(cnt)d надсиланнь %(date)s"
