@@ -1,0 +1,71 @@
+msgid "Problems"
+msgstr "Задачі"
+
+msgid "Editorials"
+msgstr "Розв’язки"
+
+msgid "Submissions"
+msgstr "Черга"
+
+msgid "Users"
+msgstr "Користувачі"
+
+msgid "Organizations"
+msgstr "Організації"
+
+msgid "Contests"
+msgstr "Змагання"
+
+msgid "Status"
+msgstr "Статус"
+
+msgid "Runtimes"
+msgstr "Середовища"
+
+msgid "Tips"
+msgstr "Поради"
+
+msgid "Advanced Math"
+msgstr "Прогресивна математика"
+
+msgid "Brute Force"
+msgstr "Повний перебір"
+
+msgid "Data Structures"
+msgstr "Структури даних"
+
+msgid "Divide and Conquer"
+msgstr "Розділяй і володарюй"
+
+msgid "Dynamic Programming"
+msgstr "Динамічне програмування"
+
+msgid "Game Theory"
+msgstr "Теорія ігор"
+
+msgid "Geometry"
+msgstr "Геометрія"
+
+msgid "Graph Theory"
+msgstr "Теорія графів"
+
+msgid "Greedy Algorithms"
+msgstr "Жадібні алгоритми"
+
+msgid "Implementation"
+msgstr "Реалізація"
+
+msgid "Recursion"
+msgstr "Рекурсія"
+
+msgid "Regular Expressions"
+msgstr "Регулярні вирази"
+
+msgid "Simple Math"
+msgstr "Проста математика"
+
+msgid "Simulation"
+msgstr "Симуляція"
+
+msgid "String Algorithms"
+msgstr "Рядкові алгоритми"
