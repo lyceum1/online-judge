@@ -5253,9 +5253,6 @@ msgstr "Перевірити все"
 msgid "Starting in %(countdown)s."
 msgstr "Початок через %(countdown)s."
 
-msgid "Contest is over."
-msgstr "Змагання завершено."
-
 msgid "Your time is up! Contest ends in %(countdown)s."
 msgstr "Ваш час закінчився! Змагання закінчується через %(countdown)s."
 
