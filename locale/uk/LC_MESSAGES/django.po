@@ -152,9 +152,9 @@ msgstr "Правосуддя"
 #: judge/admin/contest.py:215
 msgid "%d contest successfully marked as visible."
 msgid_plural "%d contests successfully marked as visible."
-msgstr[0] "%d конкурс успішно позначено як видимий."
-msgstr[1] "%d конкурси успішно позначено як видимий."
-msgstr[2] "%d конкурсів успішно позначено як видимий."
+msgstr[0] "%d змагання успішно позначене як видиме."
+msgstr[1] "%d змагання успішно позначені як видимі."
+msgstr[2] "%d змагань успішно позначені як видимі."
 
 #: judge/admin/contest.py:218
 msgid "Mark contests as visible"
@@ -163,9 +163,9 @@ msgstr "Позначити змагання як видимі"
 #: judge/admin/contest.py:224
 msgid "%d contest successfully marked as hidden."
 msgid_plural "%d contests successfully marked as hidden."
-msgstr[0] "%d конкурс успішно позначено як прихований."
-msgstr[1] "%d конкурси успішно позначено як прихований."
-msgstr[2] "%d конкурсів успішно позначено як прихований."
+msgstr[0] "%d змагання успішно позначене як приховане."
+msgstr[1] "%d змагання успішно позначені як приховані."
+msgstr[2] "%d змагань успішно позначені як приховані."
 
 #: judge/admin/contest.py:227
 msgid "Mark contests as hidden"
@@ -174,9 +174,9 @@ msgstr "Позначити змагання як приховані"
 #: judge/admin/contest.py:233
 msgid "%d contest successfully locked."
 msgid_plural "%d contests successfully locked."
-msgstr[0] "%d конкурс успішно заблоковано."
-msgstr[1] "%d конкурси успішно заблоковано."
-msgstr[2] "%d конкурсів успішно заблоковано."
+msgstr[0] "%d змагання успішно заблоковано."
+msgstr[1] "%d змагання успішно заблоковано."
+msgstr[2] "%d змагань успішно заблоковано."
 
 #: judge/admin/contest.py:236
 msgid "Lock contest submissions"
@@ -185,9 +185,9 @@ msgstr "Заблокувати можливість надсилання"
 #: judge/admin/contest.py:242
 msgid "%d contest successfully unlocked."
 msgid_plural "%d contests successfully unlocked."
-msgstr[0] "%d конкурс успішно розблоковано."
-msgstr[1] "%d конкурси успішно розблоковано."
-msgstr[2] "%d конкурсів успішно розблоковано."
+msgstr[0] "%d змагання успішно розблоковано."
+msgstr[1] "%d змагання успішно розблоковано."
+msgstr[2] "%d змагань успішно розблоковано."
 
 #: judge/admin/contest.py:245
 msgid "Unlock contest submissions"
@@ -899,7 +899,7 @@ msgstr "виключити з рейтингів"
 
 #: judge/models/contest.py:103
 msgid "private to specific users"
-msgstr "приватний для певних користувачів"
+msgstr "приватне для певних користувачів"
 
 #: judge/models/contest.py:104
 msgid "private contestants"
@@ -943,7 +943,7 @@ msgstr "Показувати розділ, що містить налаштув�
 
 #: judge/models/contest.py:122 judge/models/problem.py:183
 msgid "private to organizations"
-msgstr "приватний для організацій"
+msgstr "приватне для організацій"
 
 #: judge/models/contest.py:123 judge/models/problem.py:181
 #: judge/models/profile.py:86
@@ -960,7 +960,7 @@ msgstr "Зображення OpenGraph"
 
 #: judge/models/contest.py:126 judge/models/profile.py:57
 msgid "Logo override image"
-msgstr "Перевизначене зображення конкурсу"
+msgstr "Перевизначене зображення змагання"
 
 #: judge/models/contest.py:128
 msgid "This image will replace the default site logo for users inside the contest."
@@ -3578,7 +3578,7 @@ msgstr "Змагання закінчилось."
 
 #: templates/contest/contest.html:59 templates/contest/contest.html:63
 msgid "F j, Y, G:i T"
-msgstr "j F Y, G: i"
+msgstr "j F Y, G:i"
 
 #: templates/contest/contest.html:59
 msgid "<b>%(time_limit)s</b> window between <b>%(start_time)s</b> and <b>%(end_time)s</b>"
@@ -3586,7 +3586,7 @@ msgstr "Часове вікно тривалістю <b>%(time_limit)s</b> мі�
 
 #: templates/contest/contest.html:63
 msgid "<b>%(length)s</b> long starting on <b>%(start_time)s</b>"
-msgstr "Довжиною <b>%(length)s</b> починаючи з <b>%(start_time)s</b>"
+msgstr "Тривалістю <b>%(length)s</b>, початок <b>%(start_time)s</b>"
 
 #: templates/contest/contest.html:74
 msgid "The author of this contest is %(link_authors)s."
@@ -3671,7 +3671,7 @@ msgstr "Для будь-якої з цих задач **немає обмеже�
 
 #: templates/contest/contest.html:153
 msgid "The contest format is **%(format)s**."
-msgstr "Формат конкурсу - **%(format)s**."
+msgstr "Формат змагання - **%(format)s**."
 
 #: templates/contest/contest.html:162
 msgid "The scoreboard will be **visible** for the duration of the contest."
@@ -3713,15 +3713,15 @@ msgstr "Ви впевнені, що хочете приєднатися?"
 
 #: templates/contest/list.html:32
 msgid "Joining a contest for the first time starts your timer, after which it becomes unstoppable."
-msgstr "Участь у конкурсі вперше запускає Ваш таймер, після чого його неможливо зупинити."
+msgstr "Участь у змаганні вперше запускає Ваш таймер, після чого його неможливо зупинити."
 
 #: templates/contest/list.html:65
 msgid "hidden"
-msgstr "приховано"
+msgstr "приховане"
 
 #: templates/contest/list.html:78
 msgid "private"
-msgstr "приватний"
+msgstr "приватне"
 
 #: templates/contest/list.html:83
 msgid "rated"
@@ -3770,7 +3770,7 @@ msgstr "Ви не можете повернутися до віртуально�
 
 #: templates/contest/media-js.html:10
 msgid "Joining a contest starts your timer, after which it becomes unstoppable."
-msgstr "Приєднання до конкурсу запускає Ваш таймер, після чого його не можна зупинити."
+msgstr "Приєднання до змагання запускає Ваш таймер, після чого його не можна зупинити."
 
 #: templates/contest/moss.html:28
 msgid "Are you sure you want MOSS the contest?"
@@ -4097,7 +4097,7 @@ msgstr "Передтест?"
 
 #: templates/problem/data.html:438 templates/problem/submit.html:258
 msgid "Submit!"
-msgstr "Надіслати!"
+msgstr "Зберегти!"
 
 #: templates/problem/data.html:439
 msgid "Add new case"
@@ -4735,7 +4735,7 @@ msgstr "заблоковано"
 
 #: templates/submission/row.html:71
 msgid "admin"
-msgstr "admin"
+msgstr "адмін"
 
 #: templates/submission/source.html:25
 msgid "View status"
@@ -4835,7 +4835,7 @@ msgstr "Скасувати"
 
 #: templates/submission/submission-list-tabs.html:6
 msgid "Mine"
-msgstr "Моє"
+msgstr "Мої"
 
 #: templates/submission/submission-list-tabs.html:9
 msgid "Best"
@@ -5053,7 +5053,7 @@ msgid ""
 "        "
 msgstr ""
 "\n"
-"            зважено <b>%(weight)s%% </b>\n"
+"            зважено <b>%(weight)s%%</b>\n"
 "        "
 
 #: templates/user/pp-row.html:29
@@ -5166,12 +5166,12 @@ msgstr "Історія рейтингу"
 
 #: templates/user/user-about.html:183
 msgid "past year"
-msgstr "минулого року"
+msgstr "Минулого року"
 
 #: templates/user/user-base.html:42
 msgid "%(counter)s problem solved"
 msgid_plural "%(counter)s problems solved"
-msgstr[0] "%(counter)s задача розв'язана"
+msgstr[0] "Розв'язано %(counter)s задачу"
 msgstr[1] "Розв'язано %(counter)s задачі"
 msgstr[2] "Розв'язано %(counter)s задач"
 
@@ -5249,3 +5249,48 @@ msgstr "Профіль адміністратора"
 #: templates/widgets/select_all.html:8
 msgid "Check all"
 msgstr "Перевірити все"
+
+msgid "Starting in %(countdown)s."
+msgstr "Початок через %(countdown)s."
+
+msgid "Contest is over."
+msgstr "Змагання завершено."
+
+msgid "Your time is up! Contest ends in %(countdown)s."
+msgstr "Ваш час закінчився! Змагання закінчується через %(countdown)s."
+
+msgid "You have %(countdown)s remaining."
+msgstr "У Вас залишається %(countdown)s."
+
+msgid "Contest ends in %(countdown)s."
+msgstr "Змаганння закінчується через %(countdown)s."
+
+msgid "Stop impersonating"
+msgstr "Припинити уособлення"
+
+msgid "%(duration)s long"
+msgstr "тривалість %(duration)s"
+
+msgid "%(cnt)d total submission"
+msgid_plural "%(cnt)d total submissions"
+msgstr[0] "Всього %(cnt)d надсилання"
+msgstr[1] "Всього %(cnt)d надсилання"
+msgstr[2] "Всього %(cnt)d надсилань"
+
+msgid "%(cnt)d submission in the last year"
+msgid_plural "%(cnt)d submissions in the last year"
+msgstr[0] "%(cnt)d надсилання за останній рік"
+msgstr[1] "%(cnt)d надсилання за останній рік"
+msgstr[2] "%(cnt)d надсилань за останній рік"
+
+msgid "%(cnt)d submission in %(year)d"
+msgid_plural "%(cnt)d submissions in %(year)d"
+msgstr[0] "%(cnt)d надсилання в %(year)d"
+msgstr[1] "%(cnt)d надсилання в %(year)d"
+msgstr[2] "%(cnt)d надсилань в %(year)d"
+
+msgid "%(cnt)d submission on %(date)s"
+msgid_plural "%(cnt)d submissions on %(date)s"
+msgstr[0] "%(cnt)d надсилання %(date)s"
+msgstr[1] "%(cnt)d надсилання %(date)s"
+msgstr[2] "%(cnt)d надсиланнь %(date)s"

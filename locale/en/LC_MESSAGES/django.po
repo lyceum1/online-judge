@@ -5516,3 +5516,50 @@ msgstr ""
 #: templates/widgets/select_all.html:8
 msgid "Check all"
 msgstr ""
+
+msgid "Stop impersonating"
+msgstr ""
+
+msgid "%(duration)s long"
+msgstr ""
+
+msgid "Starting in %(countdown)s."
+msgstr ""
+
+msgid "Contest is over."
+msgstr ""
+
+msgid "Your time is up! Contest ends in %(countdown)s."
+msgstr ""
+
+msgid "You have %(countdown)s remaining."
+msgstr ""
+
+msgid "Contest ends in %(countdown)s."
+msgstr ""
+
+msgid "Stop impersonating"
+msgstr ""
+
+msgid "%(duration)s long"
+msgstr ""
+
+msgid "%(cnt)d total submission"
+msgid_plural "%(cnt)d total submissions"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "%(cnt)d submission in the last year"
+msgid_plural "%(cnt)d submissions in the last year"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "%(cnt)d submission in %(year)d"
+msgid_plural "%(cnt)d submissions in %(year)d"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "%(cnt)d submission on %(date)s"
+msgid_plural "%(cnt)d submissions on %(date)s"
+msgstr[0] ""
+msgstr[1] ""
