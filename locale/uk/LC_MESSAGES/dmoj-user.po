@@ -77,3 +77,6 @@ msgstr "Симуляція"
 
 msgid "String Algorithms"
 msgstr "Рядкові алгоритми"
+
+msgid "Uncategorized"
+msgstr "Без категорії"
