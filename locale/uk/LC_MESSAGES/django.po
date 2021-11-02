@@ -4099,7 +4099,7 @@ msgstr "Передтест?"
 
 #: templates/problem/data.html:438 templates/problem/submit.html:258
 msgid "Submit!"
-msgstr "Зберегти!"
+msgstr "Надіслати!"
 
 #: templates/problem/data.html:439
 msgid "Add new case"
