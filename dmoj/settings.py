@@ -216,19 +216,8 @@ else:
                         'judge.OrganizationRequest',
                     ],
                 },
-                {
-                    'model': 'judge.NavigationBar',
-                    'icon': 'fa-bars',
-                    'children': [
-                        'judge.MiscConfig',
-                        'judge.License',
-                        'sites.Site',
-                        'redirects.Redirect',
-                    ],
-                },
                 ('judge.BlogPost', 'fa-rss-square'),
                 ('judge.Comment', 'fa-comment-o'),
-                ('flatpages.FlatPage', 'fa-file-text-o'),
                 ('judge.Solution', 'fa-pencil'),
             ],
             'dashboard': {
@@ -252,14 +241,11 @@ INSTALLED_APPS += (
     'registration',
     'mptt',
     'reversion',
-    'django_social_share',
-    'social_django',
     'compressor',
     'django_ace',
     'pagedown',
     'sortedm2m',
     'statici18n',
-    'impersonate',
     'django_jinja',
     'martor',
     'adminsortable2',
@@ -373,7 +359,7 @@ LOCALE_PATHS = [
 
 LANGUAGES = [
     ('en', _('English')),
-    ('uk', 'Українська'),
+    ('uk', _('Ukrainian')),
 ]
 
 BLEACH_USER_SAFE_TAGS = [

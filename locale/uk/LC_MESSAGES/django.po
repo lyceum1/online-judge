@@ -780,7 +780,7 @@ msgstr "тег змагання"
 
 #: judge/models/contest.py:53 judge/models/contest.py:130
 msgid "contest tags"
-msgstr "теги змагання"
+msgstr "теги змагань"
 
 #: judge/models/contest.py:61
 msgid "Visible"
@@ -1133,7 +1133,7 @@ msgstr "участь у змаганнях"
 
 #: judge/models/contest.py:507
 msgid "contest participations"
-msgstr "участі у змаганнях"
+msgstr "участь у змаганнях"
 
 #: judge/models/contest.py:513 judge/models/contest.py:537
 #: judge/models/contest.py:577 judge/models/problem.py:457
@@ -5269,3 +5269,6 @@ msgstr "Припинити уособлення"
 
 msgid "%(duration)s long"
 msgstr "тривалість %(duration)s"
+
+msgid "Ukrainian"
+msgstr "Українська"
